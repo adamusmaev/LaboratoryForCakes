@@ -1,5 +1,6 @@
 package entities;
 
+import intarfaces.Storable;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -8,7 +9,7 @@ import lombok.ToString;
 
 @EqualsAndHashCode
 @ToString
-public class Decoration {
+public class Decoration implements Storable {
 
     @Getter
     @Setter

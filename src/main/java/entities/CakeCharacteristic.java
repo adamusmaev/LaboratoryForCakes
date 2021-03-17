@@ -1,10 +1,11 @@
 package entities;
 
 
+import intarfaces.Storable;
 import lombok.Getter;
 import lombok.Setter;
 
-public class CakeCharacteristic {
+public class CakeCharacteristic implements Storable {
 
     @Setter
     @Getter
