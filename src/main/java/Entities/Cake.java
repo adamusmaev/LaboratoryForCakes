@@ -2,7 +2,6 @@ package Entities;
 
 import lombok.Getter;
 import lombok.Setter;
-
 import java.util.Objects;
 
 public class Cake {
@@ -20,11 +19,16 @@ public class Cake {
     @Setter
     private Customer customer;
 
-    public Cake(String name, Float price, Customer customer)
+    @Getter
+    @Setter
+    private Base base;
+
+    public Cake(String name, Float price, Customer customer, Base base)
     {
         this.name = name;
         this.price = price;
         this.customer = customer;
+        this.base = base;
     }
 
     @Override
@@ -50,5 +54,4 @@ public class Cake {
     {
         return "Name:" + name + " Prise: " + " Customer: " + customer;
     }
-
 }
