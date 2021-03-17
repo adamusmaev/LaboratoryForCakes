@@ -1,10 +1,10 @@
 package entities;
 
-import intarfaces.Storable;
+import interfaces.Storable;
 import lombok.Getter;
 import lombok.Setter;
 
-public class DecorationCharacteristic implements Storable {
+public class DecorationCharacteristic  implements Storable {
 
     @Getter
     @Setter

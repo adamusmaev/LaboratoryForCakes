@@ -1,14 +1,10 @@
 package entities;
 
-import intarfaces.Storable;
-import lombok.EqualsAndHashCode;
+import interfaces.Storable;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
+import java.util.Objects;
 
-
-@EqualsAndHashCode
-@ToString
 public class Cake implements Storable {
 
     @Getter
@@ -36,4 +32,27 @@ public class Cake implements Storable {
         this.base = base;
     }
 
+    @Override
+    public int hashCode()
+    {
+        int hash = 1;
+        hash = hash * Objects.hashCode(name) + Objects.hashCode(customer);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object object)
+    {
+        if (this == object) return true;
+        if (object == null) return false;
+        if (object.getClass() != this.getClass()) return false;
+        Cake cake = (Cake)object;
+        return this.name.equals(cake.name) && this.price.equals(cake.price) && this.customer.equals(cake.customer);
+    }
+
+    @Override
+    public String toString()
+    {
+        return "Name:" + name + " Prise: " + " Customer: " + customer;
+    }
 }
