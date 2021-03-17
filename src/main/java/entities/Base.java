@@ -1,5 +1,7 @@
-package Entities;
+package entities;
 
+
+import intarfaces.Storable;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -7,19 +9,16 @@ import lombok.ToString;
 
 @EqualsAndHashCode
 @ToString
-public class Characteristic {
+public class Base implements Storable {
+
 
     @Setter
     @Getter
     private String name;
 
-    @Getter
-    @Setter
-    private String subscription;
-
-    public Characteristic(String name, String subscription)
+    public Base(String name)
     {
         this.name = name;
-        this.subscription = subscription;
     }
+
 }

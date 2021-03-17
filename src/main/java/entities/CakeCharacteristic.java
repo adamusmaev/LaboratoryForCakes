@@ -1,9 +1,10 @@
-package Entities;
+package entities;
+
 
 import lombok.Getter;
 import lombok.Setter;
 
-public class CakeDecoration {
+public class CakeCharacteristic {
 
     @Setter
     @Getter
@@ -11,5 +12,5 @@ public class CakeDecoration {
 
     @Getter
     @Setter
-    private Decoration decoration;
+    private  Characteristic characteristic;
 }
