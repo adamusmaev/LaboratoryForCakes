@@ -2,7 +2,7 @@ package entities;
 
 import java.util.ArrayList;
 import java.util.List;
-import intarfaces.Storable;
+import interfaces.Storable;
 
 public class Container {
 

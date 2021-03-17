@@ -1,7 +1,7 @@
 package entities;
 
 
-import intarfaces.Storable;
+import interfaces.Storable;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package intarfaces;
+package interfaces;
 
 public interface Storable {
 }
