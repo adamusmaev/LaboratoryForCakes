@@ -1,6 +1,5 @@
 package entities;
 
-import interfaces.Storable;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -8,7 +7,7 @@ import lombok.ToString;
 
 @EqualsAndHashCode
 @ToString
-public class Characteristic implements Storable {
+public class Characteristic extends Entity {
 
     @Setter
     @Getter

@@ -2,27 +2,16 @@ package entities;
 
 import java.util.ArrayList;
 import java.util.List;
-import interfaces.Storable;
 
 public class Container {
 
-    private List<Storable> list = new ArrayList<>();
-
-    public List<Storable> getListEntities()
-    {
-        return list;
-    }
-
-    public void setEntity(Storable storable) {
-        list.add(storable);
-    }
-    /*private List<Cake> cakeList = new ArrayList<>();
-    private List<Base> baseList = new ArrayList<>();
-    private List<Customer> customerList = new ArrayList<>();
-    private List<Decoration> decorationList = new ArrayList<>();
-    private List<CakeCharacteristic> cakeCharacteristicList = new ArrayList<>();
-    private List<CakeDecoration> cakeDecorationList = new ArrayList<>();
-    private List<DecorationCharacteristic> decorationCharacteristicList = new ArrayList<>();*/
+    public final static List<Cake> cakeList = new ArrayList<>();
+    public final static List<Base> baseList = new ArrayList<>();
+    public final static List<Customer> customerList = new ArrayList<>();
+    public final static List<Decoration> decorationList = new ArrayList<>();
+    public final static List<CakeCharacteristic> cakeCharacteristicList = new ArrayList<>();
+    public final static List<CakeDecoration> cakeDecorationList = new ArrayList<>();
+    public final static List<DecorationCharacteristic> decorationCharacteristicList = new ArrayList<>();
 
 
 }

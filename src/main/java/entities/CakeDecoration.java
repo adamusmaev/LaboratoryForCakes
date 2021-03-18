@@ -1,10 +1,9 @@
 package entities;
 
-import interfaces.Storable;
 import lombok.Getter;
 import lombok.Setter;
 
-public class CakeDecoration implements Storable {
+public class CakeDecoration {
 
     @Setter
     @Getter
