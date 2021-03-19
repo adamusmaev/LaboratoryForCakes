@@ -1,6 +1,8 @@
 import entities.*;
 import repositoryImpl.*;
 
+import java.util.UUID;
+
 import static entities.Container.baseList;
 import static entities.Container.cakeList;
 
@@ -40,8 +42,6 @@ public class Main {
         characteristicRepository.getCharacteristicById(characteristic.getUuid());
         characteristicRepository.updateCharacteristic(characteristic);
         characteristicRepository.removeCharacteristic(characteristic);
-
-
 
     }
 }

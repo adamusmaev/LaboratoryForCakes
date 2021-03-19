@@ -1,0 +1,27 @@
+2021-03-19 15:22:25 INFO  Base:24 - Create base with name: testBase
+2021-03-19 15:26:40 INFO  Base:24 - Create base with name: testBase
+2021-03-19 15:26:40 INFO  Cake:40 - Create cake with name: Test Cake Nameprice: 23.0customer: Customer(lastName=as, firstName=as)base: Base(name=testBase)
+2021-03-19 15:46:02 INFO  Base:24 - Create base with name: testBase
+2021-03-19 15:46:02 INFO  Customer:27 - Create customer with lastname: as firstname: as
+2021-03-19 15:46:02 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-19 15:46:02 INFO  Cake:40 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-19 15:46:02 INFO  Characteristic:28 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-19 15:51:59 INFO  Base:24 - Create base with name: testBase
+2021-03-19 15:51:59 ERROR BaseRepositoryImpl:24 - This id: nullnot found
+2021-03-19 15:53:35 INFO  Base:24 - Create base with name: testBase
+2021-03-19 15:53:35 ERROR BaseRepositoryImpl:24 - This id: nullnot found
+2021-03-19 15:54:23 INFO  Base:24 - Create base with name: testBase
+2021-03-19 15:54:23 ERROR BaseRepositoryImpl:24 - This id: null not found
+2021-03-19 15:54:55 INFO  Base:24 - Create base with name: testBase
+2021-03-19 15:59:23 INFO  Base:24 - Create base with name: testBase
+2021-03-19 16:00:24 INFO  Base:24 - Create base with name: testBase
+2021-03-19 16:00:49 INFO  Base:24 - Create base with name: testBase
+2021-03-19 16:00:49 ERROR BaseRepositoryImpl:24 - This id: 101e8187-e322-40d7-ad29-49e0568f32ff not found
+2021-03-19 16:01:50 INFO  Base:24 - Create base with name: testBase
+2021-03-19 16:01:50 ERROR BaseRepositoryImpl:24 - This id: 743f6ddb-da63-4c3f-a349-aabed29ce9be not found
+2021-03-19 16:04:41 INFO  Base:24 - Create base with name: testBase
+2021-03-19 16:04:41 ERROR BaseRepositoryImpl:24 - This id: 401b1f0b-7a21-4a03-b9ed-6516314f82e5 not found
+2021-03-19 16:04:41 INFO  Customer:27 - Create customer with lastname: as firstname: as
+2021-03-19 16:04:41 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-19 16:04:41 INFO  Cake:40 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-19 16:04:41 INFO  Characteristic:28 - Create characteristic with name: Characteristic name subscriptionText Text

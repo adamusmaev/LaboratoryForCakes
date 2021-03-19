@@ -1,12 +1,15 @@
 package repositoryImpl;
 
 import entities.Customer;
+import org.apache.log4j.Logger;
 
 import java.util.UUID;
 import static entities.Container.customerList;
 
 
 public class CustomerRepositoryImpl {
+    private final static Logger logger = Logger.getLogger(BaseRepositoryImpl.class);
+
 
     public Object getCustomerById(UUID uuid)
     {
@@ -17,7 +20,8 @@ public class CustomerRepositoryImpl {
             }
 
         }
-        return new IllegalArgumentException("This id: " + uuid + "not found");
+        logger.error("This id: " + uuid + " not found");
+        return new IllegalArgumentException();
     }
 
     public void addCustomer(Customer customer)

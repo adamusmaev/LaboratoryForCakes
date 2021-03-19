@@ -4,11 +4,14 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import org.apache.log4j.Logger;
 
 
 @EqualsAndHashCode
 @ToString
 public class Decoration extends Entity {
+
+    private final static Logger logger = Logger.getLogger(Decoration.class);
 
     @Getter
     @Setter
@@ -22,6 +25,9 @@ public class Decoration extends Entity {
     {
         this.name = name;
         this.price = price;
+        logger.info("Create decoration with name: " + name +
+                " price: " + price);
+
     }
 
 }

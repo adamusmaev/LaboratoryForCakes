@@ -1,10 +1,14 @@
 package repositoryImpl;
 
 import entities.Decoration;
+import org.apache.log4j.Logger;
+
 import java.util.UUID;
 import static entities.Container.decorationList;
 
 public class DecorationRepositoryImpl {
+
+    private final static Logger logger = Logger.getLogger(BaseRepositoryImpl.class);
 
     public Object getDecorationById(UUID uuid)
     {
@@ -15,7 +19,8 @@ public class DecorationRepositoryImpl {
                 return decorationList.get(i);
             }
         }
-        return new IllegalArgumentException("This id: " + uuid + "not found");
+        logger.error("This id: " + uuid + " not found");
+        return new IllegalArgumentException();
     }
 
     public void addDecoration(Decoration decoration)
