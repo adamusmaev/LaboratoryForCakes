@@ -11,7 +11,7 @@ public class BaseRepositoryImpl {
         for (Base base: baseList) {
             if (base.getUuid() == uuid)
             {
-                return new Base(base);
+                return base;
             }
 
         }
@@ -20,7 +20,7 @@ public class BaseRepositoryImpl {
 
     public void addBase(Base base)
     {
-        baseList.add(new Base(base));
+        baseList.add(base);
     }
     public void deleteBase(Base base)
     {
@@ -39,7 +39,7 @@ public class BaseRepositoryImpl {
         {
             if (base == baseList.get(i))
             {
-                baseList.set(i, new Base(base));
+                baseList.set(i, base);
                 break;
             }
         }

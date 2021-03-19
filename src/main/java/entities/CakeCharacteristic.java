@@ -4,15 +4,13 @@ package entities;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.UUID;
-
 public class CakeCharacteristic {
 
     @Setter
     @Getter
-    private UUID cakeId;
+    private Cake cake;
 
     @Getter
     @Setter
-    private  UUID characteristicId;
+    private  Characteristic characteristic;
 }
