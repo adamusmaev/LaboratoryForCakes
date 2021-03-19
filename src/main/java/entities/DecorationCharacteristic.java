@@ -3,13 +3,15 @@ package entities;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.UUID;
+
 public class DecorationCharacteristic {
 
     @Getter
     @Setter
-    private Decoration decoration;
+    private UUID decorationId;
 
     @Getter
     @Setter
-    private  Characteristic characteristic;
+    private  UUID characteristicId;
 }

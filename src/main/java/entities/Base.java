@@ -18,5 +18,9 @@ public class Base extends Entity{
     {
         this.name = name;
     }
+    public Base(Base base)
+    {
+        this.name = base.getName();
+    }
 
 }
