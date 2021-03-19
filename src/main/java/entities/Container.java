@@ -12,6 +12,6 @@ public class Container {
     public final static List<CakeCharacteristic> cakeCharacteristicList = new ArrayList<>();
     public final static List<CakeDecoration> cakeDecorationList = new ArrayList<>();
     public final static List<DecorationCharacteristic> decorationCharacteristicList = new ArrayList<>();
-
+    public final static List<Characteristic> characteristicList = new ArrayList<>();
 
 }

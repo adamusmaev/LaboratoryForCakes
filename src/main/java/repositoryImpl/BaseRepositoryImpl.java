@@ -1,9 +1,13 @@
 package repositoryImpl;
 
 import entities.Base;
+import lombok.ToString;
+
 import java.util.UUID;
 import static entities.Container.baseList;
 
+
+@ToString
 public class BaseRepositoryImpl {
 
     public Object getBaseById(UUID uuid)
@@ -26,7 +30,7 @@ public class BaseRepositoryImpl {
     {
         for (int i = 0; i < baseList.size(); i++)
         {
-            if (base == baseList.get(i))
+            if (base.equals(baseList.get(i)))
             {
                 baseList.remove(i);
                 break;
@@ -37,7 +41,7 @@ public class BaseRepositoryImpl {
     {
         for (int i = 0; i < baseList.size(); i++)
         {
-            if (base == baseList.get(i))
+            if (base.equals(baseList.get(i)))
             {
                 baseList.set(i, base);
                 break;
