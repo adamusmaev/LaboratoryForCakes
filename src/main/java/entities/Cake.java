@@ -42,4 +42,10 @@ public class Cake extends Entity {
                 " customer: " + customer.toString() +
                 " base: " + base.toString());
     }
+    public Cake(Cake cake)
+    {
+        this.name = cake.name;
+        this.price = cake.getPrice();
+        this.setUuid(cake.getUuid());
+    }
 }

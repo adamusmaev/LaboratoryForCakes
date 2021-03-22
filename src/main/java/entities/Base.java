@@ -23,5 +23,11 @@ public class Base extends Entity{
         this.name = name;
         logger.info("Create base with name: " + name);
     }
+    public Base(Base base)
+    {
+        this.name = base.name;
+        this.setUuid(base.getUuid());
+        logger.info("Create base with name: " + name);
+    }
 
 }

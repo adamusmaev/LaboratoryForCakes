@@ -1,4 +1,4 @@
-package repositoryImpl;
+package repositoryimpl;
 
 import entities.Customer;
 import org.apache.log4j.Logger;
@@ -8,9 +8,7 @@ import static entities.Container.customerList;
 
 
 public class CustomerRepositoryImpl {
-    private final static Logger logger = Logger.getLogger(BaseRepositoryImpl.class);
-
-
+    private final static Logger logger = Logger.getLogger(CustomerRepositoryImpl.class);
     public Object getCustomerById(UUID uuid)
     {
         for (Customer customer: customerList) {
@@ -26,30 +24,32 @@ public class CustomerRepositoryImpl {
 
     public void addCustomer(Customer customer)
     {
-        customerList.add(customer);
+        customerList.add(new Customer(customer));
+        logger.info("Add " + customer.toString() + " in customerList");
     }
 
     public void update(Customer customer)
     {
-        for (int i = 0; i < customerList.size(); i++)
-        {
-            if (customer.equals(customerList.get(i)))
+        for (Customer c: customerList) {
+            if (customer.getUuid() == c.getUuid())
             {
-                customerList.set(i, customer);
+                customerList.remove(c);
+                customerList.add(customer);
                 break;
             }
         }
+        logger.info("Update " + customer.toString() + " in customerList");
     }
     public void removeCustomer(Customer customer)
     {
-        for (int i = 0; i < customerList.size(); i++)
-        {
-            if (customer.equals(customerList.get(i)))
+        for (Customer c: customerList) {
+            if (customer.getUuid() == c.getUuid())
             {
-                customerList.remove(i);
+                customerList.remove(c);
                 break;
             }
         }
+        logger.info("Delete " + customer.toString() + " in customerList");
     }
 
 }

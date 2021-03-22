@@ -1,9 +1,6 @@
 package entities;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 import org.apache.log4j.Logger;
 
 
@@ -26,6 +23,13 @@ public class Customer extends Entity {
         this.firstName = firstName;
         logger.info("Create customer with lastname: " + lastName +
                 " firstname: " + firstName);
-
+    }
+    public Customer(Customer customer)
+    {
+        this.lastName = customer.lastName;
+        this.firstName = customer.firstName;
+        this.setUuid(customer.getUuid());
+        logger.info("Create customer with lastname: " + lastName +
+                " firstname: " + firstName);
     }
 }

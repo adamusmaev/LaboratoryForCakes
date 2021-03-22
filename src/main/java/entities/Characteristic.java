@@ -28,4 +28,13 @@ public class Characteristic extends Entity {
         logger.info("Create characteristic with name: " + name +
                 " subscription" + subscription);
     }
+
+    public Characteristic(Characteristic characteristic)
+    {
+        this.name = characteristic.name;
+        this.subscription = characteristic.subscription;
+        this.setUuid(characteristic.getUuid());
+        logger.info("Create characteristic with name: " + name +
+                " subscription" + subscription);
+    }
 }

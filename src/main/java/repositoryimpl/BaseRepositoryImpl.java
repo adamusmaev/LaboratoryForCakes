@@ -1,4 +1,4 @@
-package repositoryImpl;
+package repositoryimpl;
 
 import entities.Base;
 import lombok.ToString;
@@ -27,28 +27,31 @@ public class BaseRepositoryImpl {
 
     public void addBase(Base base)
     {
-        baseList.add(base);
+        baseList.add(new Base(base));
     }
     public void deleteBase(Base base)
     {
-        for (int i = 0; i < baseList.size(); i++)
+        for (Base b : baseList)
         {
-            if (base.equals(baseList.get(i)))
+            if (base.getUuid().equals(b.getUuid()))
             {
-                baseList.remove(i);
+                baseList.remove(b);
                 break;
             }
         }
+        logger.info("Delete " + base.toString());
     }
     public void updateBase(Base base)
     {
-        for (int i = 0; i < baseList.size(); i++)
+        for (Base b : baseList)
         {
-            if (base.equals(baseList.get(i)))
+            if (base.getUuid().equals(b.getUuid()))
             {
-                baseList.set(i, base);
+                baseList.remove(b);
+                baseList.add(base);
                 break;
             }
         }
+        logger.info("Update base in baseList");
     }
 }

@@ -27,7 +27,12 @@ public class Decoration extends Entity {
         this.price = price;
         logger.info("Create decoration with name: " + name +
                 " price: " + price);
-
+    }
+    public Decoration(Decoration decoration)
+    {
+        this.name = decoration.name;
+        this.price = decoration.getPrice();
+        this.setUuid(decoration.getUuid());
     }
 
 }
