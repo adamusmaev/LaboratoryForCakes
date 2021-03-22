@@ -2,7 +2,9 @@ package entities;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
+@ToString
 public class CakeDecoration {
 
     @Setter
@@ -12,4 +14,9 @@ public class CakeDecoration {
     @Getter
     @Setter
     private Decoration decoration;
+
+    public CakeDecoration(Cake cake, Decoration decoration) {
+        this.cake = cake;
+        this.decoration = decoration;
+    }
 }

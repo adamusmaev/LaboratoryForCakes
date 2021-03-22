@@ -1,10 +1,23 @@
+import decoratorclasses.CakeDecorator;
 import entities.*;
+import interfaces.Order;
 import repositoryimpl.*;
 
 import static entities.Container.*;
 
 public class Main {
     public static void main(String[] args) {
+        Base base = new Base("testBase");
+        Customer customer = new Customer("as", "as");
+        Characteristic characteristic = new Characteristic("Characteristic name", "Text Text");
+        Decoration decoration = new Decoration("Test Decoration Name", 36.6F);
+        Decoration decoration2 = new Decoration("Test Decoration Name number 2", 36.6F);
+        Cake cake = new Cake("Test Cake Name", 23.0F, customer, base);
+        Order order = new CakeDecorator(cake);
+        order.addCharacteristic(characteristic);
+        order.addDecoration(decoration);
+        order.addDecoration(decoration2);
+
 
         /*Base base = new Base("testBase");
         BaseRepositoryImpl baseRepository = new BaseRepositoryImpl();

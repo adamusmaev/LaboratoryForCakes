@@ -15,5 +15,4 @@ public class Container {
     public final static List<CakeDecoration> cakeDecorationList = new ArrayList<>();
     public final static List<DecorationCharacteristic> decorationCharacteristicList = new ArrayList<>();
     public final static Set<Characteristic> characteristicList = new HashSet<>();
-
 }

@@ -1,5 +1,6 @@
 package entities;
 
+import interfaces.Order;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
@@ -10,7 +11,7 @@ import java.util.Objects;
 
 @EqualsAndHashCode
 @ToString
-public class Cake extends Entity {
+public class Cake extends Entity implements Order {
 
     private final static Logger logger = Logger.getLogger(Cake.class);
 
@@ -47,5 +48,13 @@ public class Cake extends Entity {
         this.name = cake.name;
         this.price = cake.getPrice();
         this.setUuid(cake.getUuid());
+    }
+
+    @Override
+    public void addDecoration(Decoration decoration) {
+    }
+
+    @Override
+    public void addCharacteristic(Characteristic characteristic) {
     }
 }

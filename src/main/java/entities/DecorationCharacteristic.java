@@ -2,7 +2,9 @@ package entities;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
+@ToString
 public class DecorationCharacteristic {
 
     @Getter
@@ -12,4 +14,6 @@ public class DecorationCharacteristic {
     @Getter
     @Setter
     private  Characteristic characteristic;
+
+
 }
