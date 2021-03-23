@@ -1,5 +1,6 @@
 import decoratorclasses.CakeDecorator;
 import entities.*;
+import findbycondition.FindCakeByBase;
 import interfaces.Order;
 import repositoryimpl.*;
 
@@ -8,15 +9,27 @@ import static entities.Container.*;
 public class Main {
     public static void main(String[] args) {
         Base base = new Base("testBase");
+        Base base1 = new Base("testBase1");
         Customer customer = new Customer("as", "as");
         Characteristic characteristic = new Characteristic("Characteristic name", "Text Text");
         Decoration decoration = new Decoration("Test Decoration Name", 36.6F);
         Decoration decoration2 = new Decoration("Test Decoration Name number 2", 36.6F);
-        Cake cake = new Cake("Test Cake Name", 23.0F, customer, base);
+        Order cake = new Cake("Test Cake Name", 23.0F, customer, base);
+        Order cake1 = new Cake("Test Cake Name1", 23.0F, customer, base);
+        Order cake2 = new Cake("Test Cake Name3", 23.0F, customer, base1);
         Order order = new CakeDecorator(cake);
+        Order order1 = new CakeDecorator(cake1);
         order.addCharacteristic(characteristic);
         order.addDecoration(decoration);
         order.addDecoration(decoration2);
+        order1.addCharacteristic(characteristic);
+        DecorationCharacteristic.addDecorationCharacteristic(decoration, characteristic);
+        CakeRepositoryImpl cakeRepository = new CakeRepositoryImpl();
+        cakeRepository.addCake((Cake)cake);
+        cakeRepository.addCake((Cake)cake1);
+        cakeRepository.addCake((Cake)cake2);
+        System.out.println(cakeList.toString());
+        System.out.println(FindCakeByBase.findCake(base1));
 
 
         /*Base base = new Base("testBase");
