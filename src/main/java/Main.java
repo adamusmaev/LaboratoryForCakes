@@ -1,6 +1,7 @@
 import decoratorclasses.CakeDecorator;
 import entities.*;
 import findbycondition.FindCakeByBase;
+import findbycondition.FindCakeByDecoration;
 import interfaces.Order;
 import repositoryimpl.*;
 
@@ -23,13 +24,15 @@ public class Main {
         order.addDecoration(decoration);
         order.addDecoration(decoration2);
         order1.addCharacteristic(characteristic);
+        order1.addDecoration(decoration);
+        order1.addDecoration(decoration2);
         DecorationCharacteristic.addDecorationCharacteristic(decoration, characteristic);
         CakeRepositoryImpl cakeRepository = new CakeRepositoryImpl();
         cakeRepository.addCake((Cake)cake);
         cakeRepository.addCake((Cake)cake1);
         cakeRepository.addCake((Cake)cake2);
-        System.out.println(cakeList.toString());
-        System.out.println(FindCakeByBase.findCake(base1));
+        System.out.println(cakeDecorationList.toString());
+        System.out.println(FindCakeByDecoration.findCake(decoration, decoration2));
 
 
         /*Base base = new Base("testBase");

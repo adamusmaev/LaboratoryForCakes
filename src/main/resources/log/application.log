@@ -572,3 +572,338 @@
 2021-03-23 09:24:37 INFO  Customer:32 - Create customer with lastname: as firstname: as
 2021-03-23 09:24:37 INFO  Base:30 - Create base with name: testBase1
 2021-03-23 09:24:37 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-23 09:34:10 INFO  Base:24 - Create base with name: testBase
+2021-03-23 09:34:10 INFO  Base:24 - Create base with name: testBase1
+2021-03-23 09:34:11 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-23 09:34:11 INFO  Characteristic:28 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-23 09:34:11 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-23 09:34:11 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-23 09:34:11 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-23 09:34:11 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-23 09:34:11 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-23 09:34:11 INFO  Cake:15 - Create CakeDecorator class
+2021-03-23 09:34:11 INFO  Cake:15 - Create CakeDecorator class
+2021-03-23 09:34:11 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-23 09:34:11 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-23 09:34:11 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-23 09:34:11 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-23 09:34:11 INFO  Base:30 - Create base with name: testBase
+2021-03-23 09:34:11 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-23 09:34:11 INFO  Base:30 - Create base with name: testBase
+2021-03-23 09:34:11 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-23 09:34:11 INFO  Base:30 - Create base with name: testBase1
+2021-03-23 09:34:11 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-23 09:34:30 INFO  Base:24 - Create base with name: testBase
+2021-03-23 09:34:30 INFO  Base:24 - Create base with name: testBase1
+2021-03-23 09:34:30 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-23 09:34:30 INFO  Characteristic:28 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-23 09:34:30 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-23 09:34:30 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-23 09:34:30 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-23 09:34:30 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-23 09:34:30 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-23 09:34:30 INFO  Cake:15 - Create CakeDecorator class
+2021-03-23 09:34:30 INFO  Cake:15 - Create CakeDecorator class
+2021-03-23 09:34:30 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-23 09:34:30 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-23 09:34:30 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-23 09:34:30 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-23 09:34:30 INFO  Base:30 - Create base with name: testBase
+2021-03-23 09:34:30 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-23 09:34:30 INFO  Base:30 - Create base with name: testBase
+2021-03-23 09:34:30 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-23 09:34:30 INFO  Base:30 - Create base with name: testBase1
+2021-03-23 09:34:30 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 13:04:08 INFO  Base:24 - Create base with name: testBase
+2021-03-24 13:04:08 INFO  Base:24 - Create base with name: testBase1
+2021-03-24 13:04:08 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-24 13:04:08 INFO  Characteristic:30 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-24 13:04:08 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-24 13:04:08 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-24 13:04:08 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 13:04:08 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 13:04:08 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-24 13:04:08 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 13:04:08 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 13:04:08 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 13:04:08 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 13:04:08 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 13:04:08 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 13:04:08 INFO  Base:30 - Create base with name: testBase
+2021-03-24 13:04:08 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 13:04:08 INFO  Base:30 - Create base with name: testBase
+2021-03-24 13:04:08 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 13:04:08 INFO  Base:30 - Create base with name: testBase1
+2021-03-24 13:04:08 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 13:05:35 INFO  Base:24 - Create base with name: testBase
+2021-03-24 13:05:35 INFO  Base:24 - Create base with name: testBase1
+2021-03-24 13:05:35 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-24 13:05:35 INFO  Characteristic:29 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-24 13:05:35 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-24 13:05:35 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-24 13:05:35 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 13:05:35 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 13:05:35 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-24 13:05:35 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 13:05:35 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 13:05:35 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 13:05:35 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 13:05:35 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 13:05:35 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 13:05:35 INFO  Base:30 - Create base with name: testBase
+2021-03-24 13:05:35 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 13:05:35 INFO  Base:30 - Create base with name: testBase
+2021-03-24 13:05:35 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 13:05:35 INFO  Base:30 - Create base with name: testBase1
+2021-03-24 13:05:35 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 13:58:26 INFO  Base:24 - Create base with name: testBase
+2021-03-24 13:58:26 INFO  Base:24 - Create base with name: testBase1
+2021-03-24 13:58:26 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-24 13:58:26 INFO  Characteristic:29 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-24 13:58:26 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-24 13:58:26 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-24 13:58:27 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 13:58:27 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 13:58:27 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-24 13:58:27 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 13:58:27 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 13:58:27 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 13:58:27 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 13:58:27 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 13:58:27 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 13:58:27 INFO  Base:30 - Create base with name: testBase
+2021-03-24 13:58:27 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 13:58:27 INFO  Base:30 - Create base with name: testBase
+2021-03-24 13:58:27 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 13:58:27 INFO  Base:30 - Create base with name: testBase1
+2021-03-24 13:58:27 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 14:00:42 INFO  Base:24 - Create base with name: testBase
+2021-03-24 14:00:42 INFO  Base:24 - Create base with name: testBase1
+2021-03-24 14:00:42 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-24 14:00:42 INFO  Characteristic:29 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-24 14:00:42 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-24 14:00:42 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-24 14:00:42 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 14:00:42 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 14:00:42 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-24 14:00:42 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 14:00:42 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 14:00:42 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 14:00:42 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 14:00:42 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 14:00:42 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 14:00:42 INFO  Base:30 - Create base with name: testBase
+2021-03-24 14:00:42 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 14:00:42 INFO  Base:30 - Create base with name: testBase
+2021-03-24 14:00:42 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 14:00:42 INFO  Base:30 - Create base with name: testBase1
+2021-03-24 14:00:42 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 14:02:08 INFO  Base:24 - Create base with name: testBase
+2021-03-24 14:02:08 INFO  Base:24 - Create base with name: testBase1
+2021-03-24 14:02:08 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-24 14:02:08 INFO  Characteristic:29 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-24 14:02:08 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-24 14:02:08 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-24 14:02:08 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 14:02:08 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 14:02:08 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-24 14:02:08 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 14:02:08 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 14:02:08 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 14:02:08 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 14:02:08 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 14:02:08 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 14:02:08 INFO  Base:30 - Create base with name: testBase
+2021-03-24 14:02:08 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 14:02:08 INFO  Base:30 - Create base with name: testBase
+2021-03-24 14:02:08 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 14:02:08 INFO  Base:30 - Create base with name: testBase1
+2021-03-24 14:02:08 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 14:02:42 INFO  Base:24 - Create base with name: testBase
+2021-03-24 14:02:42 INFO  Base:24 - Create base with name: testBase1
+2021-03-24 14:02:42 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-24 14:02:42 INFO  Characteristic:29 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-24 14:02:42 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-24 14:02:42 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-24 14:02:42 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 14:02:42 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 14:02:42 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-24 14:02:42 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 14:02:42 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 14:02:42 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 14:02:42 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 14:02:42 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 14:02:42 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 14:02:42 INFO  Base:30 - Create base with name: testBase
+2021-03-24 14:02:42 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 14:02:42 INFO  Base:30 - Create base with name: testBase
+2021-03-24 14:02:42 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 14:02:42 INFO  Base:30 - Create base with name: testBase1
+2021-03-24 14:02:42 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:16:29 INFO  Base:24 - Create base with name: testBase
+2021-03-24 15:16:29 INFO  Base:24 - Create base with name: testBase1
+2021-03-24 15:16:29 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-24 15:16:29 INFO  Characteristic:29 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-24 15:16:29 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-24 15:16:29 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-24 15:16:29 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:16:29 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:16:29 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-24 15:16:29 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:16:29 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:16:29 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:16:29 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 15:16:29 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 15:16:29 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:16:29 INFO  Base:30 - Create base with name: testBase
+2021-03-24 15:16:29 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:16:29 INFO  Base:30 - Create base with name: testBase
+2021-03-24 15:16:29 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:16:29 INFO  Base:30 - Create base with name: testBase1
+2021-03-24 15:16:29 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:21:11 INFO  Base:24 - Create base with name: testBase
+2021-03-24 15:21:11 INFO  Base:24 - Create base with name: testBase1
+2021-03-24 15:21:11 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-24 15:21:11 INFO  Characteristic:29 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-24 15:21:11 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-24 15:21:11 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-24 15:21:12 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:21:12 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:21:12 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-24 15:21:12 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:21:12 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:21:12 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:21:12 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 15:21:12 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 15:21:12 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:21:12 INFO  Base:30 - Create base with name: testBase
+2021-03-24 15:21:12 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:21:12 INFO  Base:30 - Create base with name: testBase
+2021-03-24 15:21:12 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:21:12 INFO  Base:30 - Create base with name: testBase1
+2021-03-24 15:21:12 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:23:40 INFO  Base:24 - Create base with name: testBase
+2021-03-24 15:23:40 INFO  Base:24 - Create base with name: testBase1
+2021-03-24 15:23:40 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-24 15:23:40 INFO  Characteristic:29 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-24 15:23:40 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-24 15:23:40 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-24 15:23:40 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:23:40 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:23:40 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-24 15:23:40 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:23:40 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:23:40 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:23:40 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 15:23:40 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 15:23:40 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:25:22 INFO  Base:24 - Create base with name: testBase
+2021-03-24 15:25:22 INFO  Base:24 - Create base with name: testBase1
+2021-03-24 15:25:23 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-24 15:25:23 INFO  Characteristic:29 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-24 15:25:23 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-24 15:25:23 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-24 15:25:23 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:25:23 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:25:23 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-24 15:25:23 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:25:23 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:25:23 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:25:23 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 15:25:23 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 15:25:23 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:25:23 INFO  Base:30 - Create base with name: testBase
+2021-03-24 15:25:23 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:25:23 INFO  Base:30 - Create base with name: testBase
+2021-03-24 15:25:23 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:25:23 INFO  Base:30 - Create base with name: testBase1
+2021-03-24 15:25:23 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:25:50 INFO  Base:24 - Create base with name: testBase
+2021-03-24 15:25:50 INFO  Base:24 - Create base with name: testBase1
+2021-03-24 15:25:50 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-24 15:25:50 INFO  Characteristic:29 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-24 15:25:50 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-24 15:25:50 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-24 15:25:50 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:25:50 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:25:50 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-24 15:25:50 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:25:50 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:25:50 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:25:50 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 15:25:50 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 15:25:50 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:25:50 INFO  Base:30 - Create base with name: testBase
+2021-03-24 15:25:50 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:25:50 INFO  Base:30 - Create base with name: testBase
+2021-03-24 15:25:50 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:25:50 INFO  Base:30 - Create base with name: testBase1
+2021-03-24 15:25:50 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:26:25 INFO  Base:24 - Create base with name: testBase
+2021-03-24 15:26:25 INFO  Base:24 - Create base with name: testBase1
+2021-03-24 15:26:25 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-24 15:26:25 INFO  Characteristic:29 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-24 15:26:25 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-24 15:26:25 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-24 15:26:25 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:26:25 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:26:25 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-24 15:26:25 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:26:25 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:26:25 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:26:25 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 15:26:25 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 15:26:25 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:26:25 INFO  Cake:21 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 15:26:25 INFO  Base:30 - Create base with name: testBase
+2021-03-24 15:26:25 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:26:25 INFO  Base:30 - Create base with name: testBase
+2021-03-24 15:26:25 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:26:25 INFO  Base:30 - Create base with name: testBase1
+2021-03-24 15:26:25 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:26:54 INFO  Base:24 - Create base with name: testBase
+2021-03-24 15:26:54 INFO  Base:24 - Create base with name: testBase1
+2021-03-24 15:26:54 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-24 15:26:54 INFO  Characteristic:29 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-24 15:26:54 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-24 15:26:54 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-24 15:26:54 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:26:54 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:26:54 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-24 15:26:54 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:26:54 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:26:54 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:26:54 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 15:26:54 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 15:26:54 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:26:54 INFO  Cake:21 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 15:26:54 INFO  Cake:21 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 15:26:54 INFO  Base:30 - Create base with name: testBase
+2021-03-24 15:26:54 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:26:54 INFO  Base:30 - Create base with name: testBase
+2021-03-24 15:26:54 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:26:54 INFO  Base:30 - Create base with name: testBase1
+2021-03-24 15:26:54 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:27:09 INFO  Base:24 - Create base with name: testBase
+2021-03-24 15:27:09 INFO  Base:24 - Create base with name: testBase1
+2021-03-24 15:27:09 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-24 15:27:09 INFO  Characteristic:29 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-24 15:27:09 INFO  Decoration:28 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-24 15:27:09 INFO  Decoration:28 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-24 15:27:09 INFO  Cake:41 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:27:09 INFO  Cake:41 - Create cake with name: Test Cake Name1 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase)
+2021-03-24 15:27:09 INFO  Cake:41 - Create cake with name: Test Cake Name3 price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(name=testBase1)
+2021-03-24 15:27:09 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:27:09 INFO  Cake:15 - Create CakeDecorator class
+2021-03-24 15:27:09 INFO  Cake:26 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:27:09 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 15:27:09 INFO  Cake:21 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 15:27:09 INFO  Cake:26 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Characteristic(name=Characteristic name, subscription=Text Text) in cakeCharacteristicList
+2021-03-24 15:27:09 INFO  Cake:21 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-24 15:27:09 INFO  Cake:21 - Add Cake(name=Test Cake Name1, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(name=testBase)) with Decoration(name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-03-24 15:27:09 INFO  Base:30 - Create base with name: testBase
+2021-03-24 15:27:09 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:27:09 INFO  Base:30 - Create base with name: testBase
+2021-03-24 15:27:09 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-24 15:27:09 INFO  Base:30 - Create base with name: testBase1
+2021-03-24 15:27:09 INFO  Customer:32 - Create customer with lastname: as firstname: as
