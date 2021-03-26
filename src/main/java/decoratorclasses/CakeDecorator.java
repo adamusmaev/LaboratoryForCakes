@@ -25,4 +25,44 @@ public class CakeDecorator implements Order {
         cakeCharacteristicList.add(new CakeCharacteristic((Cake) order, characteristic));
         logger.info("Add " + order.toString() + " with " + characteristic.toString() + " in cakeCharacteristicList");
     }
+
+    @Override
+    public Base getBase() {
+        return order.getBase();
+    }
+    @Override
+    public void setBase(Base base)
+    {
+        this.order.setBase(base);
+    }
+
+    @Override
+    public String getName() {
+       return order.getName();
+    }
+
+    @Override
+    public void setName(String name) {
+        order.setName(name);
+    }
+
+    @Override
+    public Customer getCustomer() {
+        return order.getCustomer();
+    }
+
+    @Override
+    public Float getPrice() {
+        return order.getPrice();
+    }
+
+    @Override
+    public void setPrice(Float price) {
+        order.setPrice(price);
+    }
+
+    @Override
+    public void setCustomer(Customer customer) {
+        order.setCustomer(customer);
+    }
 }

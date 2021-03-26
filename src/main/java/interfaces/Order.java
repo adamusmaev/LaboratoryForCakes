@@ -11,4 +11,13 @@ public interface Order {
 
     void addDecoration(Decoration decoration);
     void addCharacteristic(Characteristic characteristic);
+    Base getBase();
+    void setBase(Base base);
+    Customer getCustomer();
+    void setCustomer(Customer customer);
+    String getName();
+    void setName(String name);
+    Float getPrice();
+    void setPrice(Float price);
+
 }

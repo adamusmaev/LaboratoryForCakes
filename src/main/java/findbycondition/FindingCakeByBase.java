@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import static entities.Container.cakeList;
 
-public class FindCakeByBase {
+public class FindingCakeByBase {
 
     public static List<Cake> findCake(Base base)
     {

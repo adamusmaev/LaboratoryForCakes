@@ -10,7 +10,7 @@ import java.util.*;
 import static entities.Container.cakeDecorationList;
 import static entities.Container.cakeList;
 
-public class FindCakeByDecoration {
+public class FindingCakeByDecoration {
 
     public static List<Cake> findCake(Decoration ... decorations)
     {

@@ -2,12 +2,8 @@ package entities;
 
 import interfaces.Order;
 import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
 import lombok.ToString;
 import org.apache.log4j.Logger;
-
-import java.util.Objects;
 
 @EqualsAndHashCode
 @ToString
@@ -15,21 +11,9 @@ public class Cake extends Entity implements Order {
 
     private final static Logger logger = Logger.getLogger(Cake.class);
 
-    @Getter
-    @Setter
     private String name;
-
-    @Getter
-    @Setter
     private Float price;
-
-
-    @Getter
-    @Setter
     private Customer customer;
-
-    @Getter
-    @Setter
     private Base base;
 
     public Cake(String name, Float price, Customer customer, Base base)
@@ -56,5 +40,43 @@ public class Cake extends Entity implements Order {
 
     @Override
     public void addCharacteristic(Characteristic characteristic) {
+    }
+
+    @Override
+    public Base getBase() {
+        return this.base;
+    }
+    @Override
+    public void setBase(Base base)
+    {
+        this.base = base;
+    }
+
+    @Override
+    public String getName() {
+        return this.name;
+    }
+
+    public Float getPrice() {
+        return this.price;
+    }
+
+    @Override
+    public Customer getCustomer() {
+        return this.customer;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setPrice(Float price) {
+        this.price = price;
+    }
+
+    @Override
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
     }
 }

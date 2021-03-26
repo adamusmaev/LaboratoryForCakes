@@ -1,7 +1,6 @@
 import decoratorclasses.CakeDecorator;
 import entities.*;
-import findbycondition.FindCakeByBase;
-import findbycondition.FindCakeByDecoration;
+import findbycondition.FindingCakeByDecoration;
 import interfaces.Order;
 import repositoryimpl.*;
 
@@ -9,7 +8,7 @@ import static entities.Container.*;
 
 public class Main {
     public static void main(String[] args) {
-        Base base = new Base("testBase");
+        /*Base base = new Base("testBase");
         Base base1 = new Base("testBase1");
         Customer customer = new Customer("as", "as");
         Characteristic characteristic = new Characteristic("Characteristic name", "Text Text");
@@ -31,8 +30,7 @@ public class Main {
         cakeRepository.addCake((Cake)cake);
         cakeRepository.addCake((Cake)cake1);
         cakeRepository.addCake((Cake)cake2);
-        System.out.println(cakeDecorationList.toString());
-        System.out.println(FindCakeByDecoration.findCake(decoration, decoration2));
+        System.out.println(FindingCakeByDecoration.findCake(decoration, decoration2));*/
 
 
         /*Base base = new Base("testBase");
