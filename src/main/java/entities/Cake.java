@@ -34,8 +34,6 @@ public class Cake extends Entity implements Order {
         this.setUuid(cake.getUuid());
     }
 
-
-
     @Override
     public Base getBase() {
         return this.base;

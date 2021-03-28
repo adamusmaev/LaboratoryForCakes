@@ -14,7 +14,7 @@ public class DecorationRepositoryImpl {
     {
         for (Decoration d : decorationList)
         {
-            if (d.getUuid() == uuid)
+            if (d.getUuid().equals(uuid))
             {
                 return d;
             }

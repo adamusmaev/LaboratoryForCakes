@@ -3,12 +3,10 @@ package entities;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 import org.apache.log4j.Logger;
 
 
 @EqualsAndHashCode
-@ToString
 public class Decoration extends Entity {
 
     private final static Logger logger = Logger.getLogger(Decoration.class);
@@ -35,4 +33,7 @@ public class Decoration extends Entity {
         this.setUuid(decoration.getUuid());
     }
 
+    public String toString() {
+        return "Decoration(ID=" +this.getUuid()+  ", name=" + this.name + ", price=" + this.price + ")";
+    }
 }

@@ -1,11 +1,15 @@
-package Facade;
+package facade;
 
 import entities.Characteristic;
+import lombok.Getter;
 import repositoryimpl.CharacteristicRepositoryImpl;
 
 import java.util.UUID;
 
+import static entities.Container.characteristicFacadeList;
+
 public class CharacteristicFacade {
+    @Getter
     private Characteristic characteristic;
     private CharacteristicRepositoryImpl characteristicRepository;
 
@@ -13,6 +17,7 @@ public class CharacteristicFacade {
     {
         this.characteristic = characteristic;
         this.characteristicRepository = characteristicRepository;
+        characteristicFacadeList.add(this);
     }
 
     public Object getCharacteristicById (UUID uuid)
@@ -47,5 +52,15 @@ public class CharacteristicFacade {
     {
         characteristic.setSubscription(subscription);
     }
-
+    public static  CharacteristicFacade getCharacteristicFacade(UUID uuid)
+    {
+        for (CharacteristicFacade cf : characteristicFacadeList)
+        {
+            if(cf.characteristic.getUuid().equals(uuid))
+            {
+                return cf;
+            }
+        }
+        throw new IllegalArgumentException();
+    }
 }

@@ -1,23 +1,46 @@
-import Facade.BaseFacade;
-import Facade.CustomerFacade;
-import comporators.SortCake;
 import decoratorclasses.CakeDecorator;
 import entities.*;
+import facade.*;
 import findbycondition.FindingCakeByBase;
 import findbycondition.FindingCakeByDecoration;
 import interfaces.Order;
+import menu.MainMenu;
 import repositoryimpl.*;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 import static entities.Container.*;
 
 public class Main {
     public static void main(String[] args) {
 
-        Base base = new Base("testBase");
+        MainMenu.showMainMenu();
+
+        /*BaseRepositoryImpl baseRepository = new BaseRepositoryImpl();
+        DecorationRepositoryImpl decorationRepository = new DecorationRepositoryImpl();
+        CharacteristicRepositoryImpl characteristicRepository = new CharacteristicRepositoryImpl();
+        CustomerRepositoryImpl customerRepository = new CustomerRepositoryImpl();
+        CakeRepositoryImpl cakeRepository = new CakeRepositoryImpl();
+
+        Base base1 = new Base("base1");
+        BaseFacade baseFacade1 = new BaseFacade(base1, baseRepository);
+
+        Decoration decoration1 = new Decoration("decoration1", 10.0F);
+        DecorationFacade decorationFacade1 = new DecorationFacade(decoration1, decorationRepository);
+
+        Characteristic characteristic1 = new Characteristic("characteristic1", "subscription");
+        CharacteristicFacade characteristicFacade = new CharacteristicFacade(characteristic1, characteristicRepository);
+
+        Customer customer = new Customer("lastname", "firstname");
+        CustomerFacade customerFacade = new CustomerFacade(customer, customerRepository);
+
+        Cake cake1 = new Cake("cake1", 10.0F, customer, base1);
+        CakeFacade cakeFacade1 = new CakeFacade(cake1, cakeRepository);
+        cakeFacade1.addCharacteristic(characteristic1);
+        //cakeFacade1.addDecoration(decoration1);
+        System.out.println(FindingCakeByDecoration.findCake(decoration1));*/
+
+
+
+        /*Base base = new Base("testBase");
         Base base1 = new Base("testBase1");
         Customer customer = new Customer("as", "as");
         Characteristic characteristic = new Characteristic("Characteristic name", "Text Text");

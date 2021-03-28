@@ -1,5 +1,9 @@
 package entities;
 
+import facade.BaseFacade;
+import facade.CharacteristicFacade;
+import facade.DecorationFacade;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -15,4 +19,7 @@ public class Container {
     public final static List<CakeDecoration> cakeDecorationList = new ArrayList<>();
     public final static List<DecorationCharacteristic> decorationCharacteristicList = new ArrayList<>();
     public final static Set<Characteristic> characteristicList = new HashSet<>();
+    public final static List<BaseFacade> baseFacadeList = new ArrayList<>();
+    public final static List<DecorationFacade> decorationFacadeList = new ArrayList<>();
+    public final static List<CharacteristicFacade> characteristicFacadeList = new ArrayList<>();
 }

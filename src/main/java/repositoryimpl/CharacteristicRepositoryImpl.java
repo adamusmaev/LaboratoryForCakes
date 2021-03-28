@@ -14,7 +14,7 @@ public class CharacteristicRepositoryImpl {
     public Object getCharacteristicById(UUID uuid)
     {
         for (Characteristic c: characteristicList) {
-            if (c.getUuid() == uuid)
+            if (c.getUuid().equals(uuid))
             {
                 return c;
             }

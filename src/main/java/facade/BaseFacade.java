@@ -1,13 +1,17 @@
-package Facade;
+package facade;
 
 import entities.Base;
+import lombok.Getter;
 import repositoryimpl.BaseRepositoryImpl;
 
 import java.util.UUID;
 
+import static entities.Container.baseFacadeList;
+
 public class BaseFacade {
 
     private BaseRepositoryImpl baseRepository;
+    @Getter
     private Base base;
 
     public BaseFacade(Base base, BaseRepositoryImpl baseRepository)
@@ -19,6 +23,7 @@ public class BaseFacade {
     public void addBase()
     {
         baseRepository.addBase(base);
+        baseFacadeList.add(this);
     }
     public Object getBaseById(UUID uuid)
     {
@@ -39,5 +44,17 @@ public class BaseFacade {
     public String getName()
     {
         return base.getName();
+    }
+
+    static public BaseFacade getBaseFacade(UUID baseId)
+    {
+        for(BaseFacade bf : baseFacadeList)
+        {
+            if (bf.base.getUuid().equals(baseId))
+            {
+                return bf;
+            }
+        }
+        throw new IllegalArgumentException();
     }
 }

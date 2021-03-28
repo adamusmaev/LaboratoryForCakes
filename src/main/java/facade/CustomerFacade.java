@@ -1,7 +1,6 @@
-package Facade;
+package facade;
 
 import entities.Customer;
-import repositoryimpl.CakeRepositoryImpl;
 import repositoryimpl.CustomerRepositoryImpl;
 
 import java.util.UUID;

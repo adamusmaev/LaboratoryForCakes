@@ -1,11 +1,16 @@
-package Facade;
+package facade;
 
 import entities.Decoration;
+import lombok.Getter;
 import repositoryimpl.DecorationRepositoryImpl;
 
 import java.util.UUID;
 
+import static entities.Container.baseFacadeList;
+import static entities.Container.decorationFacadeList;
+
 public class DecorationFacade {
+    @Getter
     private Decoration decoration;
     private DecorationRepositoryImpl decorationRepository;
 
@@ -13,6 +18,7 @@ public class DecorationFacade {
     {
         this.decoration = decoration;
         this.decorationRepository = decorationRepository;
+        decorationFacadeList.add(this);
     }
     public Object getDecorationById(UUID uuid)
     {
@@ -45,5 +51,15 @@ public class DecorationFacade {
     public void setDecorationPrise(Float prise)
     {
         decoration.setPrice(prise);
+    }
+
+    static public DecorationFacade getDecorationFacade(UUID decorationId)
+    {
+        for(DecorationFacade df : decorationFacadeList)
+        {
+            if (df.decoration.getUuid().equals(decorationId))
+                return df;
+        }
+        throw new IllegalArgumentException();
     }
 }

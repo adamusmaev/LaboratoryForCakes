@@ -12,7 +12,7 @@ public class CustomerRepositoryImpl {
     public Object getCustomerById(UUID uuid)
     {
         for (Customer customer: customerList) {
-            if (customer.getUuid() == uuid)
+            if (customer.getUuid().equals(uuid))
             {
                 return customer;
             }

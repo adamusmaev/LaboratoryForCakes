@@ -15,7 +15,7 @@ public class BaseRepositoryImpl {
     public Object getBaseById(UUID uuid)
     {
         for (Base base: baseList) {
-            if (base.getUuid() == uuid)
+            if (base.getUuid().equals(uuid))
             {
                 return base;
             }

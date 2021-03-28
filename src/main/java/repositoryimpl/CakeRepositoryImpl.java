@@ -16,7 +16,7 @@ public class CakeRepositoryImpl {
     public Object getCakeById(UUID uuid)
     {
         for (Cake c: cakeList) {
-            if (c.getUuid() == uuid)
+            if (c.getUuid().equals(uuid))
             {
                 return c;
             }

@@ -3,13 +3,10 @@ package entities;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
-import lombok.extern.slf4j.Slf4j;
 import org.apache.log4j.Logger;
 
 
 @EqualsAndHashCode
-@ToString
 public class Characteristic extends Entity {
 
     private final static Logger logger = Logger.getLogger(Characteristic.class);
@@ -37,5 +34,9 @@ public class Characteristic extends Entity {
         this.setUuid(characteristic.getUuid());
         logger.info("Create characteristic with name: " + name +
                 " subscription" + subscription);
+    }
+
+    public String toString() {
+        return "Characteristic(ID=" + this.getUuid() +"name=" + this.name + ", subscription=" + this.subscription + ")";
     }
 }
