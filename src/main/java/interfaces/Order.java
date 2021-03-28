@@ -19,5 +19,7 @@ public interface Order {
     void setName(String name);
     Float getPrice();
     void setPrice(Float price);
+    void deleteDecoration(Decoration decoration);
+    void deleteCharacteristic(Characteristic characteristic);
 
 }

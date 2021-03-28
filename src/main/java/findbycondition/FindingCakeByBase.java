@@ -2,15 +2,17 @@ package findbycondition;
 
 import entities.Base;
 import entities.Cake;
+import interfaces.Order;
+
 import java.util.ArrayList;
 import java.util.List;
 import static entities.Container.cakeList;
 
 public class FindingCakeByBase {
 
-    public static List<Cake> findCake(Base base)
+    public static List<Order> findCake(Base base)
     {
-        List<Cake> cakeListRes = new ArrayList<>();
+        List<Order> cakeListRes = new ArrayList<>();
         for (Cake c: cakeList) {
             if (c.getBase().getUuid() == base.getUuid())
                 cakeListRes.add(c);

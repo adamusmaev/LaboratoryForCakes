@@ -7,6 +7,7 @@ import interfaces.Order;
 import junit.framework.TestCase;
 import org.junit.Before;
 import org.junit.Test;
+import repositoryimpl.CakeRepositoryImpl;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -31,6 +32,7 @@ public class FindingCakeByBaseTest extends TestCase {
         Order cake2 = new Cake("Test Cake Name3", 23.0F, customer, base1);
         Order order = new CakeDecorator(cake);
         Order order1 = new CakeDecorator(cake1);
+        //CakeRepositoryImpl cakeRepository= new CakeRepositoryImpl();
 
     }
 }

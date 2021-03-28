@@ -28,7 +28,7 @@ public class CustomerRepositoryImpl {
         logger.info("Add " + customer.toString() + " in customerList");
     }
 
-    public void update(Customer customer)
+    public void updateCustomer(Customer customer)
     {
         for (Customer c: customerList) {
             if (customer.getUuid() == c.getUuid())

@@ -2,10 +2,12 @@ package decoratorclasses;
 
 import entities.*;
 import interfaces.Order;
+import lombok.ToString;
 import org.apache.log4j.Logger;
 
 import static entities.Container.*;
 
+@ToString
 public class CakeDecorator implements Order {
     private final static Logger logger = Logger.getLogger(Cake.class);
 
@@ -24,6 +26,27 @@ public class CakeDecorator implements Order {
     {
         cakeCharacteristicList.add(new CakeCharacteristic((Cake) order, characteristic));
         logger.info("Add " + order.toString() + " with " + characteristic.toString() + " in cakeCharacteristicList");
+    }
+    public void deleteDecoration(Decoration decoration)
+    {
+        for (CakeDecoration cd: cakeDecorationList) {
+            if (cd.getCake().equals(this.order) && cd.getDecoration().equals(decoration))
+            {
+                cakeDecorationList.remove(cd);
+                break;
+            }
+        }
+    }
+    public void deleteCharacteristic(Characteristic characteristic)
+    {
+        for (CakeCharacteristic cc : cakeCharacteristicList)
+        {
+            if (cc.getCharacteristic().equals(characteristic) && cc.getCake().equals(this.order))
+            {
+                cakeCharacteristicList.remove(cc);
+                break;
+            }
+        }
     }
 
     @Override

@@ -34,18 +34,17 @@ public class Cake extends Entity implements Order {
         this.setUuid(cake.getUuid());
     }
 
-    @Override
-    public void addDecoration(Decoration decoration) {
-    }
 
-    @Override
-    public void addCharacteristic(Characteristic characteristic) {
-    }
 
     @Override
     public Base getBase() {
         return this.base;
     }
+
+    @Override
+    public void deleteDecoration(Decoration decoration) {
+    }
+
     @Override
     public void setBase(Base base)
     {
@@ -78,5 +77,17 @@ public class Cake extends Entity implements Order {
     @Override
     public void setCustomer(Customer customer) {
         this.customer = customer;
+    }
+    @Override
+    public void addDecoration(Decoration decoration) {
+    }
+
+    @Override
+    public void addCharacteristic(Characteristic characteristic) {
+    }
+
+    @Override
+    public void deleteCharacteristic(Characteristic characteristic) {
+
     }
 }

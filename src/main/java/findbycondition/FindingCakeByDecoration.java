@@ -4,6 +4,7 @@ import comporators.SortDecoration;
 import entities.Cake;
 import entities.CakeDecoration;
 import entities.Decoration;
+import interfaces.Order;
 
 import java.util.*;
 
@@ -12,9 +13,9 @@ import static entities.Container.cakeList;
 
 public class FindingCakeByDecoration {
 
-    public static List<Cake> findCake(Decoration ... decorations)
+    public static List<Order> findCake(Decoration ... decorations)
     {
-        List<Cake> cakeListRes = new ArrayList<>();
+        List<Order> cakeListRes = new ArrayList<>();
         List<Decoration> decorationList;
         decorationList = Arrays.asList(decorations);
         Collections.sort(decorationList, new SortDecoration());

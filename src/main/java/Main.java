@@ -1,13 +1,57 @@
+import Facade.BaseFacade;
+import Facade.CustomerFacade;
+import comporators.SortCake;
 import decoratorclasses.CakeDecorator;
 import entities.*;
+import findbycondition.FindingCakeByBase;
 import findbycondition.FindingCakeByDecoration;
 import interfaces.Order;
 import repositoryimpl.*;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 import static entities.Container.*;
 
 public class Main {
     public static void main(String[] args) {
+
+        Base base = new Base("testBase");
+        Base base1 = new Base("testBase1");
+        Customer customer = new Customer("as", "as");
+        Characteristic characteristic = new Characteristic("Characteristic name", "Text Text");
+        Decoration decoration = new Decoration("Test Decoration Name", 36.6F);
+        Decoration decoration2 = new Decoration("Test Decoration Name number 2", 36.6F);
+        Order cake = new Cake("Test Cake Name", 23.0F, customer, base);
+        Order order = new CakeDecorator(cake);
+        CakeRepositoryImpl cakeRepository = new CakeRepositoryImpl();
+        cakeRepository.addCake(cake);
+        CustomerRepositoryImpl customerRepository= new CustomerRepositoryImpl();
+        //---------------------------------
+        order.addDecoration(decoration);
+        order.addDecoration(decoration2);
+        order.addCharacteristic(characteristic);
+        //-------------------------------
+        System.out.println(cakeDecorationList.toString());
+        order.deleteDecoration(decoration);
+        System.out.println(cakeDecorationList.toString());
+        System.out.println(cakeCharacteristicList.toString());
+        order.deleteCharacteristic(characteristic);
+        System.out.println(cakeCharacteristicList.toString());
+        //----------------------------------------
+        Order cake1 = new Cake("Test Cake Name1", 23.0F, customer, base1);
+        Order order1 = new CakeDecorator(cake1);
+        cakeRepository.addCake(cake1);
+        order1.addDecoration(decoration);
+        order1.addDecoration(decoration2);
+        //-----------------------------------------
+        System.out.println(FindingCakeByDecoration.findCake(decoration,decoration2));
+        System.out.println(FindingCakeByDecoration.findCake(decoration));
+        //----------------------------
+        System.out.println(FindingCakeByBase.findCake(base));
+
+
         /*Base base = new Base("testBase");
         Base base1 = new Base("testBase1");
         Customer customer = new Customer("as", "as");
