@@ -3,6 +3,7 @@ package facade;
 import decoratorclasses.CakeDecorator;
 import entities.*;
 import interfaces.Order;
+import lombok.Getter;
 import repositoryimpl.CakeRepositoryImpl;
 
 import java.util.List;
@@ -10,6 +11,7 @@ import java.util.UUID;
 
 public class CakeFacade {
 
+    @Getter
     private Cake cake;
     private CakeRepositoryImpl cakeRepository;
     private Order cakeDecorator;

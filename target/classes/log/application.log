@@ -51,3 +51,323 @@
 2021-03-29 09:50:37 INFO  Base:28 - Create base with name: as
 2021-03-29 09:50:51 INFO  Decoration:26 - Create decoration with name: rf price: 4.0
 2021-03-29 09:50:51 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=00edbf57-467f-4901-8825-911cf6e7b7a2, name=rf, price=4.0) in decorationList
+2021-03-29 09:53:24 INFO  Base:22 - Create base with name: as
+2021-03-29 09:53:24 INFO  Base:28 - Create base with name: as
+2021-03-29 09:55:07 INFO  Decoration:26 - Create decoration with name: aas price: 3.0
+2021-03-29 09:55:07 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=7847c666-cb34-4ebf-b686-afe98429550e, name=aas, price=3.0) in decorationList
+2021-03-29 09:55:13 INFO  Decoration:26 - Create decoration with name: g price: 3.0
+2021-03-29 09:55:13 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=d8d28421-ff88-4d10-842f-5b9a5c39c2fb, name=g, price=3.0) in decorationList
+2021-03-29 09:56:14 INFO  Customer:24 - Create customer with lastname: fj firstname: fg
+2021-03-29 09:56:14 INFO  Cake:25 - Create cake with name: y price: 12.0 customer: Customer(lastName=fj, firstName=fg) base: Base(ID=31263e68-eefe-4fac-83a5-a38284b55f5f; name=as)
+2021-03-29 09:56:14 INFO  Cake:17 - Create CakeDecorator class
+2021-03-29 09:56:14 INFO  Cake:23 - Add Cake(name=y, price=12.0, customer=Customer(lastName=fj, firstName=fg), base=Base(ID=31263e68-eefe-4fac-83a5-a38284b55f5f; name=as)) with Decoration(ID=d8d28421-ff88-4d10-842f-5b9a5c39c2fb, name=g, price=3.0) in cakeDecorationList
+2021-03-29 09:56:14 INFO  Cake:23 - Add Cake(name=y, price=12.0, customer=Customer(lastName=fj, firstName=fg), base=Base(ID=31263e68-eefe-4fac-83a5-a38284b55f5f; name=as)) with Decoration(ID=7847c666-cb34-4ebf-b686-afe98429550e, name=aas, price=3.0) in cakeDecorationList
+2021-03-29 09:56:14 INFO  Base:28 - Create base with name: as
+2021-03-29 09:56:14 INFO  Customer:32 - Create customer with lastname: fj firstname: fg
+2021-03-29 14:52:25 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:52:26 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:52:26 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:52:26 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:52:26 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:52:26 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:52:26 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:52:26 INFO  Base:28 - Create base with name: Test base
+2021-03-29 14:52:54 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:52:54 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:52:54 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:52:54 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:52:54 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:52:54 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:52:54 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:52:54 INFO  Base:28 - Create base with name: Test base
+2021-03-29 14:52:54 INFO  Base:28 - Create base with name: Test base
+2021-03-29 14:56:11 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:56:11 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:56:11 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:56:11 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:56:11 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:56:11 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:56:11 INFO  Base:28 - Create base with name: Test base
+2021-03-29 14:56:11 INFO  BaseRepositoryImpl:42 - Delete Base(ID=5997d63a-4e4a-403d-a10f-503ed377dbf2; name=Test base)
+2021-03-29 14:57:01 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:57:01 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:57:01 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:57:01 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:57:01 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:57:01 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:57:01 INFO  Base:28 - Create base with name: Test base
+2021-03-29 14:57:01 INFO  BaseRepositoryImpl:42 - Delete Base(ID=00d5f59f-ebd3-4b0d-b836-8e800a825473; name=Test base)
+2021-03-29 14:57:44 INFO  Base:22 - Create base with name: as
+2021-03-29 14:57:45 INFO  Base:28 - Create base with name: as
+2021-03-29 14:58:01 INFO  BaseRepositoryImpl:42 - Delete Base(ID=cc2f085b-b6ff-4b53-89b0-cef26db81ad4; name=as)
+2021-03-29 14:59:21 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:59:21 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:59:21 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:59:21 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:59:21 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:59:21 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:59:21 INFO  Base:28 - Create base with name: Test base
+2021-03-29 14:59:21 INFO  BaseRepositoryImpl:42 - Delete Base(ID=5c260d5d-a13d-4b51-9d19-86a073d60ff6; name=Test base)
+2021-03-29 14:59:41 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:59:41 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:59:41 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:59:41 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:59:41 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:59:41 INFO  Base:22 - Create base with name: Test base
+2021-03-29 14:59:41 INFO  BaseRepositoryImpl:42 - Delete Base(ID=801ed073-2a46-4e18-a354-38acba825a43; name=Test base)
+2021-03-29 15:00:47 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:00:47 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:00:47 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:00:47 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:00:47 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:00:47 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:00:47 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:00:47 INFO  BaseRepositoryImpl:42 - Delete Base(ID=b727b496-557b-4972-b0ff-9773d3b44907; name=Test base)
+2021-03-29 15:01:34 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:01:34 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:01:34 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:01:34 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:01:34 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:01:34 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:01:34 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:01:34 INFO  BaseRepositoryImpl:42 - Delete Base(ID=2d212b38-50a2-444f-8d35-1d5b64859cf5; name=Test base)
+2021-03-29 15:01:42 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:01:42 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:01:42 INFO  BaseRepositoryImpl:42 - Delete Base(ID=981ff6b1-015d-4179-952d-cf382cb61ea6; name=Test base)
+2021-03-29 15:02:25 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:02:25 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:02:25 INFO  BaseRepositoryImpl:42 - Delete Base(ID=38a82f14-8c68-4ee7-9f2d-9f4b4142f402; name=Test base)
+2021-03-29 15:02:35 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:02:35 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:02:35 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:02:35 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:02:35 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:02:35 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:02:35 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:02:35 INFO  BaseRepositoryImpl:42 - Delete Base(ID=f8880f03-6021-4877-b611-4dab7493e64c; name=Test base)
+2021-03-29 15:14:52 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:14:52 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:14:52 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:14:52 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:14:52 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:14:52 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:14:52 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:14:52 INFO  BaseRepositoryImpl:42 - Delete Base(ID=0cd7819f-a332-47e3-869f-c940fc9f0d87; name=Test base)
+2021-03-29 15:15:31 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:15:31 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:15:31 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:15:31 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:15:31 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:15:31 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:15:31 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:15:31 INFO  BaseRepositoryImpl:42 - Delete Base(ID=948bc159-7bd2-42f7-9cee-fdd3b2bd0a83; name=Test base)
+2021-03-29 15:15:31 INFO  BaseRepositoryImpl:42 - Delete Base(ID=902d81bf-e0f7-4478-944f-5e68592ecfc2; name=Test base)
+2021-03-29 15:15:31 INFO  BaseRepositoryImpl:42 - Delete Base(ID=c74e112e-d5ad-4fa1-91bf-bd549876e194; name=Test base)
+2021-03-29 15:15:31 INFO  BaseRepositoryImpl:42 - Delete Base(ID=0287feb0-953f-4753-934f-43e83b6774d8; name=Test base)
+2021-03-29 15:15:31 INFO  BaseRepositoryImpl:42 - Delete Base(ID=0287feb0-953f-4753-934f-43e83b6774d8; name=Test base)
+2021-03-29 15:15:31 INFO  BaseRepositoryImpl:42 - Delete Base(ID=4885979b-eed6-4431-8eec-8d9227bef658; name=Test base)
+2021-03-29 15:15:31 INFO  BaseRepositoryImpl:42 - Delete Base(ID=2e4a4b44-05a2-4e22-b671-d417e8bc34c9; name=Test base)
+2021-03-29 15:16:16 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:16:16 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:16:16 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:16:16 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:16:16 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:16:16 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:16:16 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:16:16 INFO  BaseRepositoryImpl:42 - Delete Base(ID=90dc5200-310f-4bec-a5b9-cee3ee902723; name=Test base)
+2021-03-29 15:16:16 INFO  BaseRepositoryImpl:42 - Delete Base(ID=6a10a122-ac91-44be-8ee1-b9730d08a2ed; name=Test base)
+2021-03-29 15:16:16 INFO  BaseRepositoryImpl:42 - Delete Base(ID=373496dd-6f70-480e-b9a7-b28c60f7981c; name=Test base)
+2021-03-29 15:16:16 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:16:16 INFO  BaseRepositoryImpl:42 - Delete Base(ID=976f2ad3-a12a-4934-be42-f41973870fd2; name=Test base)
+2021-03-29 15:16:16 INFO  BaseRepositoryImpl:42 - Delete Base(ID=976f2ad3-a12a-4934-be42-f41973870fd2; name=Test base)
+2021-03-29 15:16:16 INFO  BaseRepositoryImpl:42 - Delete Base(ID=efb684e4-959f-4cd6-8efb-5c57a6a7d894; name=Test base)
+2021-03-29 15:16:16 INFO  BaseRepositoryImpl:42 - Delete Base(ID=a0bbaa31-99b3-4935-bced-4e69dcaf3250; name=Test base)
+2021-03-29 15:16:52 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:16:52 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:16:52 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:16:52 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:16:52 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:16:52 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:16:52 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:16:52 INFO  BaseRepositoryImpl:42 - Delete Base(ID=2cfb6748-c50b-4794-9dd1-b293cc366130; name=Test base)
+2021-03-29 15:16:52 INFO  BaseRepositoryImpl:42 - Delete Base(ID=b6775a33-bd25-4436-9038-47c84c26de33; name=Test base)
+2021-03-29 15:16:52 INFO  BaseRepositoryImpl:42 - Delete Base(ID=a84d2e6d-4702-4234-a822-dc545cd62388; name=Test base)
+2021-03-29 15:16:52 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:16:52 INFO  BaseRepositoryImpl:42 - Delete Base(ID=239f7cda-39c1-4e82-a357-f54d2ea6ff22; name=Test base)
+2021-03-29 15:16:52 INFO  BaseRepositoryImpl:42 - Delete Base(ID=239f7cda-39c1-4e82-a357-f54d2ea6ff22; name=Test base)
+2021-03-29 15:16:52 INFO  BaseRepositoryImpl:42 - Delete Base(ID=ecb1de66-0f99-418a-a38d-5210b2695251; name=Test base)
+2021-03-29 15:16:52 INFO  BaseRepositoryImpl:42 - Delete Base(ID=85b39fd2-9155-4658-9e06-fa34d0a8bb0d; name=Test base)
+2021-03-29 15:19:18 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:19:18 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:19:18 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:19:18 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:19:18 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:19:18 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:19:18 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:19:18 INFO  BaseRepositoryImpl:42 - Delete Base(ID=b69e5313-43de-47da-a95b-dc37407fefac; name=Test base)
+2021-03-29 15:19:18 INFO  BaseRepositoryImpl:42 - Delete Base(ID=3767657c-f3a7-494e-a0d7-20af8b6125fd; name=Test base)
+2021-03-29 15:19:18 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:19:18 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-03-29 15:19:18 INFO  BaseRepositoryImpl:42 - Delete Base(ID=be3ea247-f76c-4b81-9b42-b13d2cb9bc74; name=new base name)
+2021-03-29 15:19:18 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:19:18 INFO  BaseRepositoryImpl:42 - Delete Base(ID=5ca145ba-d032-45e4-90d4-b5a09c347d39; name=Test base)
+2021-03-29 15:19:18 INFO  BaseRepositoryImpl:42 - Delete Base(ID=5ca145ba-d032-45e4-90d4-b5a09c347d39; name=Test base)
+2021-03-29 15:19:18 INFO  BaseRepositoryImpl:42 - Delete Base(ID=250d1be2-2686-42de-999d-08df21036a9c; name=Test base)
+2021-03-29 15:19:18 INFO  BaseRepositoryImpl:42 - Delete Base(ID=dddb68b6-f8b3-4468-bdba-0490a9e18a43; name=Test base)
+2021-03-29 15:19:40 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:19:40 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:19:40 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:19:40 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:19:40 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:19:40 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:19:40 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:19:40 INFO  BaseRepositoryImpl:42 - Delete Base(ID=53ce6ede-6f7b-4f5f-b5c7-308bfc70a436; name=Test base)
+2021-03-29 15:19:40 INFO  BaseRepositoryImpl:42 - Delete Base(ID=d2d5833e-d454-4cbf-a954-67ea38833bac; name=Test base)
+2021-03-29 15:19:40 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:19:40 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-03-29 15:19:40 INFO  BaseRepositoryImpl:42 - Delete Base(ID=800b5222-c746-4b47-b568-90223dca7e61; name=new base name)
+2021-03-29 15:19:40 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:19:40 INFO  BaseRepositoryImpl:42 - Delete Base(ID=b4e08210-6873-4048-b057-064bab460f38; name=Test base)
+2021-03-29 15:19:40 INFO  BaseRepositoryImpl:42 - Delete Base(ID=b4e08210-6873-4048-b057-064bab460f38; name=Test base)
+2021-03-29 15:19:40 INFO  BaseRepositoryImpl:42 - Delete Base(ID=a3ae99b4-1c2a-4965-87e6-7ff27a5a0094; name=Test base)
+2021-03-29 15:19:40 INFO  BaseRepositoryImpl:42 - Delete Base(ID=5affe51b-056f-422e-8462-5ae721916f45; name=Test base)
+2021-03-29 15:20:39 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:20:39 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:20:39 INFO  Base:22 - Create base with name: Test base
+2021-03-29 15:20:39 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:20:39 INFO  BaseRepositoryImpl:42 - Delete Base(ID=2c83584c-d10d-40e7-a8ed-c4ab817fd2fa; name=Test base)
+2021-03-29 15:20:39 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:20:39 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-03-29 15:20:39 INFO  BaseRepositoryImpl:42 - Delete Base(ID=61c3011f-d128-42ec-93f3-6fa91db9782b; name=new base name)
+2021-03-29 15:20:39 INFO  Base:28 - Create base with name: Test base
+2021-03-29 15:20:39 INFO  BaseRepositoryImpl:42 - Delete Base(ID=50f40aa2-e9d2-44b7-9038-da4c89c14d32; name=Test base)
+2021-03-29 15:20:39 INFO  BaseRepositoryImpl:42 - Delete Base(ID=50f40aa2-e9d2-44b7-9038-da4c89c14d32; name=Test base)
+2021-03-29 17:18:20 INFO  Base:22 - Create base with name: Test base
+2021-03-29 17:18:20 INFO  Base:22 - Create base with name: Test base
+2021-03-29 17:18:20 INFO  Base:22 - Create base with name: Test base
+2021-03-29 17:18:20 INFO  Base:28 - Create base with name: Test base
+2021-03-29 17:18:20 INFO  BaseRepositoryImpl:42 - Delete Base(ID=35a4ac53-a6b1-4c30-b87b-2e27b84a0470; name=Test base)
+2021-03-29 17:18:20 INFO  Base:28 - Create base with name: Test base
+2021-03-29 17:18:20 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-03-29 17:18:20 INFO  BaseRepositoryImpl:42 - Delete Base(ID=9d2bc974-8a06-444f-9a32-6a6d0b8d7777; name=new base name)
+2021-03-29 17:18:20 INFO  Base:28 - Create base with name: Test base
+2021-03-29 17:18:20 INFO  BaseRepositoryImpl:42 - Delete Base(ID=2e3efb69-0ad0-4371-bea0-77ea3925fd3a; name=Test base)
+2021-03-29 17:18:20 INFO  BaseRepositoryImpl:42 - Delete Base(ID=2e3efb69-0ad0-4371-bea0-77ea3925fd3a; name=Test base)
+2021-03-29 17:18:33 INFO  Base:22 - Create base with name: testBase
+2021-03-29 17:18:33 INFO  Base:22 - Create base with name: testBase1
+2021-03-29 17:18:33 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-29 17:18:33 INFO  Characteristic:26 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-29 17:18:33 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-29 17:18:33 INFO  Decoration:26 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-29 17:18:33 INFO  Cake:25 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=8ef21062-2721-4623-9319-db0259179f28; name=testBase)
+2021-03-29 17:19:22 INFO  Base:22 - Create base with name: testBase
+2021-03-29 17:19:22 INFO  Base:22 - Create base with name: testBase1
+2021-03-29 17:19:22 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-29 17:19:22 INFO  Characteristic:26 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-29 17:19:22 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-29 17:19:22 INFO  Decoration:26 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-29 17:19:22 INFO  Cake:25 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=0a5987ac-85f9-482c-8447-7b10abaca7b3; name=testBase)
+2021-03-29 17:19:22 INFO  Cake:17 - Create CakeDecorator class
+2021-03-29 17:19:22 INFO  Base:28 - Create base with name: testBase
+2021-03-29 17:19:22 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-29 17:31:27 INFO  Base:22 - Create base with name: testBase
+2021-03-29 17:31:27 INFO  Base:22 - Create base with name: testBase1
+2021-03-29 17:31:27 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-29 17:31:27 INFO  Characteristic:26 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-29 17:31:27 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-29 17:31:27 INFO  Decoration:26 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-29 17:31:27 INFO  Base:22 - Create base with name: testBase
+2021-03-29 17:31:27 INFO  Base:22 - Create base with name: testBase1
+2021-03-29 17:31:27 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-29 17:31:27 INFO  Characteristic:26 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-29 17:31:27 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-29 17:31:27 INFO  Decoration:26 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-29 17:31:27 INFO  Cake:25 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=992317c9-0f7b-429a-9fd1-7245f8aa47af; name=testBase)
+2021-03-29 17:31:27 INFO  Cake:17 - Create CakeDecorator class
+2021-03-29 17:31:27 INFO  Base:28 - Create base with name: testBase
+2021-03-29 17:31:27 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-29 17:31:27 INFO  Cake:25 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=4122dcea-b979-4fa7-a175-0dd64832a2aa; name=testBase)
+2021-03-29 17:31:27 INFO  Cake:17 - Create CakeDecorator class
+2021-03-29 17:31:27 INFO  Cake:23 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(ID=4122dcea-b979-4fa7-a175-0dd64832a2aa; name=testBase)) with Decoration(ID=5ef106cf-1768-48bc-8467-ef322f7b7214, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-29 17:31:27 INFO  Base:28 - Create base with name: testBase
+2021-03-29 17:31:27 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-29 17:31:57 INFO  Base:22 - Create base with name: testBase
+2021-03-29 17:31:57 INFO  Base:22 - Create base with name: testBase1
+2021-03-29 17:31:57 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-29 17:31:57 INFO  Characteristic:26 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-29 17:31:57 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-29 17:31:57 INFO  Decoration:26 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-29 17:31:57 INFO  Base:22 - Create base with name: testBase
+2021-03-29 17:31:57 INFO  Base:22 - Create base with name: testBase1
+2021-03-29 17:31:57 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-03-29 17:31:57 INFO  Characteristic:26 - Create characteristic with name: Characteristic name subscriptionText Text
+2021-03-29 17:31:57 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-03-29 17:31:57 INFO  Decoration:26 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-03-29 17:31:57 INFO  Cake:25 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=a5855e6e-acc9-4e46-b2db-e471e37584dd; name=testBase)
+2021-03-29 17:31:57 INFO  Cake:17 - Create CakeDecorator class
+2021-03-29 17:31:57 INFO  Base:28 - Create base with name: testBase
+2021-03-29 17:31:57 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-29 17:31:57 INFO  Cake:25 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=3ab58110-8533-4679-9c8f-f6846cdae0db; name=testBase)
+2021-03-29 17:31:57 INFO  Cake:17 - Create CakeDecorator class
+2021-03-29 17:31:57 INFO  Cake:23 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(ID=3ab58110-8533-4679-9c8f-f6846cdae0db; name=testBase)) with Decoration(ID=4e4545ff-064b-4d94-b8d7-597695718832, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-03-29 17:31:57 INFO  Base:28 - Create base with name: testBase
+2021-03-29 17:31:57 INFO  Customer:32 - Create customer with lastname: as firstname: as
+2021-03-29 17:57:46 INFO  Base:22 - Create base with name: test
+2021-03-29 17:57:46 INFO  Base:28 - Create base with name: test
+2021-03-29 17:57:53 INFO  Base:22 - Create base with name: 2
+2021-03-29 17:57:53 INFO  Base:28 - Create base with name: 2
+2021-03-29 17:58:07 INFO  Decoration:26 - Create decoration with name: qw price: 43.0
+2021-03-29 17:58:07 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=d5c6f273-8444-4820-ac5a-a44d767b428d, name=qw, price=43.0) in decorationList
+2021-03-29 17:58:54 INFO  Customer:24 - Create customer with lastname: qw firstname: qw
+2021-03-29 17:58:55 INFO  Cake:25 - Create cake with name: qw price: 77.0 customer: Customer(lastName=qw, firstName=qw) base: Base(ID=cc09047f-ee43-42bc-a382-8d188c26af9b; name=test)
+2021-03-29 17:58:55 INFO  Cake:17 - Create CakeDecorator class
+2021-03-29 17:58:55 INFO  Cake:23 - Add Cake(name=qw, price=77.0, customer=Customer(lastName=qw, firstName=qw), base=Base(ID=cc09047f-ee43-42bc-a382-8d188c26af9b; name=test)) with Decoration(ID=d5c6f273-8444-4820-ac5a-a44d767b428d, name=qw, price=43.0) in cakeDecorationList
+2021-03-29 17:58:55 INFO  Base:28 - Create base with name: test
+2021-03-29 17:58:55 INFO  Customer:32 - Create customer with lastname: qw firstname: qw
+2021-03-29 18:16:14 INFO  Base:22 - Create base with name: Base name
+2021-03-29 18:16:14 INFO  Base:28 - Create base with name: Base name
+2021-03-29 18:16:37 INFO  Base:22 - Create base with name: Base name number 2
+2021-03-29 18:16:37 INFO  Base:28 - Create base with name: Base name number 2
+2021-03-29 18:16:58 INFO  BaseRepositoryImpl:42 - Delete Base(ID=a2b7de93-5e2f-4738-83d7-ef1f04628d65; name=Base name)
+2021-03-29 18:17:28 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-03-29 18:18:02 INFO  Decoration:26 - Create decoration with name: decoration name price: 34.5
+2021-03-29 18:18:02 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=63f0dc70-49e3-4760-9c3b-2fec157f9aa5, name=decoration name, price=34.5) in decorationList
+2021-03-29 18:18:16 INFO  Decoration:26 - Create decoration with name: decoration 2 price: 23.1
+2021-03-29 18:18:16 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=c7ca6c8b-c1eb-4f0b-be83-a1a52207c3ae, name=decoration 2, price=23.1) in decorationList
+2021-03-29 18:19:30 INFO  Customer:24 - Create customer with lastname: my lastname firstname: my firstname
+2021-03-29 18:19:30 INFO  Cake:25 - Create cake with name: cake name price: 66.6 customer: Customer(lastName=my lastname, firstName=my firstname) base: Base(ID=5417d08d-1a5b-4410-848d-d2972cb2bf61; name=new base name)
+2021-03-29 18:19:30 INFO  Cake:17 - Create CakeDecorator class
+2021-03-29 18:19:30 INFO  Cake:23 - Add Cake(name=cake name, price=66.6, customer=Customer(lastName=my lastname, firstName=my firstname), base=Base(ID=5417d08d-1a5b-4410-848d-d2972cb2bf61; name=new base name)) with Decoration(ID=c7ca6c8b-c1eb-4f0b-be83-a1a52207c3ae, name=decoration 2, price=23.1) in cakeDecorationList
+2021-03-29 18:19:30 INFO  Cake:23 - Add Cake(name=cake name, price=66.6, customer=Customer(lastName=my lastname, firstName=my firstname), base=Base(ID=5417d08d-1a5b-4410-848d-d2972cb2bf61; name=new base name)) with Decoration(ID=63f0dc70-49e3-4760-9c3b-2fec157f9aa5, name=decoration name, price=34.5) in cakeDecorationList
+2021-03-29 18:19:30 INFO  Base:28 - Create base with name: new base name
+2021-03-29 18:19:30 INFO  Customer:32 - Create customer with lastname: my lastname firstname: my firstname
+2021-03-29 18:20:44 INFO  Base:22 - Create base with name: Test base
+2021-03-29 18:20:44 INFO  Base:22 - Create base with name: Test base
+2021-03-29 18:20:44 INFO  Base:22 - Create base with name: Test base
+2021-03-29 18:20:44 INFO  Base:28 - Create base with name: Test base
+2021-03-29 18:20:44 INFO  BaseRepositoryImpl:42 - Delete Base(ID=a4e61d68-05bb-4620-8cac-4aac9042383e; name=Test base)
+2021-03-29 18:20:44 INFO  Base:28 - Create base with name: Test base
+2021-03-29 18:20:44 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-03-29 18:20:44 INFO  BaseRepositoryImpl:42 - Delete Base(ID=9605edb5-009e-4b08-b661-2e0cc09c19cc; name=new base name)
+2021-03-29 18:20:44 INFO  Base:28 - Create base with name: Test base
+2021-03-29 18:20:44 INFO  BaseRepositoryImpl:42 - Delete Base(ID=960daca6-d13e-4144-b52b-664acf4575cf; name=Test base)
+2021-03-29 18:20:44 INFO  BaseRepositoryImpl:42 - Delete Base(ID=960daca6-d13e-4144-b52b-664acf4575cf; name=Test base)
+2021-03-29 19:25:14 INFO  Base:22 - Create base with name: Test base
+2021-03-29 19:25:14 INFO  Base:22 - Create base with name: Test base
+2021-03-29 19:25:14 INFO  Base:22 - Create base with name: Test base
+2021-03-29 19:25:14 INFO  Base:28 - Create base with name: Test base
+2021-03-29 19:25:14 INFO  BaseRepositoryImpl:42 - Delete Base(ID=83ef4a2a-09c8-4aa5-bec9-3be170185062; name=Test base)
+2021-03-29 19:25:14 INFO  Base:28 - Create base with name: Test base
+2021-03-29 19:25:14 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-03-29 19:25:14 INFO  BaseRepositoryImpl:42 - Delete Base(ID=fcf5709f-738a-4f05-a4d6-372d0ac03cc6; name=new base name)
+2021-03-29 19:25:14 INFO  Base:28 - Create base with name: Test base
+2021-03-29 19:25:14 INFO  BaseRepositoryImpl:42 - Delete Base(ID=3608bed3-4c65-40d2-88df-74e87f267219; name=Test base)
+2021-03-29 19:25:14 INFO  BaseRepositoryImpl:42 - Delete Base(ID=3608bed3-4c65-40d2-88df-74e87f267219; name=Test base)
+2021-03-29 19:25:56 INFO  Base:22 - Create base with name: 
+2021-03-29 19:25:56 INFO  Base:28 - Create base with name: 
+2021-03-29 19:31:49 INFO  Base:22 - Create base with name: 
+2021-03-29 19:31:49 INFO  Base:28 - Create base with name: 
+2021-03-29 19:32:37 INFO  Base:22 - Create base with name: 1
+2021-03-29 19:32:37 INFO  Base:28 - Create base with name: 1
+2021-03-29 19:46:22 INFO  Base:22 - Create base with name: qw
+2021-03-29 19:46:22 INFO  Base:28 - Create base with name: qw

@@ -29,9 +29,19 @@ public class CharacteristicMenu {
                 Scanner inCharacteristic = new Scanner(System.in);
                 System.out.println("Enter the characteristic name:");
                 String characteristicName = inCharacteristic.nextLine();
+                if (characteristicName.isEmpty())
+                {
+                    System.out.println("Enter correctly characteristic name\n");
+                    continue;
+                }
                 Scanner inCharacteristicSubscription = new Scanner(System.in);
                 System.out.println("Enter the characteristic subscription:");
                 String characteristicSubscription = inCharacteristicSubscription.nextLine();
+                if (characteristicSubscription.isEmpty())
+                {
+                    System.out.println("Enter correctly characteristic subscription");
+                    continue;
+                }
                 Characteristic characteristic = new Characteristic(characteristicName, characteristicSubscription);
                 CharacteristicFacade characteristicFacade = new CharacteristicFacade(characteristic, characteristicRepository);
                 characteristicFacade.addCharacteristic();

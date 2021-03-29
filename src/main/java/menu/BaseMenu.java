@@ -29,6 +29,11 @@ public class BaseMenu implements Menu{
                 Scanner inBaseName = new Scanner(System.in);
                 System.out.println("Enter the base name:");
                 String baseName = inBaseName.nextLine();
+                if (baseName.isEmpty())
+                {
+                    System.out.println("Enter correctly base name\n");
+                    continue;
+                }
                 Base base = new Base(baseName);
                 BaseFacade baseFacade = new BaseFacade(base, baseRepository);
                 baseFacade.addBase();
@@ -38,8 +43,15 @@ public class BaseMenu implements Menu{
                 Scanner inBaseId = new Scanner(System.in);
                 System.out.println("Enter id");
                 String baseId = inBaseId.nextLine();
-                BaseFacade baseFacade = BaseFacade.getBaseFacade(UUID.fromString(baseId));
-                baseFacade.removeBase();
+                BaseFacade baseFacade;
+                try {
+                    baseFacade = BaseFacade.getBaseFacade(UUID.fromString(baseId));
+                    baseFacade.removeBase();
+                }
+                catch (IllegalArgumentException ex)
+                {
+                    System.out.println("ID not found"+"\n");
+                }
             }
             if (number == 3)
             {
@@ -48,10 +60,16 @@ public class BaseMenu implements Menu{
                 String baseId = inBaseId.nextLine();
                 System.out.println("Enter a new base name ");
                 Scanner inNameBase = new Scanner(System.in);
-                String newName = inBaseId.nextLine();
-                BaseFacade baseFacade = BaseFacade.getBaseFacade(UUID.fromString(baseId));
-                baseFacade.setName(newName);
-                baseFacade.updateBase();
+                String newName = inNameBase.nextLine();
+                BaseFacade baseFacade;
+                try {
+                    baseFacade = BaseFacade.getBaseFacade(UUID.fromString(baseId));
+                    baseFacade.setName(newName);
+                    baseFacade.updateBase();
+                }
+                catch (IllegalArgumentException ex) {
+                    System.out.println("ID not found");
+                }
             }
             if (number == 4)
             {
