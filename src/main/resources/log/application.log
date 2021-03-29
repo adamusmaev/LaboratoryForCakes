@@ -41,3 +41,26 @@
 2021-03-28 22:33:35 INFO  CharacteristicRepositoryImpl:53 - Update Characteristic(ID=d068215c-7675-46eb-a2b2-84d698ac05b1name=rt, subscription=rt) in characteristicList
 2021-03-28 22:34:03 INFO  Base:22 - Create base with name: name
 2021-03-28 22:34:03 INFO  Base:28 - Create base with name: name
+2021-03-29 09:25:16 INFO  Base:22 - Create base with name: as
+2021-03-29 09:25:16 INFO  Base:28 - Create base with name: as
+2021-03-29 09:26:20 INFO  Decoration:26 - Create decoration with name: qw price: 3.0
+2021-03-29 09:26:20 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=53a0b44d-b067-4cfb-8dc3-977cff51a780, name=qw, price=3.0) in decorationList
+2021-03-29 09:26:31 INFO  Decoration:26 - Create decoration with name: df price: 34.0
+2021-03-29 09:26:31 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=4e536453-9338-4b02-b69d-19d0182ee569, name=df, price=34.0) in decorationList
+2021-03-29 09:50:37 INFO  Base:22 - Create base with name: as
+2021-03-29 09:50:37 INFO  Base:28 - Create base with name: as
+2021-03-29 09:50:51 INFO  Decoration:26 - Create decoration with name: rf price: 4.0
+2021-03-29 09:50:51 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=00edbf57-467f-4901-8825-911cf6e7b7a2, name=rf, price=4.0) in decorationList
+2021-03-29 09:53:24 INFO  Base:22 - Create base with name: as
+2021-03-29 09:53:24 INFO  Base:28 - Create base with name: as
+2021-03-29 09:55:07 INFO  Decoration:26 - Create decoration with name: aas price: 3.0
+2021-03-29 09:55:07 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=7847c666-cb34-4ebf-b686-afe98429550e, name=aas, price=3.0) in decorationList
+2021-03-29 09:55:13 INFO  Decoration:26 - Create decoration with name: g price: 3.0
+2021-03-29 09:55:13 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=d8d28421-ff88-4d10-842f-5b9a5c39c2fb, name=g, price=3.0) in decorationList
+2021-03-29 09:56:14 INFO  Customer:24 - Create customer with lastname: fj firstname: fg
+2021-03-29 09:56:14 INFO  Cake:25 - Create cake with name: y price: 12.0 customer: Customer(lastName=fj, firstName=fg) base: Base(ID=31263e68-eefe-4fac-83a5-a38284b55f5f; name=as)
+2021-03-29 09:56:14 INFO  Cake:17 - Create CakeDecorator class
+2021-03-29 09:56:14 INFO  Cake:23 - Add Cake(name=y, price=12.0, customer=Customer(lastName=fj, firstName=fg), base=Base(ID=31263e68-eefe-4fac-83a5-a38284b55f5f; name=as)) with Decoration(ID=d8d28421-ff88-4d10-842f-5b9a5c39c2fb, name=g, price=3.0) in cakeDecorationList
+2021-03-29 09:56:14 INFO  Cake:23 - Add Cake(name=y, price=12.0, customer=Customer(lastName=fj, firstName=fg), base=Base(ID=31263e68-eefe-4fac-83a5-a38284b55f5f; name=as)) with Decoration(ID=7847c666-cb34-4ebf-b686-afe98429550e, name=aas, price=3.0) in cakeDecorationList
+2021-03-29 09:56:14 INFO  Base:28 - Create base with name: as
+2021-03-29 09:56:14 INFO  Customer:32 - Create customer with lastname: fj firstname: fg

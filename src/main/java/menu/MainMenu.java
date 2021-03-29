@@ -21,6 +21,7 @@ public class MainMenu implements Menu{
             if (number == 1) BaseMenu.showBaseMenu();
             if (number == 2) DecorationMenu.showDecorationMenu();
             if (number == 3) CharacteristicMenu.showCharacteristicMenu();
+            if (number == 4) CakeMenu.showCakeMenu();
             if (number == 5) exit();
         }
 

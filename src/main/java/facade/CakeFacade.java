@@ -5,6 +5,7 @@ import entities.*;
 import interfaces.Order;
 import repositoryimpl.CakeRepositoryImpl;
 
+import java.util.List;
 import java.util.UUID;
 
 public class CakeFacade {
@@ -70,6 +71,13 @@ public class CakeFacade {
     {
         cakeDecorator.addDecoration(decoration);
     }
+    public void addDecoration(List<Decoration> decorationList)
+    {
+        for (Decoration d : decorationList)
+        {
+            cakeDecorator.addDecoration(d);
+        }
+    }
     public void deleteDecoration(Decoration decoration)
     {
         cakeDecorator.deleteDecoration(decoration);
@@ -82,4 +90,5 @@ public class CakeFacade {
     {
         cakeDecorator.deleteCharacteristic(characteristic);
     }
+
 }

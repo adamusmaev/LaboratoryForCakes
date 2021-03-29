@@ -4,6 +4,7 @@ import entities.Decoration;
 import lombok.Getter;
 import repositoryimpl.DecorationRepositoryImpl;
 
+import java.util.List;
 import java.util.UUID;
 
 import static entities.Container.baseFacadeList;
@@ -61,5 +62,14 @@ public class DecorationFacade {
                 return df;
         }
         throw new IllegalArgumentException();
+    }
+    public static Float getPriceOfTheAllDecorations(List<Decoration> decorationList) {
+        if (decorationList.isEmpty()) return 0.0F;
+        Float tmp = 0.0F;
+        for (Decoration d : decorationList)
+        {
+            tmp = tmp+d.getPrice();
+        }
+        return tmp;
     }
 }

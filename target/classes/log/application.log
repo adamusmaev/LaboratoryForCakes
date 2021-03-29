@@ -35,3 +35,19 @@
 2021-03-28 22:31:00 INFO  Characteristic:35 - Create characteristic with name: Characteristic name subscriptionAnyway subscrition
 2021-03-28 22:31:00 INFO  CharacteristicRepositoryImpl:28 - Add Characteristic(ID=4579a131-cb1b-4e93-8ae1-fa181297f843name=Characteristic name, subscription=Anyway subscrition) in characteristicList
 2021-03-28 22:31:52 INFO  CharacteristicRepositoryImpl:53 - Update Characteristic(ID=4579a131-cb1b-4e93-8ae1-fa181297f843name=Characteristic name, subscription=Anyway subscrition) in characteristicList
+2021-03-28 22:33:13 INFO  Characteristic:26 - Create characteristic with name: as subscriptionas
+2021-03-28 22:33:13 INFO  Characteristic:35 - Create characteristic with name: as subscriptionas
+2021-03-28 22:33:13 INFO  CharacteristicRepositoryImpl:28 - Add Characteristic(ID=d068215c-7675-46eb-a2b2-84d698ac05b1name=as, subscription=as) in characteristicList
+2021-03-28 22:33:35 INFO  CharacteristicRepositoryImpl:53 - Update Characteristic(ID=d068215c-7675-46eb-a2b2-84d698ac05b1name=rt, subscription=rt) in characteristicList
+2021-03-28 22:34:03 INFO  Base:22 - Create base with name: name
+2021-03-28 22:34:03 INFO  Base:28 - Create base with name: name
+2021-03-29 09:25:16 INFO  Base:22 - Create base with name: as
+2021-03-29 09:25:16 INFO  Base:28 - Create base with name: as
+2021-03-29 09:26:20 INFO  Decoration:26 - Create decoration with name: qw price: 3.0
+2021-03-29 09:26:20 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=53a0b44d-b067-4cfb-8dc3-977cff51a780, name=qw, price=3.0) in decorationList
+2021-03-29 09:26:31 INFO  Decoration:26 - Create decoration with name: df price: 34.0
+2021-03-29 09:26:31 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=4e536453-9338-4b02-b69d-19d0182ee569, name=df, price=34.0) in decorationList
+2021-03-29 09:50:37 INFO  Base:22 - Create base with name: as
+2021-03-29 09:50:37 INFO  Base:28 - Create base with name: as
+2021-03-29 09:50:51 INFO  Decoration:26 - Create decoration with name: rf price: 4.0
+2021-03-29 09:50:51 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=00edbf57-467f-4901-8825-911cf6e7b7a2, name=rf, price=4.0) in decorationList
