@@ -492,3 +492,24 @@
 2021-03-31 14:02:08 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=59a31ce1-ef5a-4972-9dae-8b8668857262, name=decoration name, price=3.0) in decorationList
 2021-03-31 14:02:08 INFO  Decoration:26 - Create decoration with name: decoration name price: 3.0
 2021-03-31 14:02:08 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=fd599abc-8bef-4db2-88a4-4f17c573b762, name=decoration name, price=3.0) in decorationList
+2021-03-31 14:03:31 INFO  Decoration:26 - Create decoration with name: decoration name price: 3.0
+2021-03-31 14:03:31 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=7b19de50-4602-4093-9ca6-3d72d662fd71, name=decoration name, price=3.0) in decorationList
+2021-03-31 14:03:31 INFO  DecorationRepositoryImpl:40 - Delete Decoration(ID=7b19de50-4602-4093-9ca6-3d72d662fd71, name=decoration name, price=3.0) in decorationList
+2021-03-31 14:03:31 INFO  Decoration:26 - Create decoration with name: decoration name price: 3.0
+2021-03-31 14:03:31 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=2a5148c9-c0eb-4424-ae5b-61391ef8d125, name=decoration name, price=3.0) in decorationList
+2021-03-31 14:03:31 INFO  Decoration:26 - Create decoration with name: decoration name price: 3.0
+2021-03-31 14:03:31 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=23930b51-49b6-4758-9d13-43db32112889, name=decoration name, price=3.0) in decorationList
+2021-03-31 16:03:54 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-03-31 16:03:54 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-03-31 16:03:54 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-03-31 16:03:54 INFO  Characteristic:35 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-03-31 16:03:54 INFO  CharacteristicRepositoryImpl:28 - Add Characteristic(ID=9971051b-d721-4817-ab4e-ef8fae39ba84name=characteristic name, subscription=subscription) in characteristicList
+2021-03-31 16:03:54 INFO  CharacteristicRepositoryImpl:40 - Delete Characteristic(ID=9971051b-d721-4817-ab4e-ef8fae39ba84name=characteristic name, subscription=subscription) in characteristicList
+2021-03-31 16:03:54 INFO  CharacteristicRepositoryImpl:40 - Delete Characteristic(ID=9971051b-d721-4817-ab4e-ef8fae39ba84name=characteristic name, subscription=subscription) in characteristicList
+2021-03-31 16:03:54 INFO  Characteristic:35 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-03-31 16:03:54 INFO  CharacteristicRepositoryImpl:28 - Add Characteristic(ID=a404a6d4-405a-446a-b7aa-b68a4162666aname=characteristic name, subscription=subscription) in characteristicList
+2021-03-31 16:03:54 INFO  CharacteristicRepositoryImpl:40 - Delete Characteristic(ID=a404a6d4-405a-446a-b7aa-b68a4162666aname=characteristic name, subscription=subscription) in characteristicList
+2021-03-31 16:03:54 INFO  Characteristic:35 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-03-31 16:03:54 INFO  CharacteristicRepositoryImpl:28 - Add Characteristic(ID=83afa66a-7efe-466a-ad28-534eb8c31ab6name=characteristic name, subscription=subscription) in characteristicList
+2021-03-31 16:03:54 INFO  CharacteristicRepositoryImpl:53 - Update Characteristic(ID=83afa66a-7efe-466a-ad28-534eb8c31ab6name=new characteristic name, subscription=subscription) in characteristicList
+2021-03-31 16:03:54 INFO  CharacteristicRepositoryImpl:40 - Delete Characteristic(ID=83afa66a-7efe-466a-ad28-534eb8c31ab6name=new characteristic name, subscription=subscription) in characteristicList
