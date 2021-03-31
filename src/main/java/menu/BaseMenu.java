@@ -9,7 +9,7 @@ import java.util.UUID;
 
 import static entities.Container.baseList;
 
-public class BaseMenu implements Menu {
+public class BaseMenu {
 
 
     static public void showBaseMenu() {

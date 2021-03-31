@@ -1,12 +1,14 @@
 package facade;
 
 import entities.Customer;
+import lombok.Getter;
 import repositoryimpl.CustomerRepositoryImpl;
 
 import java.util.UUID;
 
 public class CustomerFacade {
 
+    @Getter
     private Customer customer;
     private CustomerRepositoryImpl customerRepository;
 

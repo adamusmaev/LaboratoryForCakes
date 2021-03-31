@@ -4,7 +4,7 @@ import repositoryimpl.BaseRepositoryImpl;
 
 import java.util.Scanner;
 
-public class MainMenu implements Menu{
+public class MainMenu{
 
     static public void showMainMenu()
     {
