@@ -17,8 +17,7 @@ import static entities.Container.cakeList;
 
 public class CakeMenu {
 
-    public static void showCakeMenu()
-    {
+    public static void showCakeMenu() {
         BaseFacade baseFacade;
         CakeRepositoryImpl cakeRepository = new CakeRepositoryImpl();
         List<Decoration> decorationList = new ArrayList<>();
@@ -26,33 +25,91 @@ public class CakeMenu {
         Scanner inFirstName = new Scanner(System.in);
         System.out.println("Enter your firstname:");
         String firstName = inFirstName.nextLine();
+        while (true) {
+            if (firstName.isEmpty()) {
+                System.out.println("Enter correctly firstname\n");
+                inFirstName = new Scanner(System.in);
+                firstName = inFirstName.nextLine();
+                continue;
+            }
+            break;
+        }
         Scanner inLastName = new Scanner(System.in);
         System.out.println("Enter your lastname:");
         String lastName = inLastName.nextLine();
-        Scanner inBaseId = new Scanner(System.in);
+        while (true) {
+            if (lastName.isEmpty()) {
+                System.out.println("Enter correctly lastname\n");
+                inLastName = new Scanner(System.in);
+                lastName = inLastName.nextLine();
+                continue;
+            }
+            break;
+        }
         Scanner inCakeName = new Scanner(System.in);
         System.out.println("Enter cake name:");
         String cakeName = inCakeName.nextLine();
+        while (true) {
+            if (cakeName.isEmpty()) {
+                System.out.println("Enter correctly cake name\n");
+                inCakeName = new Scanner(System.in);
+                cakeName = inCakeName.nextLine();
+                continue;
+            }
+            break;
+        }
         Scanner inCakePrice = new Scanner(System.in);
         System.out.println("Enter cake price:");
-        Float cakePrice = inCakePrice.nextFloat();
+        String cakePriceStr = inCakePrice.nextLine();
+        Float cakePrice = null;
+        while (true) {
+            if (cakePriceStr.isEmpty()) {
+                System.out.println("Enter correctly cake price\n");
+                inCakePrice = new Scanner(System.in);
+                cakePriceStr = inCakePrice.nextLine();
+                continue;
+            }
+            try {
+                cakePrice = Float.parseFloat(cakePriceStr);
+                break;
+            } catch (NumberFormatException ex) {
+                System.out.println("Enter correctly cake price\n");
+                inCakePrice = new Scanner(System.in);
+                cakePriceStr = inCakePrice.nextLine();
+                continue;
+            }
+        }
         System.out.println("Enter base id");
+        Scanner inBaseId = new Scanner(System.in);
         String baseId = inBaseId.nextLine();
-        baseFacade = BaseFacade.getBaseFacade(UUID.fromString(baseId));
-        while (true)
-        {
+        while (true) {
+            try {
+                baseFacade = BaseFacade.getBaseFacade(UUID.fromString(baseId));
+                break;
+            } catch (IllegalArgumentException ex) {
+                System.out.println("Id not found. Enter correctly base Id");
+                inBaseId = new Scanner(System.in);
+                baseId = inBaseId.nextLine();
+                continue;
+            }
+        }
+        while (true) {
             Scanner inDecorationId = new Scanner(System.in);
             System.out.println("Enter the decoration ID:");
             String decorationId = inDecorationId.nextLine();
             if (decorationId.isEmpty()) break;
-            else
-            {
-                DecorationFacade decorationFacade = DecorationFacade.getDecorationFacade(UUID.fromString(decorationId));
-                decorationList.add(decorationFacade.getDecoration());
+            else {
+                try {
+                    DecorationFacade decorationFacade = DecorationFacade.getDecorationFacade(UUID.fromString(decorationId));
+                    decorationList.add(decorationFacade.getDecoration());
+                } catch (IllegalArgumentException ex) {
+                    System.out.println("Id not found");
+                    continue;
+                }
             }
         }
         cakePrice = cakePrice + DecorationFacade.getPriceOfTheAllDecorations(decorationList);
-        Customer customer = new Customer(lastName,firstName);
+        Customer customer = new Customer(lastName, firstName);
         Cake cake = new Cake(cakeName, cakePrice, customer, baseFacade.getBase());
         CakeFacade cakeFacade = new CakeFacade(cake, cakeRepository);
         cakeFacade.addDecoration(decorationList);
@@ -60,8 +117,7 @@ public class CakeMenu {
         System.out.println(cakeList.toString());
     }
 
-    public static void exit()
-    {
+    public static void exit() {
         MainMenu.showMainMenu();
     }
 }

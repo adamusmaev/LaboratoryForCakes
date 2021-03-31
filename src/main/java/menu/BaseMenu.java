@@ -9,37 +9,37 @@ import java.util.UUID;
 
 import static entities.Container.baseList;
 
-public class BaseMenu implements Menu{
+public class BaseMenu implements Menu {
 
 
-
-    static public void showBaseMenu()
-    {
+    static public void showBaseMenu() {
         BaseRepositoryImpl baseRepository = new BaseRepositoryImpl();
-        while (true)
-        {
+        while (true) {
             Scanner in = new Scanner(System.in);
             System.out.println("Add new Base: 1");
             System.out.println("Remove base: 2");
             System.out.println("Update base: 3");
-            System.out.println("Find base by name: 4");
+            System.out.println("Find base by ID: 4");
             System.out.println("Show main menu: 5");
             int number = in.nextInt();
-            if (number == 1){
+            if (number == 1) {
                 Scanner inBaseName = new Scanner(System.in);
                 System.out.println("Enter the base name:");
                 String baseName = inBaseName.nextLine();
-                if (baseName.isEmpty())
-                {
-                    System.out.println("Enter correctly base name\n");
-                    continue;
+                while (true) {
+                    if (baseName.isEmpty()) {
+                        System.out.println("Enter correctly base name\n");
+                        inBaseName = new Scanner(System.in);
+                        baseName = inBaseName.nextLine();
+                        continue;
+                    }
+                    break;
                 }
                 Base base = new Base(baseName);
                 BaseFacade baseFacade = new BaseFacade(base, baseRepository);
                 baseFacade.addBase();
             }
-            if (number == 2)
-            {
+            if (number == 2) {
                 Scanner inBaseId = new Scanner(System.in);
                 System.out.println("Enter id");
                 String baseId = inBaseId.nextLine();
@@ -47,54 +47,61 @@ public class BaseMenu implements Menu{
                 try {
                     baseFacade = BaseFacade.getBaseFacade(UUID.fromString(baseId));
                     baseFacade.removeBase();
-                }
-                catch (IllegalArgumentException ex)
-                {
-                    System.out.println("ID not found"+"\n");
+                } catch (IllegalArgumentException ex) {
+                    System.out.println("ID not found" + "\n");
                 }
             }
-            if (number == 3)
-            {
+            if (number == 3) {
                 Scanner inBaseId = new Scanner(System.in);
                 System.out.println("Enter id");
                 String baseId = inBaseId.nextLine();
+                BaseFacade baseFacade = null;
+                try {
+                    baseFacade = BaseFacade.getBaseFacade(UUID.fromString(baseId));
+                } catch (IllegalArgumentException ex) {
+                    System.out.println("ID not found");
+                    continue;
+                }
                 System.out.println("Enter a new base name ");
                 Scanner inNameBase = new Scanner(System.in);
                 String newName = inNameBase.nextLine();
-                BaseFacade baseFacade;
-                try {
-                    baseFacade = BaseFacade.getBaseFacade(UUID.fromString(baseId));
+                while (true) {
+                    if (newName.isEmpty()) {
+                        System.out.println("Enter correctly new base name\n");
+                        inNameBase = new Scanner(System.in);
+                        newName = inNameBase.nextLine();
+                        continue;
+                    }
+                    break;
+                }
+                if (baseFacade != null) {
                     baseFacade.setName(newName);
                     baseFacade.updateBase();
                 }
-                catch (IllegalArgumentException ex) {
-                    System.out.println("ID not found");
-                }
             }
-            if (number == 4)
-            {
+            if (number == 4) {
                 Scanner inBaseId = new Scanner(System.in);
                 System.out.println("Enter id");
-                String baseId =inBaseId.nextLine();
-                if (baseId.isEmpty())
-                {
+                String baseId = inBaseId.nextLine();
+                if (baseId.isEmpty()) {
                     System.out.println(baseList);
+                    continue;
                 }
-                else
-                {
+                try {
                     BaseFacade baseFacade = BaseFacade.getBaseFacade(UUID.fromString(baseId));
                     System.out.println(baseFacade.getBase().toString());
+                } catch (IllegalArgumentException ex) {
+                    System.out.println("ID not found" + "\n");
+                    System.out.println(baseList);
                 }
             }
-            if (number == 5){
+            if (number == 5) {
                 exit();
             }
         }
-
     }
 
-    static public void exit()
-    {
+    static public void exit() {
         MainMenu.showMainMenu();
     }
 }

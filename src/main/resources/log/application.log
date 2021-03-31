@@ -371,3 +371,57 @@
 2021-03-29 19:32:37 INFO  Base:28 - Create base with name: 1
 2021-03-29 19:46:22 INFO  Base:22 - Create base with name: qw
 2021-03-29 19:46:22 INFO  Base:28 - Create base with name: qw
+2021-03-29 20:21:46 INFO  Base:22 - Create base with name: йувйцв
+2021-03-29 20:21:46 INFO  Base:28 - Create base with name: йувйцв
+2021-03-31 10:51:17 INFO  Base:22 - Create base with name: 5
+2021-03-31 10:51:17 INFO  Base:28 - Create base with name: 5
+2021-03-31 11:16:18 INFO  Decoration:26 - Create decoration with name: qew price: 3.0
+2021-03-31 11:16:18 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=ae3eae7b-5aba-4c25-b065-9f268ccc1d86, name=qew, price=3.0) in decorationList
+2021-03-31 11:20:41 INFO  Decoration:26 - Create decoration with name: 4 price: 4.0
+2021-03-31 11:20:41 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=2b4ff51d-471a-4d46-b147-cd0bc9d248de, name=4, price=4.0) in decorationList
+2021-03-31 11:23:37 INFO  Decoration:26 - Create decoration with name: 2 price: 2.0
+2021-03-31 11:23:37 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=e3bcdb38-e796-46cb-9330-5b32618bb8b4, name=2, price=2.0) in decorationList
+2021-03-31 11:28:16 INFO  Decoration:26 - Create decoration with name: asd price: 3.0
+2021-03-31 11:28:16 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=019b1b5a-5034-46d3-a59d-425e159930b3, name=asd, price=3.0) in decorationList
+2021-03-31 11:28:47 INFO  Decoration:26 - Create decoration with name: sd price: 3.4
+2021-03-31 11:28:47 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=2d23eddb-a126-405c-8640-a7b6dbd40f2e, name=sd, price=3.4) in decorationList
+2021-03-31 11:49:33 INFO  Decoration:26 - Create decoration with name: 1 price: 1.0
+2021-03-31 11:49:33 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=8e7455e1-a88e-4ffa-9d9b-fae8ac67a793, name=1, price=1.0) in decorationList
+2021-03-31 11:50:11 INFO  DecorationRepositoryImpl:53 - Update Decoration(ID=8e7455e1-a88e-4ffa-9d9b-fae8ac67a793, name=ц, price=3.2) in decorationList
+2021-03-31 11:55:10 INFO  Base:22 - Create base with name: asd
+2021-03-31 11:55:10 INFO  Base:28 - Create base with name: asd
+2021-03-31 11:57:20 INFO  Base:22 - Create base with name: asd
+2021-03-31 11:57:20 INFO  Base:28 - Create base with name: asd
+2021-03-31 12:42:36 INFO  Characteristic:26 - Create characteristic with name: asd subscriptionasd
+2021-03-31 12:42:36 INFO  Characteristic:35 - Create characteristic with name: asd subscriptionasd
+2021-03-31 12:42:36 INFO  CharacteristicRepositoryImpl:28 - Add Characteristic(ID=deb84d60-6768-4c1f-8a7b-4b628b64e4f1name=asd, subscription=asd) in characteristicList
+2021-03-31 12:44:32 INFO  Characteristic:26 - Create characteristic with name: asd subscriptiontyu
+2021-03-31 12:44:32 INFO  Characteristic:35 - Create characteristic with name: asd subscriptiontyu
+2021-03-31 12:44:32 INFO  CharacteristicRepositoryImpl:28 - Add Characteristic(ID=544ceea5-6761-4bdf-bfc6-41169d408bf7name=asd, subscription=tyu) in characteristicList
+2021-03-31 12:44:48 INFO  CharacteristicRepositoryImpl:40 - Delete Characteristic(ID=544ceea5-6761-4bdf-bfc6-41169d408bf7name=asd, subscription=tyu) in characteristicList
+2021-03-31 12:44:59 INFO  CharacteristicRepositoryImpl:53 - Update Characteristic(ID=544ceea5-6761-4bdf-bfc6-41169d408bf7name=asdfef, subscription=we) in characteristicList
+2021-03-31 13:02:32 INFO  Base:22 - Create base with name: фы
+2021-03-31 13:02:32 INFO  Base:28 - Create base with name: фы
+2021-03-31 13:05:04 INFO  Base:22 - Create base with name: asd
+2021-03-31 13:05:04 INFO  Base:28 - Create base with name: asd
+2021-03-31 13:08:31 INFO  Base:22 - Create base with name: asd
+2021-03-31 13:08:31 INFO  Base:28 - Create base with name: asd
+2021-03-31 13:13:06 INFO  Base:22 - Create base with name: qwe
+2021-03-31 13:13:06 INFO  Base:28 - Create base with name: qwe
+2021-03-31 13:13:28 INFO  Base:22 - Create base with name: asd
+2021-03-31 13:13:28 INFO  Base:28 - Create base with name: asd
+2021-03-31 13:13:40 INFO  Decoration:26 - Create decoration with name: asd price: 3.0
+2021-03-31 13:13:40 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=65455bc2-49d8-4bc1-93d9-982fba07bc3b, name=asd, price=3.0) in decorationList
+2021-03-31 13:13:48 INFO  Decoration:26 - Create decoration with name: asd price: 45.0
+2021-03-31 13:13:48 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=3b864090-726f-4f17-8dc4-dcfeeffe913d, name=asd, price=45.0) in decorationList
+2021-03-31 13:14:52 INFO  Customer:24 - Create customer with lastname: asd firstname: aasd
+2021-03-31 13:14:52 INFO  Cake:25 - Create cake with name: asd price: 34.0 customer: Customer(lastName=asd, firstName=aasd) base: Base(ID=44681f39-9756-4c5e-8167-bd1e8a5076b8; name=asd)
+2021-03-31 13:14:52 INFO  Cake:17 - Create CakeDecorator class
+2021-03-31 13:14:52 INFO  Base:28 - Create base with name: asd
+2021-03-31 13:14:52 INFO  Customer:32 - Create customer with lastname: asd firstname: aasd
+2021-03-31 13:15:48 INFO  Customer:24 - Create customer with lastname: as firstname: asd
+2021-03-31 13:15:48 INFO  Cake:25 - Create cake with name: asd price: 47.0 customer: Customer(lastName=as, firstName=asd) base: Base(ID=44681f39-9756-4c5e-8167-bd1e8a5076b8; name=asd)
+2021-03-31 13:15:48 INFO  Cake:17 - Create CakeDecorator class
+2021-03-31 13:15:48 INFO  Cake:23 - Add Cake(name=asd, price=47.0, customer=Customer(lastName=as, firstName=asd), base=Base(ID=44681f39-9756-4c5e-8167-bd1e8a5076b8; name=asd)) with Decoration(ID=3b864090-726f-4f17-8dc4-dcfeeffe913d, name=asd, price=45.0) in cakeDecorationList
+2021-03-31 13:15:48 INFO  Base:28 - Create base with name: asd
+2021-03-31 13:15:48 INFO  Customer:32 - Create customer with lastname: as firstname: asd

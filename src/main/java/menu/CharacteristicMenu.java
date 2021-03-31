@@ -21,7 +21,7 @@ public class CharacteristicMenu {
             System.out.println("Add new characteristic: 1");
             System.out.println("Remove characteristic: 2");
             System.out.println("Update characteristic: 3");
-            System.out.println("Find characteristic by name: 4");
+            System.out.println("Find characteristic by ID: 4");
             System.out.println("Show main menu: 5");
             int number = in.nextInt();
             if (number == 1)
@@ -29,18 +29,26 @@ public class CharacteristicMenu {
                 Scanner inCharacteristic = new Scanner(System.in);
                 System.out.println("Enter the characteristic name:");
                 String characteristicName = inCharacteristic.nextLine();
-                if (characteristicName.isEmpty())
-                {
-                    System.out.println("Enter correctly characteristic name\n");
-                    continue;
+                while (true) {
+                    if (characteristicName.isEmpty()) {
+                        System.out.println("Enter correctly characteristic name\n");
+                        inCharacteristic = new Scanner(System.in);
+                        characteristicName = inCharacteristic.nextLine();
+                        continue;
+                    }
+                    break;
                 }
                 Scanner inCharacteristicSubscription = new Scanner(System.in);
                 System.out.println("Enter the characteristic subscription:");
                 String characteristicSubscription = inCharacteristicSubscription.nextLine();
-                if (characteristicSubscription.isEmpty())
-                {
-                    System.out.println("Enter correctly characteristic subscription");
-                    continue;
+                while (true) {
+                    if (characteristicSubscription.isEmpty()) {
+                        System.out.println("Enter correctly subscription\n");
+                        inCharacteristicSubscription = new Scanner(System.in);
+                        characteristicSubscription = inCharacteristicSubscription.nextLine();
+                        continue;
+                    }
+                    break;
                 }
                 Characteristic characteristic = new Characteristic(characteristicName, characteristicSubscription);
                 CharacteristicFacade characteristicFacade = new CharacteristicFacade(characteristic, characteristicRepository);
@@ -51,20 +59,56 @@ public class CharacteristicMenu {
                 Scanner inCharacteristicID = new Scanner(System.in);
                 System.out.println("Enter id");
                 String characteristicID = inCharacteristicID.nextLine();
-                CharacteristicFacade characteristicFacade = CharacteristicFacade.getCharacteristicFacade(UUID.fromString(characteristicID));
-                characteristicFacade.removeCharacteristic();
+                try
+                {
+                    CharacteristicFacade characteristicFacade = CharacteristicFacade.getCharacteristicFacade(UUID.fromString(characteristicID));
+                    characteristicFacade.removeCharacteristic();
+                }
+                catch (IllegalArgumentException ex)
+                {
+                    System.out.println("ID not found");
+                    continue;
+                }
             }
             if (number == 3)
             {
                 Scanner inCharacteristicID = new Scanner(System.in);
                 System.out.println("Enter id");
                 String characteristicID = inCharacteristicID.nextLine();
+                try
+                {
+                    CharacteristicFacade characteristicFacade = CharacteristicFacade.getCharacteristicFacade(UUID.fromString(characteristicID));
+                    characteristicFacade.removeCharacteristic();
+                }
+                catch (IllegalArgumentException ex)
+                {
+                    System.out.println("ID not found");
+                    continue;
+                }
                 Scanner inCharacteristicName = new Scanner(System.in);
                 System.out.println("Enter a new characteristic name");
                 String characteristicName = inCharacteristicName.nextLine();
+                while (true) {
+                    if (characteristicName.isEmpty()) {
+                        System.out.println("Enter correctly characteristic name\n");
+                        inCharacteristicName = new Scanner(System.in);
+                        characteristicName = inCharacteristicName.nextLine();
+                        continue;
+                    }
+                    break;
+                }
                 Scanner inCharacteristicSubscription = new Scanner(System.in);
                 System.out.println("Enter a new characteristic subscription");
                 String characteristicSubscription = inCharacteristicSubscription.nextLine();
+                while (true) {
+                    if (characteristicSubscription.isEmpty()) {
+                        System.out.println("Enter correctly csubscription\n");
+                        inCharacteristicSubscription = new Scanner(System.in);
+                        characteristicSubscription = inCharacteristicSubscription.nextLine();
+                        continue;
+                    }
+                    break;
+                }
                 CharacteristicFacade characteristicFacade = CharacteristicFacade.getCharacteristicFacade(UUID.fromString(characteristicID));
                 characteristicFacade.setCharacteristicName(characteristicName);
                 characteristicFacade.setCharacteristicSubscription(characteristicSubscription);
@@ -79,10 +123,14 @@ public class CharacteristicMenu {
                 {
                     System.out.println(characteristicList);
                 }
-                else
-                {
+                try {
                     CharacteristicFacade characteristicFacade = CharacteristicFacade.getCharacteristicFacade(UUID.fromString(characteristicID));
-                    System.out.println(characteristicFacade.getCharacteristic());
+                    System.out.println(characteristicFacade.getCharacteristic().toString());
+                }
+                catch (IllegalArgumentException ex)
+                {
+                    System.out.println("Id not found");
+                    System.out.println(characteristicList);
                 }
             }
             if (number == 5) exit();
