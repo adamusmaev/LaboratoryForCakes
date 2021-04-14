@@ -16,21 +16,13 @@ public class BaseMenu {
         BaseRepositoryImpl baseRepository = new BaseRepositoryImpl();
         while (true) {
             Scanner in = new Scanner(System.in);
-            System.out.println("Add new Base: 1");
-            System.out.println("Remove base: 2");
-            System.out.println("Update base: 3");
-            System.out.println("Find base by ID: 4");
-            System.out.println("Show main menu: 5");
+            MainMenu.printMenu("Base");
             int number = in.nextInt();
             if (number == 1) {
-                Scanner inBaseName = new Scanner(System.in);
-                System.out.println("Enter the base name:");
-                String baseName = inBaseName.nextLine();
+                String baseName = MainMenu.readUserMessage("Enter the base name:");
                 while (true) {
                     if (baseName.isEmpty()) {
-                        System.out.println("Enter correctly base name\n");
-                        inBaseName = new Scanner(System.in);
-                        baseName = inBaseName.nextLine();
+                        baseName = MainMenu.readUserMessage("Enter correctly base name\n");
                         continue;
                     }
                     break;
@@ -40,9 +32,7 @@ public class BaseMenu {
                 baseFacade.addBase();
             }
             if (number == 2) {
-                Scanner inBaseId = new Scanner(System.in);
-                System.out.println("Enter id");
-                String baseId = inBaseId.nextLine();
+                String baseId = MainMenu.readUserMessage("Enter id");
                 BaseFacade baseFacade;
                 try {
                     baseFacade = BaseFacade.getBaseFacade(UUID.fromString(baseId));
@@ -52,9 +42,7 @@ public class BaseMenu {
                 }
             }
             if (number == 3) {
-                Scanner inBaseId = new Scanner(System.in);
-                System.out.println("Enter id");
-                String baseId = inBaseId.nextLine();
+                String baseId = MainMenu.readUserMessage("Enter id");
                 BaseFacade baseFacade = null;
                 try {
                     baseFacade = BaseFacade.getBaseFacade(UUID.fromString(baseId));
@@ -62,14 +50,10 @@ public class BaseMenu {
                     System.out.println("ID not found");
                     continue;
                 }
-                System.out.println("Enter a new base name ");
-                Scanner inNameBase = new Scanner(System.in);
-                String newName = inNameBase.nextLine();
+                String newName = MainMenu.readUserMessage("Enter a new base name ");
                 while (true) {
                     if (newName.isEmpty()) {
-                        System.out.println("Enter correctly new base name\n");
-                        inNameBase = new Scanner(System.in);
-                        newName = inNameBase.nextLine();
+                        newName = MainMenu.readUserMessage("Enter correctly new base name\n");
                         continue;
                     }
                     break;
@@ -80,9 +64,7 @@ public class BaseMenu {
                 }
             }
             if (number == 4) {
-                Scanner inBaseId = new Scanner(System.in);
-                System.out.println("Enter id");
-                String baseId = inBaseId.nextLine();
+                String baseId = MainMenu.readUserMessage("Enter id");
                 if (baseId.isEmpty()) {
                     System.out.println(baseList);
                     continue;

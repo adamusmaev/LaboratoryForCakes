@@ -515,3 +515,14 @@
 2021-03-31 16:03:54 INFO  CharacteristicRepositoryImpl:40 - Delete Characteristic(ID=83afa66a-7efe-466a-ad28-534eb8c31ab6name=new characteristic name, subscription=subscription) in characteristicList
 2021-03-31 16:05:51 INFO  Base:22 - Create base with name: фыфыа
 2021-03-31 16:05:51 INFO  Base:28 - Create base with name: фыфыа
+2021-03-31 17:18:02 INFO  Base:22 - Create base with name: base name
+2021-03-31 17:18:02 INFO  Base:28 - Create base with name: base name
+2021-04-14 07:01:03 INFO  Base:22 - Create base with name: asd
+2021-04-14 07:01:03 INFO  Base:28 - Create base with name: asd
+2021-04-14 07:04:49 INFO  Base:22 - Create base with name: ws
+2021-04-14 07:04:49 INFO  Base:28 - Create base with name: ws
+2021-04-14 07:13:12 INFO  Characteristic:26 - Create characteristic with name: asd subscriptionasdd
+2021-04-14 07:13:12 INFO  Characteristic:35 - Create characteristic with name: asd subscriptionasdd
+2021-04-14 07:13:12 INFO  CharacteristicRepositoryImpl:28 - Add Characteristic(ID=88b8d76d-dd20-494e-b3c4-c46e93e660cbname=asd, subscription=asdd) in characteristicList
+2021-04-14 07:15:03 INFO  Base:22 - Create base with name: q
+2021-04-14 07:15:03 INFO  Base:28 - Create base with name: q

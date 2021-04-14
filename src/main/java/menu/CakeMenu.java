@@ -22,81 +22,58 @@ public class CakeMenu {
         CakeRepositoryImpl cakeRepository = new CakeRepositoryImpl();
         List<Decoration> decorationList = new ArrayList<>();
 
-        Scanner inFirstName = new Scanner(System.in);
-        System.out.println("Enter your firstname:");
-        String firstName = inFirstName.nextLine();
+
+        String firstName = MainMenu.readUserMessage("Enter your firstname:");
         while (true) {
             if (firstName.isEmpty()) {
-                System.out.println("Enter correctly firstname\n");
-                inFirstName = new Scanner(System.in);
-                firstName = inFirstName.nextLine();
+                firstName = MainMenu.readUserMessage("Enter correctly firstname\n");
                 continue;
             }
             break;
         }
-        Scanner inLastName = new Scanner(System.in);
-        System.out.println("Enter your lastname:");
-        String lastName = inLastName.nextLine();
+        String lastName = MainMenu.readUserMessage("Enter your lastname:");
         while (true) {
             if (lastName.isEmpty()) {
-                System.out.println("Enter correctly lastname\n");
-                inLastName = new Scanner(System.in);
-                lastName = inLastName.nextLine();
+                lastName = MainMenu.readUserMessage("Enter correctly lastname\n");
                 continue;
             }
             break;
         }
-        Scanner inCakeName = new Scanner(System.in);
-        System.out.println("Enter cake name:");
-        String cakeName = inCakeName.nextLine();
+        String cakeName = MainMenu.readUserMessage("Enter cake name:");
         while (true) {
             if (cakeName.isEmpty()) {
-                System.out.println("Enter correctly cake name\n");
-                inCakeName = new Scanner(System.in);
-                cakeName = inCakeName.nextLine();
+                cakeName = MainMenu.readUserMessage("Enter correctly cake name\n");
                 continue;
             }
             break;
         }
-        Scanner inCakePrice = new Scanner(System.in);
-        System.out.println("Enter cake price:");
-        String cakePriceStr = inCakePrice.nextLine();
+        String cakePriceStr = MainMenu.readUserMessage("Enter cake price:");
         Float cakePrice = null;
         while (true) {
             if (cakePriceStr.isEmpty()) {
-                System.out.println("Enter correctly cake price\n");
-                inCakePrice = new Scanner(System.in);
-                cakePriceStr = inCakePrice.nextLine();
+                cakePriceStr = MainMenu.readUserMessage("Enter correctly cake price\n");
                 continue;
             }
             try {
                 cakePrice = Float.parseFloat(cakePriceStr);
                 break;
             } catch (NumberFormatException ex) {
-                System.out.println("Enter correctly cake price\n");
-                inCakePrice = new Scanner(System.in);
-                cakePriceStr = inCakePrice.nextLine();
+                cakePriceStr = MainMenu.readUserMessage("Enter correctly cake price\n");
                 continue;
             }
         }
-        System.out.println("Enter base id");
-        Scanner inBaseId = new Scanner(System.in);
-        String baseId = inBaseId.nextLine();
+        String baseId = MainMenu.readUserMessage("Enter base id");
         while (true) {
             try {
                 baseFacade = BaseFacade.getBaseFacade(UUID.fromString(baseId));
                 break;
             } catch (IllegalArgumentException ex) {
-                System.out.println("Id not found. Enter correctly base Id");
-                inBaseId = new Scanner(System.in);
-                baseId = inBaseId.nextLine();
+                baseId = MainMenu.readUserMessage("Id not found. Enter correctly base Id");
                 continue;
             }
         }
         while (true) {
-            Scanner inDecorationId = new Scanner(System.in);
-            System.out.println("Enter the decoration ID:");
-            String decorationId = inDecorationId.nextLine();
+            String decorationId = MainMenu.readUserMessage("Enter the decoration ID:");
             if (decorationId.isEmpty()) break;
             else {
                 try {

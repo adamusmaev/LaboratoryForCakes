@@ -18,43 +18,29 @@ public class DecorationMenu {
         DecorationRepositoryImpl decorationRepository = new DecorationRepositoryImpl();
         while (true) {
             Scanner in = new Scanner(System.in);
-            System.out.println("Add new decoration: 1");
-            System.out.println("Remove decoration: 2");
-            System.out.println("Update decoration: 3");
-            System.out.println("Find decoration by ID: 4");
-            System.out.println("Show main menu: 5");
+            MainMenu.printMenu("Decoration");
             int number = in.nextInt();
             if (number == 1) {
-                Scanner inDecorationName = new Scanner(System.in);
-                System.out.println("Enter the decoration name:");
-                String decorationName = inDecorationName.nextLine();
+                String decorationName = MainMenu.readUserMessage("Enter the decoration name:");
                 while (true) {
                     if (decorationName.isEmpty()) {
-                        System.out.println("Enter correctly decoration name\n");
-                        inDecorationName = new Scanner(System.in);
-                        decorationName = inDecorationName.nextLine();
+                        decorationName = MainMenu.readUserMessage("Enter correctly decoration name\n");
                         continue;
                     }
                     break;
                 }
-                Scanner inDecorationPrice = new Scanner(System.in);
-                System.out.println("Enter the decoration price:");
-                String decorationPriceStr = inDecorationPrice.nextLine();
+                String decorationPriceStr = MainMenu.readUserMessage("Enter the decoration price:");
                 Float decorationPrice = null;
                 while (true) {
                     if (decorationPriceStr.isEmpty()) {
-                        System.out.println("Enter correctly decoration price\n");
-                        inDecorationPrice = new Scanner(System.in);
-                        decorationPriceStr = inDecorationPrice.nextLine();
+                        decorationPriceStr = MainMenu.readUserMessage("Enter correctly decoration price\n");
                         continue;
                     }
                     try {
                         decorationPrice = Float.parseFloat(decorationPriceStr);
                         break;
                     } catch (NumberFormatException ex) {
-                        System.out.println("Enter correctly decoration price\n");
-                        inDecorationPrice = new Scanner(System.in);
-                        decorationPriceStr = inDecorationPrice.nextLine();
+                        decorationPriceStr = MainMenu.readUserMessage("Enter correctly decoration price\n");
                         continue;
                     }
                 }
@@ -63,9 +49,7 @@ public class DecorationMenu {
                 decorationFacade.addDecoration();
             }
             if (number == 2) {
-                Scanner inDecorationId = new Scanner(System.in);
-                System.out.println("Enter the decoration ID:");
-                String decorationId = inDecorationId.nextLine();
+                String decorationId = MainMenu.readUserMessage("Enter the decoration ID:");
                 try {
                     DecorationFacade decorationFacade = DecorationFacade.getDecorationFacade(UUID.fromString(decorationId));
                     decorationFacade.removeDecoration();
@@ -75,48 +59,34 @@ public class DecorationMenu {
 
             }
             if (number == 3) {
-                Scanner inDecorationId = new Scanner(System.in);
-                System.out.println("Enter the decoration ID:");
-                String decorationId = inDecorationId.nextLine();
+                String decorationId = MainMenu.readUserMessage("Enter the decoration ID:");
                 DecorationFacade decorationFacade;
                 try {
                     decorationFacade = DecorationFacade.getDecorationFacade(UUID.fromString(decorationId));
-                }
-                catch (IllegalArgumentException ex)
-                {
+                } catch (IllegalArgumentException ex) {
                     System.out.println("ID not found");
                     continue;
                 }
-                Scanner inNewDecorationName = new Scanner(System.in);
-                System.out.println("Enter the new decoration name:");
-                String newDecorationName = inNewDecorationName.nextLine();
+                String newDecorationName = MainMenu.readUserMessage("Enter the new decoration name:");
                 while (true) {
                     if (newDecorationName.isEmpty()) {
-                        System.out.println("Enter correctly decoration name\n");
-                        inNewDecorationName = new Scanner(System.in);
-                        newDecorationName = inNewDecorationName.nextLine();
+                        newDecorationName = MainMenu.readUserMessage("Enter correctly decoration name\n");
                         continue;
                     }
                     break;
                 }
-                Scanner inNewDecorationPrice = new Scanner(System.in);
-                System.out.println("Enter the new decoration price:");
-                String decorationPriceStr = inNewDecorationPrice.nextLine();
+                String decorationPriceStr = MainMenu.readUserMessage("Enter the new decoration price:");
                 Float decorationPrice = null;
                 while (true) {
                     if (decorationPriceStr.isEmpty()) {
-                        System.out.println("Enter correctly decoration price\n");
-                        inNewDecorationPrice = new Scanner(System.in);
-                        decorationPriceStr = inNewDecorationPrice.nextLine();
+                        decorationPriceStr = MainMenu.readUserMessage("Enter correctly decoration price\n");
                         continue;
                     }
                     try {
                         decorationPrice = Float.parseFloat(decorationPriceStr);
                         break;
                     } catch (NumberFormatException ex) {
-                        System.out.println("Enter correctly decoration price\n");
-                        inNewDecorationPrice = new Scanner(System.in);
-                        decorationPriceStr = inNewDecorationPrice.nextLine();
+                        decorationPriceStr = MainMenu.readUserMessage("Enter correctly decoration price\n");
                         continue;
                     }
                 }
@@ -125,9 +95,7 @@ public class DecorationMenu {
                 decorationFacade.updateDecoration();
             }
             if (number == 4) {
-                Scanner inDecorationId = new Scanner(System.in);
-                System.out.println("Enter the decoration ID:");
-                String decorationId = inDecorationId.nextLine();
+                String decorationId = MainMenu.readUserMessage("Enter the decoration ID:");
                 if (decorationId.isEmpty()) {
                     System.out.println(decorationList);
                     continue;

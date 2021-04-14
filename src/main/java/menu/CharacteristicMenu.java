@@ -2,8 +2,6 @@ package menu;
 
 import entities.Characteristic;
 import facade.CharacteristicFacade;
-import facade.CustomerFacade;
-import repositoryimpl.CakeRepositoryImpl;
 import repositoryimpl.CharacteristicRepositoryImpl;
 
 import java.util.Scanner;
@@ -18,34 +16,22 @@ public class CharacteristicMenu {
         while (true)
         {
             Scanner in = new Scanner(System.in);
-            System.out.println("Add new characteristic: 1");
-            System.out.println("Remove characteristic: 2");
-            System.out.println("Update characteristic: 3");
-            System.out.println("Find characteristic by ID: 4");
-            System.out.println("Show main menu: 5");
+            MainMenu.printMenu("Characteristic");
             int number = in.nextInt();
             if (number == 1)
             {
-                Scanner inCharacteristic = new Scanner(System.in);
-                System.out.println("Enter the characteristic name:");
-                String characteristicName = inCharacteristic.nextLine();
+                String characteristicName = MainMenu.readUserMessage("Enter the characteristic name:");
                 while (true) {
                     if (characteristicName.isEmpty()) {
-                        System.out.println("Enter correctly characteristic name\n");
-                        inCharacteristic = new Scanner(System.in);
-                        characteristicName = inCharacteristic.nextLine();
+                        characteristicName = MainMenu.readUserMessage("Enter correctly characteristic name\n");
                         continue;
                     }
                     break;
                 }
-                Scanner inCharacteristicSubscription = new Scanner(System.in);
-                System.out.println("Enter the characteristic subscription:");
-                String characteristicSubscription = inCharacteristicSubscription.nextLine();
+                String characteristicSubscription = MainMenu.readUserMessage("Enter the characteristic subscription:");
                 while (true) {
                     if (characteristicSubscription.isEmpty()) {
-                        System.out.println("Enter correctly subscription\n");
-                        inCharacteristicSubscription = new Scanner(System.in);
-                        characteristicSubscription = inCharacteristicSubscription.nextLine();
+                        characteristicSubscription = MainMenu.readUserMessage("Enter correctly subscription\n");
                         continue;
                     }
                     break;
@@ -56,9 +42,7 @@ public class CharacteristicMenu {
             }
             if (number == 2)
             {
-                Scanner inCharacteristicID = new Scanner(System.in);
-                System.out.println("Enter id");
-                String characteristicID = inCharacteristicID.nextLine();
+                String characteristicID = MainMenu.readUserMessage("Enter id");
                 try
                 {
                     CharacteristicFacade characteristicFacade = CharacteristicFacade.getCharacteristicFacade(UUID.fromString(characteristicID));
@@ -72,9 +56,7 @@ public class CharacteristicMenu {
             }
             if (number == 3)
             {
-                Scanner inCharacteristicID = new Scanner(System.in);
-                System.out.println("Enter id");
-                String characteristicID = inCharacteristicID.nextLine();
+                String characteristicID = MainMenu.readUserMessage("Enter id");
                 try
                 {
                     CharacteristicFacade characteristicFacade = CharacteristicFacade.getCharacteristicFacade(UUID.fromString(characteristicID));
@@ -85,26 +67,19 @@ public class CharacteristicMenu {
                     System.out.println("ID not found");
                     continue;
                 }
-                Scanner inCharacteristicName = new Scanner(System.in);
-                System.out.println("Enter a new characteristic name");
-                String characteristicName = inCharacteristicName.nextLine();
+
+                String characteristicName = MainMenu.readUserMessage("Enter a new characteristic name");
                 while (true) {
                     if (characteristicName.isEmpty()) {
-                        System.out.println("Enter correctly characteristic name\n");
-                        inCharacteristicName = new Scanner(System.in);
-                        characteristicName = inCharacteristicName.nextLine();
+                        characteristicName = MainMenu.readUserMessage("Enter correctly characteristic name\n");
                         continue;
                     }
                     break;
                 }
-                Scanner inCharacteristicSubscription = new Scanner(System.in);
-                System.out.println("Enter a new characteristic subscription");
-                String characteristicSubscription = inCharacteristicSubscription.nextLine();
+                String characteristicSubscription = MainMenu.readUserMessage("Enter a new characteristic subscription");
                 while (true) {
                     if (characteristicSubscription.isEmpty()) {
-                        System.out.println("Enter correctly csubscription\n");
-                        inCharacteristicSubscription = new Scanner(System.in);
-                        characteristicSubscription = inCharacteristicSubscription.nextLine();
+                        characteristicSubscription = MainMenu.readUserMessage("Enter correctly subscription\n");
                         continue;
                     }
                     break;
@@ -116,12 +91,11 @@ public class CharacteristicMenu {
             }
             if (number == 4)
             {
-                Scanner inCharacteristicID = new Scanner(System.in);
-                System.out.println("Enter id");
-                String characteristicID = inCharacteristicID.nextLine();
+                String characteristicID = MainMenu.readUserMessage("Enter id");
                 if (characteristicID.isEmpty())
                 {
                     System.out.println(characteristicList);
+                    continue;
                 }
                 try {
                     CharacteristicFacade characteristicFacade = CharacteristicFacade.getCharacteristicFacade(UUID.fromString(characteristicID));
