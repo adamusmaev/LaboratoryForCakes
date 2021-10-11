@@ -4,17 +4,19 @@ import entities.Characteristic;
 import junit.framework.TestCase;
 import org.junit.After;
 import org.junit.Test;
+import org.mockito.Mockito;
 import repositoryimpl.CharacteristicRepositoryImpl;
 
 import static entities.Container.characteristicList;
 
 public class CharacteristicFacadeTest extends TestCase {
-    CharacteristicRepositoryImpl characteristicRepository = new CharacteristicRepositoryImpl();
+
+    CharacteristicRepositoryImpl characteristicRepository = Mockito.mock(CharacteristicRepositoryImpl.class);
     Characteristic characteristic = new Characteristic("characteristic name", "subscription");
     CharacteristicFacade characteristicFacade = new CharacteristicFacade(characteristic, characteristicRepository);
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown() {
         characteristicFacade.removeCharacteristic();
     }
 
@@ -22,13 +24,6 @@ public class CharacteristicFacadeTest extends TestCase {
     public void testAddCharacteristic() {
         characteristicFacade.addCharacteristic();
         assertEquals(characteristic, characteristicFacade.getCharacteristic());
-    }
-
-    @Test
-    public void testRemoveCharacteristic() {
-        characteristicFacade.addCharacteristic();
-        characteristicFacade.removeCharacteristic();
-        assertEquals(true, characteristicList.isEmpty());
     }
 
     @Test

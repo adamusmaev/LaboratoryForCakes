@@ -2,32 +2,33 @@ package facade;
 
 import entities.Decoration;
 import junit.framework.TestCase;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.mockito.Mockito;
 import repositoryimpl.DecorationRepositoryImpl;
 
 import static entities.Container.decorationList;
 
 public class DecorationFacadeTest extends TestCase {
 
-    DecorationRepositoryImpl decorationRepository = new DecorationRepositoryImpl();
+    DecorationRepositoryImpl decorationRepository = Mockito.mock(DecorationRepositoryImpl.class);
     DecorationFacade decorationFacade;
     Decoration decoration;
+    Decoration decorationMockito;
 
     @Before
     public void setUp() throws Exception {
         decoration = new Decoration("decoration name", 3F);
-        decorationFacade = new DecorationFacade(decoration, decorationRepository);
+        decorationMockito = Mockito.spy(decoration);
+        decorationFacade = new DecorationFacade(decorationMockito, decorationRepository);
     }
 
-    public void tearDown() throws Exception {
-
-    }
 
     @Test
     public void testAddDecoration() {
         decorationFacade.addDecoration();
-        assertEquals(decoration, decorationFacade.getDecoration());
+        assertEquals(decorationMockito, decorationFacade.getDecoration());
     }
 
     @Test

@@ -5,36 +5,28 @@ import junit.framework.TestCase;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.mockito.Mockito;
 import repositoryimpl.CustomerRepositoryImpl;
 
 import static entities.Container.customerList;
 
 public class CustomerFacadeTest extends TestCase {
-    CustomerRepositoryImpl customerRepository = new CustomerRepositoryImpl();
-    CustomerFacade customerFacade;
-    Customer customer;
+    CustomerRepositoryImpl customerRepository = Mockito.mock(CustomerRepositoryImpl.class);
+    Customer customer = new Customer("Lastname", "Firstname");
+    CustomerFacade customerFacade = new CustomerFacade(customer, customerRepository);
 
     @Before
-    public void setUp() throws Exception {
-       customer = new Customer("Lastname", "Firstname");
-       customerFacade = new CustomerFacade(customer, customerRepository);
+    public void setUp() {
     }
 
     @After
-    public void tearDown() throws Exception {
+    public void tearDown() {
     }
 
     @Test
     public void testAddCustomer() {
         customerFacade.addCustomer();
         assertEquals(customer, customerFacade.getCustomer());
-    }
-
-    @Test
-    public void testRemoveCustomer() {
-        customerFacade.addCustomer();
-        customerFacade.removeCustomer();
-        assertEquals(true, customerList.isEmpty());
     }
 
     @Test
