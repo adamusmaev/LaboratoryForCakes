@@ -22,6 +22,7 @@ public class Decoration extends Entity {
     public Decoration(String name, Float price)
     {
         this.name = name;
+        if (price <= 0) throw new IllegalArgumentException("The price cannot be less than zero");
         this.price = price;
         logger.info("Create decoration with name: " + name +
                 " price: " + price);

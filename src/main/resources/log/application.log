@@ -4737,3 +4737,657 @@
 2021-10-12 13:33:36 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
 2021-10-12 13:33:36 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
 2021-10-12 13:33:36 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=ac62bad9-1e2b-4957-903d-91793f7d7482name=ch, subscription=ch) in characteristicList
+2021-10-12 13:54:06 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:54:06 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:54:06 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=25026c1e-592d-4256-88b1-b2fb989948f7name=ch, subscription=ch) in characteristicList
+2021-10-12 13:57:54 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:57:54 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:57:54 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:57:54 INFO  CharacteristicRepositoryImpl:47 - Update Characteristic(ID=7706c9d7-23d2-468f-adca-9d55ff5e8987name=new Name, subscription=ch) in characteristicList
+2021-10-12 13:57:54 ERROR CharacteristicRepositoryImpl:20 - This id: 7706c9d7-23d2-468f-adca-9d55ff5e8987 not found
+2021-10-12 13:57:54 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:57:54 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:57:54 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=647edc9e-431c-4ceb-ae04-3019849aefecname=ch, subscription=ch) in characteristicList
+2021-10-12 13:58:34 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:58:34 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:58:34 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=1889b6b1-dc23-4225-860f-6436ba0d2fecname=ch, subscription=ch) in characteristicList
+2021-10-12 13:58:34 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:58:34 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:58:34 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=e6e945d4-4118-4c08-9755-3c0cf87b0e3bname=ch, subscription=ch) in characteristicList
+2021-10-12 13:58:34 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:58:34 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:58:34 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=cd6c4d1d-e407-4dee-80df-dbc964b6866dname=ch, subscription=ch) in characteristicList
+2021-10-12 13:58:34 INFO  CharacteristicRepositoryImpl:47 - Update Characteristic(ID=cd6c4d1d-e407-4dee-80df-dbc964b6866dname=new Name, subscription=ch) in characteristicList
+2021-10-12 13:58:34 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:58:34 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:58:34 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=3d289ae2-e49b-4061-903b-47d219e8180aname=ch, subscription=ch) in characteristicList
+2021-10-12 13:58:34 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:58:34 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=3d289ae2-e49b-4061-903b-47d219e8180aname=ch, subscription=ch) in characteristicList
+2021-10-12 13:59:53 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:59:53 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:59:53 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=afd59315-0bf2-4c6d-b350-b10817ef658cname=ch, subscription=ch) in characteristicList
+2021-10-12 13:59:53 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:59:53 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:59:53 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=f9b7eb27-ab3b-49c2-93c9-57ef4a64c064name=ch, subscription=ch) in characteristicList
+2021-10-12 13:59:53 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:59:53 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:59:53 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=8116fd0d-d3f0-49cf-b44d-77d66c22b04aname=ch, subscription=ch) in characteristicList
+2021-10-12 13:59:53 INFO  CharacteristicRepositoryImpl:47 - Update Characteristic(ID=8116fd0d-d3f0-49cf-b44d-77d66c22b04aname=new Name, subscription=ch) in characteristicList
+2021-10-12 13:59:53 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:59:53 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:59:53 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=a9924d34-f506-481f-a215-1a6e2bca843bname=ch, subscription=ch) in characteristicList
+2021-10-12 13:59:53 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 13:59:53 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=a9924d34-f506-481f-a215-1a6e2bca843bname=ch, subscription=ch) in characteristicList
+2021-10-12 14:00:20 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:00:20 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:00:20 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=89d3d56d-aec4-4611-9c8b-08d28db92a91name=ch, subscription=ch) in characteristicList
+2021-10-12 14:00:20 INFO  CharacteristicRepositoryImpl:36 - Delete Characteristic(ID=89d3d56d-aec4-4611-9c8b-08d28db92a91name=ch, subscription=ch) in characteristicList
+2021-10-12 14:00:20 ERROR CharacteristicRepositoryImpl:20 - This id: 89d3d56d-aec4-4611-9c8b-08d28db92a91 not found
+2021-10-12 14:00:20 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:00:20 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:00:20 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=4ead55da-0d9b-4fcc-9598-2479a80d5cbfname=ch, subscription=ch) in characteristicList
+2021-10-12 14:00:20 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:00:20 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:00:20 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=6396f05e-e5c8-404d-9e5f-d935b0e8a88aname=ch, subscription=ch) in characteristicList
+2021-10-12 14:00:20 INFO  CharacteristicRepositoryImpl:47 - Update Characteristic(ID=6396f05e-e5c8-404d-9e5f-d935b0e8a88aname=new Name, subscription=ch) in characteristicList
+2021-10-12 14:00:20 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:00:20 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:00:20 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=d37e8a80-7344-4f75-a928-3ccaf77adccfname=ch, subscription=ch) in characteristicList
+2021-10-12 14:00:20 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:00:20 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=d37e8a80-7344-4f75-a928-3ccaf77adccfname=ch, subscription=ch) in characteristicList
+2021-10-12 14:01:51 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:01:51 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:01:51 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=1fc46b2a-4568-426b-833d-d402a089173cname=ch, subscription=ch) in characteristicList
+2021-10-12 14:01:51 INFO  CharacteristicRepositoryImpl:36 - Delete Characteristic(ID=1fc46b2a-4568-426b-833d-d402a089173cname=ch, subscription=ch) in characteristicList
+2021-10-12 14:01:51 ERROR CharacteristicRepositoryImpl:20 - This id: 1fc46b2a-4568-426b-833d-d402a089173c not found
+2021-10-12 14:03:16 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:03:16 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:03:16 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=6c27d8aa-ca3c-4902-8e06-ed4903fe8f1aname=ch, subscription=ch) in characteristicList
+2021-10-12 14:03:16 INFO  CharacteristicRepositoryImpl:36 - Delete Characteristic(ID=6c27d8aa-ca3c-4902-8e06-ed4903fe8f1aname=ch, subscription=ch) in characteristicList
+2021-10-12 14:03:16 ERROR CharacteristicRepositoryImpl:20 - This id: 6c27d8aa-ca3c-4902-8e06-ed4903fe8f1a not found
+2021-10-12 14:03:40 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:03:40 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:03:40 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=8c9d2b78-1f09-466a-b08c-96bb1fb17e7aname=ch, subscription=ch) in characteristicList
+2021-10-12 14:03:40 INFO  CharacteristicRepositoryImpl:36 - Delete Characteristic(ID=8c9d2b78-1f09-466a-b08c-96bb1fb17e7aname=ch, subscription=ch) in characteristicList
+2021-10-12 14:03:40 ERROR CharacteristicRepositoryImpl:20 - This id: 8c9d2b78-1f09-466a-b08c-96bb1fb17e7a not found
+2021-10-12 14:06:02 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:06:02 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:06:02 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=ea0ea8a6-f582-42f6-a5f1-718a7a1b93dcname=ch, subscription=ch) in characteristicList
+2021-10-12 14:06:02 INFO  CharacteristicRepositoryImpl:36 - Delete Characteristic(ID=ea0ea8a6-f582-42f6-a5f1-718a7a1b93dcname=ch, subscription=ch) in characteristicList
+2021-10-12 14:06:02 ERROR CharacteristicRepositoryImpl:20 - This id: ea0ea8a6-f582-42f6-a5f1-718a7a1b93dc not found
+2021-10-12 14:06:55 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:06:55 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:06:55 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=1fa0827f-f74a-4a28-b821-c8d3c6ce6a7fname=ch, subscription=ch) in characteristicList
+2021-10-12 14:06:55 INFO  CharacteristicRepositoryImpl:36 - Delete Characteristic(ID=1fa0827f-f74a-4a28-b821-c8d3c6ce6a7fname=ch, subscription=ch) in characteristicList
+2021-10-12 14:06:55 ERROR CharacteristicRepositoryImpl:20 - This id: 1fa0827f-f74a-4a28-b821-c8d3c6ce6a7f not found
+2021-10-12 14:10:03 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:10:03 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:10:03 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=59b97a7b-e583-4942-bc2e-14a548db0757name=ch, subscription=ch) in characteristicList
+2021-10-12 14:10:03 INFO  CharacteristicRepositoryImpl:36 - Delete Characteristic(ID=59b97a7b-e583-4942-bc2e-14a548db0757name=ch, subscription=ch) in characteristicList
+2021-10-12 14:10:03 ERROR CharacteristicRepositoryImpl:20 - This id: 59b97a7b-e583-4942-bc2e-14a548db0757 not found
+2021-10-12 14:12:48 INFO  Base:22 - Create base with name: base name
+2021-10-12 14:12:48 INFO  Base:22 - Create base with name: base name
+2021-10-12 14:12:49 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:12:49 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:12:49 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:12:49 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=ba6e7b22-85f4-4fb5-8e10-0fedfab10f1f; name=testBase)
+2021-10-12 14:12:49 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:12:49 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:12:49 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:12:49 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=195e3cdc-1d98-434b-a2ce-5785ae7397f1; name=testBase)
+2021-10-12 14:12:49 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 14:12:49 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:12:49 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:12:49 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:12:49 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=4094f545-f61a-4585-a1ab-71c5b016e5ff; name=testBase)
+2021-10-12 14:12:49 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:12:49 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:12:49 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:12:49 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=1497509b-63ea-4ad8-89cb-60c4d9a1a3ba; name=testBase)
+2021-10-12 14:12:49 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 14:12:49 INFO  Cake:23 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(ID=1497509b-63ea-4ad8-89cb-60c4d9a1a3ba; name=testBase)) with Decoration(ID=06d38246-b6f7-43da-adb7-682e21cfdc48, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 14:12:49 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:12:49 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:12:49 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:12:49 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=4429f455-4a49-435e-993b-9e6675297f64; name=testBase)
+2021-10-12 14:12:49 INFO  Base:22 - Create base with name: nameqwqwq
+2021-10-12 14:12:49 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-10-12 14:12:49 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-10-12 14:12:49 INFO  Customer:24 - Create customer with lastname: Lastname firstname: Firstname
+2021-10-12 14:12:49 INFO  Customer:24 - Create customer with lastname: Lastname firstname: Firstname
+2021-10-12 14:12:49 INFO  Decoration:26 - Create decoration with name: decoration name price: 3.0
+2021-10-12 14:12:49 INFO  Decoration:26 - Create decoration with name: decoration name price: 3.0
+2021-10-12 14:12:49 INFO  Decoration:26 - Create decoration with name: decoration name price: 3.0
+2021-10-12 14:12:49 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:12:49 INFO  Base:22 - Create base with name: testBase1
+2021-10-12 14:12:49 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Mock for Customer, hashCode: 738636051 base: Base(ID=5d922d4b-894c-41c3-b4fc-22c386f2b77b; name=testBase)
+2021-10-12 14:12:49 INFO  Cake:28 - Create cake with name: Test Cake Name1 price: 23.0 customer: Mock for Customer, hashCode: 738636051 base: Base(ID=5d922d4b-894c-41c3-b4fc-22c386f2b77b; name=testBase)
+2021-10-12 14:12:49 INFO  Cake:28 - Create cake with name: Test Cake Name3 price: 23.0 customer: Mock for Customer, hashCode: 738636051 base: Base(ID=9e5e9a1a-592d-4999-a8e9-c46033a96473; name=testBase1)
+2021-10-12 14:12:49 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:12:49 INFO  Decoration:26 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-10-12 14:12:49 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 14:12:49 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 14:12:49 INFO  Cake:23 - Add Mock for Cake, hashCode: 1749205249 with Decoration(ID=6cccfa79-0dfc-40a2-b149-38a87ace8ae2, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 14:12:49 INFO  Cake:23 - Add Mock for Cake, hashCode: 1749205249 with Decoration(ID=1d791731-3195-4bd6-8787-57240b8e42a2, name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-10-12 14:12:49 INFO  Cake:23 - Add Mock for Cake, hashCode: 592238700 with Decoration(ID=6cccfa79-0dfc-40a2-b149-38a87ace8ae2, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 14:12:49 INFO  Cake:23 - Add Mock for Cake, hashCode: 592238700 with Decoration(ID=1d791731-3195-4bd6-8787-57240b8e42a2, name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-10-12 14:12:49 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:12:49 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:12:49 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=73d7a7a8-c72a-4d96-867f-f069f1b786cfname=ch, subscription=ch) in characteristicList
+2021-10-12 14:12:49 INFO  CharacteristicRepositoryImpl:36 - Delete Characteristic(ID=73d7a7a8-c72a-4d96-867f-f069f1b786cfname=ch, subscription=ch) in characteristicList
+2021-10-12 14:12:49 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:12:49 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:12:49 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=ec5730ef-a9a4-4aea-aa10-023664009307name=ch, subscription=ch) in characteristicList
+2021-10-12 14:12:49 INFO  CharacteristicRepositoryImpl:47 - Update Characteristic(ID=ec5730ef-a9a4-4aea-aa10-023664009307name=new Name, subscription=ch) in characteristicList
+2021-10-12 14:12:49 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:12:49 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:12:49 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=723a077d-76e8-4a97-974c-24bb306dfc63name=ch, subscription=ch) in characteristicList
+2021-10-12 14:12:49 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:12:49 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=723a077d-76e8-4a97-974c-24bb306dfc63name=ch, subscription=ch) in characteristicList
+2021-10-12 14:40:45 INFO  Base:22 - Create base with name: base
+2021-10-12 14:40:45 INFO  Base:28 - Create base with name: base
+2021-10-12 14:40:45 INFO  Base:22 - Create base with name: base
+2021-10-12 14:40:45 INFO  Base:28 - Create base with name: base
+2021-10-12 14:40:45 INFO  Base:22 - Create base with name: base
+2021-10-12 14:40:45 INFO  Base:28 - Create base with name: base
+2021-10-12 14:40:45 INFO  Base:22 - Create base with name: base
+2021-10-12 14:40:45 INFO  Base:28 - Create base with name: base
+2021-10-12 14:43:53 INFO  Base:22 - Create base with name: base
+2021-10-12 14:43:53 INFO  Base:28 - Create base with name: base
+2021-10-12 14:43:53 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-10-12 14:43:53 INFO  Base:22 - Create base with name: base
+2021-10-12 14:43:53 INFO  Base:28 - Create base with name: base
+2021-10-12 14:43:53 INFO  Base:22 - Create base with name: base
+2021-10-12 14:43:53 INFO  Base:28 - Create base with name: base
+2021-10-12 14:44:16 INFO  Base:22 - Create base with name: base name
+2021-10-12 14:44:16 INFO  Base:22 - Create base with name: base name
+2021-10-12 14:44:16 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:44:16 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:44:16 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:44:16 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=64e71152-0fd1-4292-b90e-ecd652ac2c6d; name=testBase)
+2021-10-12 14:44:17 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:44:17 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:44:17 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:44:17 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=813b9bfb-c0b4-441d-9517-3960a7e421a7; name=testBase)
+2021-10-12 14:44:17 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 14:44:17 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:44:17 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:44:17 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:44:17 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=76625518-aabb-477e-ae97-16d534a1205c; name=testBase)
+2021-10-12 14:44:17 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:44:17 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:44:17 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:44:17 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=8b430fab-7138-406a-b2ab-ae7776a343d8; name=testBase)
+2021-10-12 14:44:17 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 14:44:17 INFO  Cake:23 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(ID=8b430fab-7138-406a-b2ab-ae7776a343d8; name=testBase)) with Decoration(ID=0b97e904-e3c4-4219-ba1b-04c0167da3d1, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 14:44:17 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:44:17 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:44:17 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:44:17 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=57998f4b-cc3b-45c5-b4ad-330e8bb4215d; name=testBase)
+2021-10-12 14:44:17 INFO  Base:22 - Create base with name: nameqwqwq
+2021-10-12 14:44:17 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-10-12 14:44:17 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-10-12 14:44:17 INFO  Customer:24 - Create customer with lastname: Lastname firstname: Firstname
+2021-10-12 14:44:17 INFO  Customer:24 - Create customer with lastname: Lastname firstname: Firstname
+2021-10-12 14:44:17 INFO  Decoration:26 - Create decoration with name: decoration name price: 3.0
+2021-10-12 14:44:17 INFO  Decoration:26 - Create decoration with name: decoration name price: 3.0
+2021-10-12 14:44:17 INFO  Decoration:26 - Create decoration with name: decoration name price: 3.0
+2021-10-12 14:44:17 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:44:17 INFO  Base:22 - Create base with name: testBase1
+2021-10-12 14:44:17 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Mock for Customer, hashCode: 751628596 base: Base(ID=24385aec-3d12-4a54-9511-f9edc14fe748; name=testBase)
+2021-10-12 14:44:17 INFO  Cake:28 - Create cake with name: Test Cake Name1 price: 23.0 customer: Mock for Customer, hashCode: 751628596 base: Base(ID=24385aec-3d12-4a54-9511-f9edc14fe748; name=testBase)
+2021-10-12 14:44:17 INFO  Cake:28 - Create cake with name: Test Cake Name3 price: 23.0 customer: Mock for Customer, hashCode: 751628596 base: Base(ID=e9562913-7678-4943-b301-9131aa5f4700; name=testBase1)
+2021-10-12 14:44:17 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:44:17 INFO  Decoration:26 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-10-12 14:44:17 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 14:44:17 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 14:44:17 INFO  Cake:23 - Add Mock for Cake, hashCode: 302687243 with Decoration(ID=9bb93e90-fa27-4212-be63-6efb9ae8e4bd, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 14:44:17 INFO  Cake:23 - Add Mock for Cake, hashCode: 302687243 with Decoration(ID=89d0acfb-3286-4b37-857b-c457a6078e51, name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-10-12 14:44:17 INFO  Cake:23 - Add Mock for Cake, hashCode: 850083982 with Decoration(ID=9bb93e90-fa27-4212-be63-6efb9ae8e4bd, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 14:44:17 INFO  Cake:23 - Add Mock for Cake, hashCode: 850083982 with Decoration(ID=89d0acfb-3286-4b37-857b-c457a6078e51, name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-10-12 14:44:17 INFO  Base:22 - Create base with name: base
+2021-10-12 14:44:17 INFO  Base:28 - Create base with name: base
+2021-10-12 14:44:17 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-10-12 14:44:17 INFO  Base:22 - Create base with name: base
+2021-10-12 14:44:17 INFO  Base:28 - Create base with name: base
+2021-10-12 14:44:17 INFO  Base:22 - Create base with name: base
+2021-10-12 14:44:17 INFO  Base:28 - Create base with name: base
+2021-10-12 14:44:17 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:44:17 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:44:17 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=8bdcf56c-0eaf-4726-82b6-21498a7e8eefname=ch, subscription=ch) in characteristicList
+2021-10-12 14:44:17 INFO  CharacteristicRepositoryImpl:36 - Delete Characteristic(ID=8bdcf56c-0eaf-4726-82b6-21498a7e8eefname=ch, subscription=ch) in characteristicList
+2021-10-12 14:44:17 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:44:17 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:44:17 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=956f7bf6-356b-4878-bdb6-a3cb709ce32fname=ch, subscription=ch) in characteristicList
+2021-10-12 14:44:17 INFO  CharacteristicRepositoryImpl:47 - Update Characteristic(ID=956f7bf6-356b-4878-bdb6-a3cb709ce32fname=new Name, subscription=ch) in characteristicList
+2021-10-12 14:44:17 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:44:17 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:44:17 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=bf90e027-9478-45ab-a30c-b636a402d880name=ch, subscription=ch) in characteristicList
+2021-10-12 14:44:17 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:44:17 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=bf90e027-9478-45ab-a30c-b636a402d880name=ch, subscription=ch) in characteristicList
+2021-10-12 14:50:24 INFO  Base:22 - Create base with name: base
+2021-10-12 14:50:24 INFO  Base:28 - Create base with name: base
+2021-10-12 14:50:24 INFO  BaseRepositoryImpl:42 - Delete Base(ID=1609fa9d-7164-429e-bbe7-dafb5a2483ae; name=base)
+2021-10-12 14:50:24 ERROR BaseRepositoryImpl:24 - This id: 1609fa9d-7164-429e-bbe7-dafb5a2483ae not found
+2021-10-12 14:51:34 INFO  Base:22 - Create base with name: base
+2021-10-12 14:51:34 INFO  Base:28 - Create base with name: base
+2021-10-12 14:51:34 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-10-12 14:51:34 INFO  Base:22 - Create base with name: base
+2021-10-12 14:51:34 INFO  Base:28 - Create base with name: base
+2021-10-12 14:51:34 INFO  Base:22 - Create base with name: base
+2021-10-12 14:51:34 INFO  Base:28 - Create base with name: base
+2021-10-12 14:51:34 INFO  BaseRepositoryImpl:42 - Delete Base(ID=7ce6505a-b126-4e11-8070-6df27f50569f; name=base)
+2021-10-12 14:51:34 ERROR BaseRepositoryImpl:24 - This id: 7ce6505a-b126-4e11-8070-6df27f50569f not found
+2021-10-12 14:52:40 INFO  Base:22 - Create base with name: base
+2021-10-12 14:52:40 INFO  Base:28 - Create base with name: base
+2021-10-12 14:52:40 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-10-12 14:52:40 INFO  Base:22 - Create base with name: base
+2021-10-12 14:52:40 INFO  Base:28 - Create base with name: base
+2021-10-12 14:52:40 INFO  Base:22 - Create base with name: base
+2021-10-12 14:52:40 INFO  Base:28 - Create base with name: base
+2021-10-12 14:52:40 INFO  BaseRepositoryImpl:42 - Delete Base(ID=c43329f0-27ab-4be2-9597-45fc9741dcdc; name=base)
+2021-10-12 14:52:40 ERROR BaseRepositoryImpl:24 - This id: c43329f0-27ab-4be2-9597-45fc9741dcdc not found
+2021-10-12 14:53:14 INFO  Base:22 - Create base with name: base name
+2021-10-12 14:53:14 INFO  Base:22 - Create base with name: base name
+2021-10-12 14:53:14 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:53:14 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:53:14 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:53:14 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=4c518f09-e0b1-42a2-9573-aadae18c8191; name=testBase)
+2021-10-12 14:53:15 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:53:15 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:53:15 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:53:15 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=cb3e1a00-0e37-4dd8-b29f-a92ed3f637e0; name=testBase)
+2021-10-12 14:53:15 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 14:53:15 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:53:15 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:53:15 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:53:15 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=1c102b71-c3c6-4306-b006-9b5f24ec7628; name=testBase)
+2021-10-12 14:53:15 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:53:15 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:53:15 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:53:15 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=b8bb1bf5-32cf-45ac-8789-f54e7325ba5e; name=testBase)
+2021-10-12 14:53:15 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 14:53:15 INFO  Cake:23 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(ID=b8bb1bf5-32cf-45ac-8789-f54e7325ba5e; name=testBase)) with Decoration(ID=da87eeca-054b-4e8c-abee-019a70247121, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 14:53:15 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:53:15 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 14:53:15 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:53:15 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=2ac96842-d330-45f5-94cb-bfe1672ab0bd; name=testBase)
+2021-10-12 14:53:15 INFO  Base:22 - Create base with name: nameqwqwq
+2021-10-12 14:53:15 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-10-12 14:53:15 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-10-12 14:53:15 INFO  Customer:24 - Create customer with lastname: Lastname firstname: Firstname
+2021-10-12 14:53:15 INFO  Customer:24 - Create customer with lastname: Lastname firstname: Firstname
+2021-10-12 14:53:15 INFO  Decoration:26 - Create decoration with name: decoration name price: 3.0
+2021-10-12 14:53:15 INFO  Decoration:26 - Create decoration with name: decoration name price: 3.0
+2021-10-12 14:53:15 INFO  Decoration:26 - Create decoration with name: decoration name price: 3.0
+2021-10-12 14:53:15 INFO  Base:22 - Create base with name: testBase
+2021-10-12 14:53:15 INFO  Base:22 - Create base with name: testBase1
+2021-10-12 14:53:15 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Mock for Customer, hashCode: 1950102816 base: Base(ID=890ca4bd-535d-485f-a7c9-2c5f3b4fae0e; name=testBase)
+2021-10-12 14:53:15 INFO  Cake:28 - Create cake with name: Test Cake Name1 price: 23.0 customer: Mock for Customer, hashCode: 1950102816 base: Base(ID=890ca4bd-535d-485f-a7c9-2c5f3b4fae0e; name=testBase)
+2021-10-12 14:53:15 INFO  Cake:28 - Create cake with name: Test Cake Name3 price: 23.0 customer: Mock for Customer, hashCode: 1950102816 base: Base(ID=78c44221-2c8f-4bfd-9ab3-a57ef7498a14; name=testBase1)
+2021-10-12 14:53:15 INFO  Decoration:26 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 14:53:15 INFO  Decoration:26 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-10-12 14:53:15 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 14:53:15 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 14:53:15 INFO  Cake:23 - Add Mock for Cake, hashCode: 112026691 with Decoration(ID=f9e92e28-3aa2-4f19-9506-c8701145ca28, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 14:53:15 INFO  Cake:23 - Add Mock for Cake, hashCode: 112026691 with Decoration(ID=f8c83f3a-74ee-4835-9617-9c7fefc8c9a2, name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-10-12 14:53:15 INFO  Cake:23 - Add Mock for Cake, hashCode: 2024814472 with Decoration(ID=f9e92e28-3aa2-4f19-9506-c8701145ca28, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 14:53:15 INFO  Cake:23 - Add Mock for Cake, hashCode: 2024814472 with Decoration(ID=f8c83f3a-74ee-4835-9617-9c7fefc8c9a2, name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-10-12 14:53:15 INFO  Base:22 - Create base with name: base
+2021-10-12 14:53:15 INFO  Base:28 - Create base with name: base
+2021-10-12 14:53:15 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-10-12 14:53:15 INFO  Base:22 - Create base with name: base
+2021-10-12 14:53:15 INFO  Base:28 - Create base with name: base
+2021-10-12 14:53:15 INFO  Base:22 - Create base with name: base
+2021-10-12 14:53:15 INFO  Base:28 - Create base with name: base
+2021-10-12 14:53:15 INFO  BaseRepositoryImpl:42 - Delete Base(ID=a1b03ed7-97dd-4393-bea4-824755cda99a; name=base)
+2021-10-12 14:53:15 ERROR BaseRepositoryImpl:24 - This id: a1b03ed7-97dd-4393-bea4-824755cda99a not found
+2021-10-12 14:53:15 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:53:15 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:53:15 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=117a5262-c4a2-40a4-a443-0816de7d4ec9name=ch, subscription=ch) in characteristicList
+2021-10-12 14:53:15 INFO  CharacteristicRepositoryImpl:36 - Delete Characteristic(ID=117a5262-c4a2-40a4-a443-0816de7d4ec9name=ch, subscription=ch) in characteristicList
+2021-10-12 14:53:15 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:53:15 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:53:15 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=aa8372ce-f083-4adf-bcba-c45dfcad2555name=ch, subscription=ch) in characteristicList
+2021-10-12 14:53:15 INFO  CharacteristicRepositoryImpl:47 - Update Characteristic(ID=aa8372ce-f083-4adf-bcba-c45dfcad2555name=new Name, subscription=ch) in characteristicList
+2021-10-12 14:53:15 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:53:15 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:53:15 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=a50fe67f-5431-4e29-871c-349676eb427cname=ch, subscription=ch) in characteristicList
+2021-10-12 14:53:15 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 14:53:15 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=a50fe67f-5431-4e29-871c-349676eb427cname=ch, subscription=ch) in characteristicList
+2021-10-12 15:18:39 INFO  Decoration:27 - Create decoration with name: name price: 12.0
+2021-10-12 15:18:39 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=64c51f89-3713-4953-bc32-ef6393782df6, name=name, price=12.0) in decorationList
+2021-10-12 15:18:39 INFO  Decoration:27 - Create decoration with name: name price: 12.0
+2021-10-12 15:18:39 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=ba5499f9-c45d-4e41-9b09-e078ed1f002e, name=name, price=12.0) in decorationList
+2021-10-12 15:18:39 INFO  DecorationRepositoryImpl:40 - Delete Decoration(ID=ba5499f9-c45d-4e41-9b09-e078ed1f002e, name=name, price=12.0) in decorationList
+2021-10-12 15:18:39 INFO  Decoration:27 - Create decoration with name: name price: 12.0
+2021-10-12 15:18:39 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=1eac215b-9302-47cc-b2c6-e2c5e8ebc370, name=name, price=12.0) in decorationList
+2021-10-12 15:18:39 INFO  DecorationRepositoryImpl:53 - Update Decoration(ID=1eac215b-9302-47cc-b2c6-e2c5e8ebc370, name=new decoration name, price=12.0) in decorationList
+2021-10-12 15:20:51 INFO  Base:22 - Create base with name: base name
+2021-10-12 15:20:51 INFO  Base:22 - Create base with name: base name
+2021-10-12 15:20:51 INFO  Base:22 - Create base with name: testBase
+2021-10-12 15:20:51 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 15:20:51 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 15:20:51 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=a4fa36de-b8de-48a0-b365-7c28490a17aa; name=testBase)
+2021-10-12 15:20:51 INFO  Base:22 - Create base with name: testBase
+2021-10-12 15:20:51 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 15:20:51 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 15:20:51 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=34a5b29b-295a-40c6-b50d-1c966b7e7630; name=testBase)
+2021-10-12 15:20:51 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 15:20:51 INFO  Base:22 - Create base with name: testBase
+2021-10-12 15:20:51 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 15:20:51 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 15:20:51 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=1d5b34f1-7dd4-4327-ba57-5066831b26ba; name=testBase)
+2021-10-12 15:20:51 INFO  Base:22 - Create base with name: testBase
+2021-10-12 15:20:51 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 15:20:51 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 15:20:51 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=e25c5ffa-d631-4b0b-a7cd-f9bf4f2cdd46; name=testBase)
+2021-10-12 15:20:51 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 15:20:51 INFO  Cake:23 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(ID=e25c5ffa-d631-4b0b-a7cd-f9bf4f2cdd46; name=testBase)) with Decoration(ID=8ea1e5dd-5168-4199-88a4-dd63b53f6f27, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 15:20:51 INFO  Base:22 - Create base with name: testBase
+2021-10-12 15:20:51 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 15:20:51 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 15:20:51 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=bf7a4e3a-9b9e-453b-994b-97b824a6b3e0; name=testBase)
+2021-10-12 15:20:51 INFO  Base:22 - Create base with name: nameqwqwq
+2021-10-12 15:20:51 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-10-12 15:20:51 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-10-12 15:20:51 INFO  Customer:24 - Create customer with lastname: Lastname firstname: Firstname
+2021-10-12 15:20:51 INFO  Customer:24 - Create customer with lastname: Lastname firstname: Firstname
+2021-10-12 15:20:51 INFO  Decoration:27 - Create decoration with name: decoration name price: 3.0
+2021-10-12 15:20:51 INFO  Decoration:27 - Create decoration with name: decoration name price: 3.0
+2021-10-12 15:20:51 INFO  Decoration:27 - Create decoration with name: decoration name price: 3.0
+2021-10-12 15:20:51 INFO  Base:22 - Create base with name: testBase
+2021-10-12 15:20:51 INFO  Base:22 - Create base with name: testBase1
+2021-10-12 15:20:51 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Mock for Customer, hashCode: 112026691 base: Base(ID=f41ebb14-784d-480c-882f-2ff2ae046f29; name=testBase)
+2021-10-12 15:20:51 INFO  Cake:28 - Create cake with name: Test Cake Name1 price: 23.0 customer: Mock for Customer, hashCode: 112026691 base: Base(ID=f41ebb14-784d-480c-882f-2ff2ae046f29; name=testBase)
+2021-10-12 15:20:51 INFO  Cake:28 - Create cake with name: Test Cake Name3 price: 23.0 customer: Mock for Customer, hashCode: 112026691 base: Base(ID=90eb7361-8568-4c8a-8a54-c76f4509b195; name=testBase1)
+2021-10-12 15:20:51 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 15:20:51 INFO  Decoration:27 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-10-12 15:20:51 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 15:20:51 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 15:20:51 INFO  Cake:23 - Add Mock for Cake, hashCode: 1233049719 with Decoration(ID=bfcae35f-49f2-4414-94b2-571c4e150901, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 15:20:51 INFO  Cake:23 - Add Mock for Cake, hashCode: 1233049719 with Decoration(ID=1770b9ca-d614-45ad-ad7b-b4d35e539220, name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-10-12 15:20:51 INFO  Cake:23 - Add Mock for Cake, hashCode: 1018618094 with Decoration(ID=bfcae35f-49f2-4414-94b2-571c4e150901, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 15:20:51 INFO  Cake:23 - Add Mock for Cake, hashCode: 1018618094 with Decoration(ID=1770b9ca-d614-45ad-ad7b-b4d35e539220, name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-10-12 15:20:51 INFO  Base:22 - Create base with name: base
+2021-10-12 15:20:51 INFO  Base:28 - Create base with name: base
+2021-10-12 15:20:51 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-10-12 15:20:51 INFO  Base:22 - Create base with name: base
+2021-10-12 15:20:51 INFO  Base:28 - Create base with name: base
+2021-10-12 15:20:51 INFO  Base:22 - Create base with name: base
+2021-10-12 15:20:51 INFO  Base:28 - Create base with name: base
+2021-10-12 15:20:51 INFO  BaseRepositoryImpl:42 - Delete Base(ID=b7785f02-272e-4a62-97c3-c61d2a20fedd; name=base)
+2021-10-12 15:20:51 ERROR BaseRepositoryImpl:24 - This id: b7785f02-272e-4a62-97c3-c61d2a20fedd not found
+2021-10-12 15:20:51 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 15:20:51 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 15:20:51 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=c4da9a12-12c5-4c8c-b5e3-fcf2ecd74ebaname=ch, subscription=ch) in characteristicList
+2021-10-12 15:20:51 INFO  CharacteristicRepositoryImpl:36 - Delete Characteristic(ID=c4da9a12-12c5-4c8c-b5e3-fcf2ecd74ebaname=ch, subscription=ch) in characteristicList
+2021-10-12 15:20:51 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 15:20:51 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 15:20:51 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=67f1e0bf-0fa0-4859-869d-a910ce2d3d1fname=ch, subscription=ch) in characteristicList
+2021-10-12 15:20:51 INFO  CharacteristicRepositoryImpl:47 - Update Characteristic(ID=67f1e0bf-0fa0-4859-869d-a910ce2d3d1fname=new Name, subscription=ch) in characteristicList
+2021-10-12 15:20:51 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 15:20:51 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 15:20:51 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=e2642ae3-eaf8-4811-a556-d3b2221a50a1name=ch, subscription=ch) in characteristicList
+2021-10-12 15:20:51 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 15:20:51 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=e2642ae3-eaf8-4811-a556-d3b2221a50a1name=ch, subscription=ch) in characteristicList
+2021-10-12 15:20:51 INFO  Decoration:27 - Create decoration with name: name price: 12.0
+2021-10-12 15:20:51 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=c28a0977-8dcc-4a26-9137-3f26da082ca5, name=name, price=12.0) in decorationList
+2021-10-12 15:20:51 INFO  Decoration:27 - Create decoration with name: name price: 12.0
+2021-10-12 15:20:51 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=265e60f9-e697-4a77-91a8-ed59a4fa6e6c, name=name, price=12.0) in decorationList
+2021-10-12 15:20:51 INFO  DecorationRepositoryImpl:40 - Delete Decoration(ID=265e60f9-e697-4a77-91a8-ed59a4fa6e6c, name=name, price=12.0) in decorationList
+2021-10-12 15:20:51 INFO  Decoration:27 - Create decoration with name: name price: 12.0
+2021-10-12 15:20:51 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=20a9af5e-3862-4c74-96e8-9371557c51ef, name=name, price=12.0) in decorationList
+2021-10-12 15:20:51 INFO  DecorationRepositoryImpl:53 - Update Decoration(ID=20a9af5e-3862-4c74-96e8-9371557c51ef, name=new decoration name, price=12.0) in decorationList
+2021-10-12 15:30:19 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Mock for Customer, hashCode: 2116511124 base: Mock for Base, hashCode: 1806880779
+2021-10-12 15:30:19 INFO  Base:28 - Create base with name: null
+2021-10-12 15:30:19 INFO  Customer:32 - Create customer with lastname: null firstname: null
+2021-10-12 15:30:19 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Mock for Customer, hashCode: 600958416 base: Mock for Base, hashCode: 1884231057
+2021-10-12 15:30:19 INFO  Base:28 - Create base with name: null
+2021-10-12 15:30:19 INFO  Customer:32 - Create customer with lastname: null firstname: null
+2021-10-12 15:30:19 INFO  CakeRepositoryImpl:61 - Update Cake(name=new cake name, price=11.0, customer=Mock for Customer, hashCode: 600958416, base=Mock for Base, hashCode: 1884231057) in cakeList
+2021-10-12 15:30:19 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Mock for Customer, hashCode: 1068945248 base: Mock for Base, hashCode: 937277082
+2021-10-12 15:30:19 INFO  Base:28 - Create base with name: null
+2021-10-12 15:30:19 INFO  Customer:32 - Create customer with lastname: null firstname: null
+2021-10-12 15:30:19 INFO  CakeRepositoryImpl:49 - Delete Cake(name=cake name, price=11.0, customer=Mock for Customer, hashCode: 1068945248, base=Mock for Base, hashCode: 937277082) in cakeList
+2021-10-12 15:30:19 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Mock for Customer, hashCode: 234740890 base: Mock for Base, hashCode: 79290250
+2021-10-12 15:30:19 INFO  Base:28 - Create base with name: null
+2021-10-12 15:30:19 INFO  Customer:32 - Create customer with lastname: null firstname: null
+2021-10-12 15:30:19 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Mock for Customer, hashCode: 399373008 base: Mock for Base, hashCode: 391506011
+2021-10-12 15:30:19 INFO  Base:28 - Create base with name: null
+2021-10-12 15:30:19 INFO  Customer:32 - Create customer with lastname: null firstname: null
+2021-10-12 15:39:22 INFO  Base:22 - Create base with name: base name
+2021-10-12 15:39:22 INFO  Customer:24 - Create customer with lastname: name firstname: name
+2021-10-12 15:39:22 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Customer(lastName=name, firstName=name) base: Base(ID=10920304-9e1c-48a7-b403-06e79b6c091b; name=base name)
+2021-10-12 15:39:22 INFO  Base:28 - Create base with name: base name
+2021-10-12 15:39:22 INFO  Customer:32 - Create customer with lastname: name firstname: name
+2021-10-12 15:39:22 INFO  Base:22 - Create base with name: base name
+2021-10-12 15:39:22 INFO  Customer:24 - Create customer with lastname: name firstname: name
+2021-10-12 15:39:22 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Customer(lastName=name, firstName=name) base: Base(ID=91f3a66c-6dda-43fe-906b-66e6e3effd3e; name=base name)
+2021-10-12 15:39:22 INFO  Base:28 - Create base with name: base name
+2021-10-12 15:39:22 INFO  Customer:32 - Create customer with lastname: name firstname: name
+2021-10-12 15:39:22 INFO  CakeRepositoryImpl:61 - Update Cake(name=new cake name, price=11.0, customer=Customer(lastName=name, firstName=name), base=Base(ID=91f3a66c-6dda-43fe-906b-66e6e3effd3e; name=base name)) in cakeList
+2021-10-12 15:39:22 INFO  Base:22 - Create base with name: base name
+2021-10-12 15:39:22 INFO  Customer:24 - Create customer with lastname: name firstname: name
+2021-10-12 15:39:22 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Customer(lastName=name, firstName=name) base: Base(ID=a9f258e7-9351-439e-b3c3-7f21c9494939; name=base name)
+2021-10-12 15:39:22 INFO  Base:28 - Create base with name: base name
+2021-10-12 15:39:22 INFO  Customer:32 - Create customer with lastname: name firstname: name
+2021-10-12 15:39:22 INFO  CakeRepositoryImpl:49 - Delete Cake(name=cake name, price=11.0, customer=Customer(lastName=name, firstName=name), base=Base(ID=a9f258e7-9351-439e-b3c3-7f21c9494939; name=base name)) in cakeList
+2021-10-12 15:39:22 INFO  Base:22 - Create base with name: base name
+2021-10-12 15:39:22 INFO  Customer:24 - Create customer with lastname: name firstname: name
+2021-10-12 15:39:22 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Customer(lastName=name, firstName=name) base: Base(ID=812f25e2-627c-4d82-ac39-b3b0a705bd19; name=base name)
+2021-10-12 15:39:22 INFO  Base:28 - Create base with name: base name
+2021-10-12 15:39:22 INFO  Customer:32 - Create customer with lastname: name firstname: name
+2021-10-12 15:39:22 INFO  Base:22 - Create base with name: base name
+2021-10-12 15:39:22 INFO  Customer:24 - Create customer with lastname: name firstname: name
+2021-10-12 15:39:22 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Customer(lastName=name, firstName=name) base: Base(ID=c4107713-fbe6-49d4-a386-3075e4633cd2; name=base name)
+2021-10-12 15:39:22 INFO  Base:28 - Create base with name: base name
+2021-10-12 15:39:22 INFO  Customer:32 - Create customer with lastname: name firstname: name
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: base name
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: base name
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: testBase
+2021-10-12 15:40:07 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 15:40:07 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 15:40:07 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=6e4c4006-3122-43d3-b062-36ec86df65a7; name=testBase)
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: testBase
+2021-10-12 15:40:07 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 15:40:07 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 15:40:07 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=d8741a9a-61c3-4a00-95bc-3d87cd41f710; name=testBase)
+2021-10-12 15:40:07 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: testBase
+2021-10-12 15:40:07 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 15:40:07 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 15:40:07 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=e3299f5c-8e51-453b-91b4-f4d57360fc88; name=testBase)
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: testBase
+2021-10-12 15:40:07 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 15:40:07 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 15:40:07 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=ad051289-1903-4322-bd65-f8b412906ea2; name=testBase)
+2021-10-12 15:40:07 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 15:40:07 INFO  Cake:23 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(ID=ad051289-1903-4322-bd65-f8b412906ea2; name=testBase)) with Decoration(ID=d9cff915-756b-47b4-90f8-692bb762022e, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: testBase
+2021-10-12 15:40:07 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 15:40:07 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 15:40:07 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=313a29c3-0f44-4df7-9b57-e3ee142a9732; name=testBase)
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: nameqwqwq
+2021-10-12 15:40:07 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-10-12 15:40:07 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-10-12 15:40:07 INFO  Customer:24 - Create customer with lastname: Lastname firstname: Firstname
+2021-10-12 15:40:07 INFO  Customer:24 - Create customer with lastname: Lastname firstname: Firstname
+2021-10-12 15:40:07 INFO  Decoration:27 - Create decoration with name: decoration name price: 3.0
+2021-10-12 15:40:07 INFO  Decoration:27 - Create decoration with name: decoration name price: 3.0
+2021-10-12 15:40:07 INFO  Decoration:27 - Create decoration with name: decoration name price: 3.0
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: testBase
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: testBase1
+2021-10-12 15:40:07 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Mock for Customer, hashCode: 1233049719 base: Base(ID=50f41948-bd7d-401b-a660-b6ff00a97be6; name=testBase)
+2021-10-12 15:40:07 INFO  Cake:28 - Create cake with name: Test Cake Name1 price: 23.0 customer: Mock for Customer, hashCode: 1233049719 base: Base(ID=50f41948-bd7d-401b-a660-b6ff00a97be6; name=testBase)
+2021-10-12 15:40:07 INFO  Cake:28 - Create cake with name: Test Cake Name3 price: 23.0 customer: Mock for Customer, hashCode: 1233049719 base: Base(ID=96c323f1-04a2-47a7-a106-1893d7cb563c; name=testBase1)
+2021-10-12 15:40:07 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 15:40:07 INFO  Decoration:27 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-10-12 15:40:07 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 15:40:07 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 15:40:07 INFO  Cake:23 - Add Mock for Cake, hashCode: 789367604 with Decoration(ID=4233fecc-6c4a-4091-a134-0ad9f4e36c39, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 15:40:07 INFO  Cake:23 - Add Mock for Cake, hashCode: 789367604 with Decoration(ID=755d70ff-68bb-4569-9bbd-cfcc3d4e27bd, name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-10-12 15:40:07 INFO  Cake:23 - Add Mock for Cake, hashCode: 423629474 with Decoration(ID=4233fecc-6c4a-4091-a134-0ad9f4e36c39, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 15:40:07 INFO  Cake:23 - Add Mock for Cake, hashCode: 423629474 with Decoration(ID=755d70ff-68bb-4569-9bbd-cfcc3d4e27bd, name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: base
+2021-10-12 15:40:07 INFO  Base:28 - Create base with name: base
+2021-10-12 15:40:07 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: base
+2021-10-12 15:40:07 INFO  Base:28 - Create base with name: base
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: base
+2021-10-12 15:40:07 INFO  Base:28 - Create base with name: base
+2021-10-12 15:40:07 INFO  BaseRepositoryImpl:42 - Delete Base(ID=d159ae8a-72b7-497c-8748-c1012e6cde5e; name=base)
+2021-10-12 15:40:07 ERROR BaseRepositoryImpl:24 - This id: d159ae8a-72b7-497c-8748-c1012e6cde5e not found
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: base name
+2021-10-12 15:40:07 INFO  Customer:24 - Create customer with lastname: name firstname: name
+2021-10-12 15:40:07 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Customer(lastName=name, firstName=name) base: Base(ID=58d610bf-b560-44b6-aab6-4245691793c2; name=base name)
+2021-10-12 15:40:07 INFO  Base:28 - Create base with name: base name
+2021-10-12 15:40:07 INFO  Customer:32 - Create customer with lastname: name firstname: name
+2021-10-12 15:40:07 INFO  CakeRepositoryImpl:61 - Update Cake(name=new cake name, price=11.0, customer=Customer(lastName=name, firstName=name), base=Base(ID=58d610bf-b560-44b6-aab6-4245691793c2; name=base name)) in cakeList
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: base name
+2021-10-12 15:40:07 INFO  Customer:24 - Create customer with lastname: name firstname: name
+2021-10-12 15:40:07 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Customer(lastName=name, firstName=name) base: Base(ID=ab703b89-c07c-4240-a977-736a22e91d4d; name=base name)
+2021-10-12 15:40:07 INFO  Base:28 - Create base with name: base name
+2021-10-12 15:40:07 INFO  Customer:32 - Create customer with lastname: name firstname: name
+2021-10-12 15:40:07 INFO  CakeRepositoryImpl:49 - Delete Cake(name=cake name, price=11.0, customer=Customer(lastName=name, firstName=name), base=Base(ID=ab703b89-c07c-4240-a977-736a22e91d4d; name=base name)) in cakeList
+2021-10-12 15:40:07 INFO  Base:22 - Create base with name: base name
+2021-10-12 15:40:07 INFO  Customer:24 - Create customer with lastname: name firstname: name
+2021-10-12 15:40:07 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Customer(lastName=name, firstName=name) base: Base(ID=f36cc3e1-1e04-484f-b24e-4b05a877e9f2; name=base name)
+2021-10-12 15:40:07 INFO  Base:28 - Create base with name: base name
+2021-10-12 15:40:07 INFO  Customer:32 - Create customer with lastname: name firstname: name
+2021-10-12 15:40:07 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 15:40:07 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 15:40:07 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=30386469-8d81-4b70-805e-9f2c228ec91aname=ch, subscription=ch) in characteristicList
+2021-10-12 15:40:07 INFO  CharacteristicRepositoryImpl:36 - Delete Characteristic(ID=30386469-8d81-4b70-805e-9f2c228ec91aname=ch, subscription=ch) in characteristicList
+2021-10-12 15:40:07 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 15:40:07 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 15:40:07 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=350639ee-eb7f-494c-a6d3-40a2dbb1fdd8name=ch, subscription=ch) in characteristicList
+2021-10-12 15:40:07 INFO  CharacteristicRepositoryImpl:47 - Update Characteristic(ID=350639ee-eb7f-494c-a6d3-40a2dbb1fdd8name=new Name, subscription=ch) in characteristicList
+2021-10-12 15:40:07 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 15:40:07 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 15:40:07 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=2a68ddb0-2fb2-48d4-b8f5-3d27fd0775ddname=ch, subscription=ch) in characteristicList
+2021-10-12 15:40:07 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 15:40:07 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=2a68ddb0-2fb2-48d4-b8f5-3d27fd0775ddname=ch, subscription=ch) in characteristicList
+2021-10-12 15:40:07 INFO  Decoration:27 - Create decoration with name: name price: 12.0
+2021-10-12 15:40:07 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=da178c36-5f98-4e1d-91c2-80409db15a8a, name=name, price=12.0) in decorationList
+2021-10-12 15:40:07 INFO  Decoration:27 - Create decoration with name: name price: 12.0
+2021-10-12 15:40:07 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=46788e69-4c4b-44a4-950b-a27a87cf4307, name=name, price=12.0) in decorationList
+2021-10-12 15:40:07 INFO  DecorationRepositoryImpl:40 - Delete Decoration(ID=46788e69-4c4b-44a4-950b-a27a87cf4307, name=name, price=12.0) in decorationList
+2021-10-12 15:40:07 INFO  Decoration:27 - Create decoration with name: name price: 12.0
+2021-10-12 15:40:07 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=8b808eae-d6b8-4641-a136-805ed45dc5b2, name=name, price=12.0) in decorationList
+2021-10-12 15:40:07 INFO  DecorationRepositoryImpl:53 - Update Decoration(ID=8b808eae-d6b8-4641-a136-805ed45dc5b2, name=new decoration name, price=12.0) in decorationList
+2021-10-12 15:59:09 INFO  Customer:24 - Create customer with lastname: last name firstname: first name
+2021-10-12 15:59:09 INFO  Customer:32 - Create customer with lastname: last name firstname: first name
+2021-10-12 15:59:09 INFO  CustomerRepositoryImpl:29 - Add Customer(lastName=last name, firstName=first name) in customerList
+2021-10-12 15:59:09 INFO  Customer:24 - Create customer with lastname: last name firstname: first name
+2021-10-12 15:59:09 INFO  Customer:32 - Create customer with lastname: last name firstname: first name
+2021-10-12 15:59:09 INFO  CustomerRepositoryImpl:29 - Add Customer(lastName=last name, firstName=first name) in customerList
+2021-10-12 15:59:09 INFO  CustomerRepositoryImpl:42 - Update Customer(lastName=new last name, firstName=first name) in customerList
+2021-10-12 15:59:09 INFO  Customer:24 - Create customer with lastname: last name firstname: first name
+2021-10-12 15:59:09 INFO  Customer:32 - Create customer with lastname: last name firstname: first name
+2021-10-12 15:59:09 INFO  CustomerRepositoryImpl:29 - Add Customer(lastName=last name, firstName=first name) in customerList
+2021-10-12 15:59:09 INFO  CustomerRepositoryImpl:53 - Delete Customer(lastName=last name, firstName=first name) in customerList
+2021-10-12 16:00:08 INFO  Base:22 - Create base with name: base name
+2021-10-12 16:00:08 INFO  Base:22 - Create base with name: base name
+2021-10-12 16:00:09 INFO  Base:22 - Create base with name: testBase
+2021-10-12 16:00:09 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 16:00:09 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 16:00:09 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=a50d90db-82e7-4f7f-8480-ab32042da10d; name=testBase)
+2021-10-12 16:00:09 INFO  Base:22 - Create base with name: testBase
+2021-10-12 16:00:09 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 16:00:09 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 16:00:09 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=4ee7184b-6e6a-47f6-8487-30f6ff8b77ee; name=testBase)
+2021-10-12 16:00:09 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 16:00:09 INFO  Base:22 - Create base with name: testBase
+2021-10-12 16:00:09 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 16:00:09 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 16:00:09 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=225b0253-9095-4fbc-8ebf-c4c45b3753e1; name=testBase)
+2021-10-12 16:00:09 INFO  Base:22 - Create base with name: testBase
+2021-10-12 16:00:09 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 16:00:09 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 16:00:09 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=40345ceb-d8f9-43c6-98ab-622e972c9938; name=testBase)
+2021-10-12 16:00:09 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 16:00:09 INFO  Cake:23 - Add Cake(name=Test Cake Name, price=23.0, customer=Customer(lastName=as, firstName=as), base=Base(ID=40345ceb-d8f9-43c6-98ab-622e972c9938; name=testBase)) with Decoration(ID=608fdd8b-be41-4ece-af99-0d8e4b8e74bd, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 16:00:09 INFO  Base:22 - Create base with name: testBase
+2021-10-12 16:00:09 INFO  Customer:24 - Create customer with lastname: as firstname: as
+2021-10-12 16:00:09 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 16:00:09 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Customer(lastName=as, firstName=as) base: Base(ID=87f1b16c-ab9f-41a7-97f0-2ba0b43b9cc3; name=testBase)
+2021-10-12 16:00:09 INFO  Base:22 - Create base with name: nameqwqwq
+2021-10-12 16:00:09 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-10-12 16:00:09 INFO  Characteristic:26 - Create characteristic with name: characteristic name subscriptionsubscription
+2021-10-12 16:00:09 INFO  Customer:24 - Create customer with lastname: Lastname firstname: Firstname
+2021-10-12 16:00:09 INFO  Customer:24 - Create customer with lastname: Lastname firstname: Firstname
+2021-10-12 16:00:09 INFO  Decoration:27 - Create decoration with name: decoration name price: 3.0
+2021-10-12 16:00:09 INFO  Decoration:27 - Create decoration with name: decoration name price: 3.0
+2021-10-12 16:00:09 INFO  Decoration:27 - Create decoration with name: decoration name price: 3.0
+2021-10-12 16:00:09 INFO  Base:22 - Create base with name: testBase
+2021-10-12 16:00:09 INFO  Base:22 - Create base with name: testBase1
+2021-10-12 16:00:09 INFO  Cake:28 - Create cake with name: Test Cake Name price: 23.0 customer: Mock for Customer, hashCode: 589166341 base: Base(ID=e726c149-3e13-410d-91fe-110fbcfbfe96; name=testBase)
+2021-10-12 16:00:09 INFO  Cake:28 - Create cake with name: Test Cake Name1 price: 23.0 customer: Mock for Customer, hashCode: 589166341 base: Base(ID=e726c149-3e13-410d-91fe-110fbcfbfe96; name=testBase)
+2021-10-12 16:00:09 INFO  Cake:28 - Create cake with name: Test Cake Name3 price: 23.0 customer: Mock for Customer, hashCode: 589166341 base: Base(ID=31c0ae37-01d2-47c2-9b60-52c855162a3a; name=testBase1)
+2021-10-12 16:00:09 INFO  Decoration:27 - Create decoration with name: Test Decoration Name price: 36.6
+2021-10-12 16:00:09 INFO  Decoration:27 - Create decoration with name: Test Decoration Name number 2 price: 36.6
+2021-10-12 16:00:09 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 16:00:09 INFO  Cake:17 - Create CakeDecorator class
+2021-10-12 16:00:09 INFO  Cake:23 - Add Mock for Cake, hashCode: 105019819 with Decoration(ID=de6ca610-6d19-43de-a84d-f10620ab7f96, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 16:00:09 INFO  Cake:23 - Add Mock for Cake, hashCode: 105019819 with Decoration(ID=8cb62ea0-3106-45d3-ac67-6ac5290437a4, name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-10-12 16:00:09 INFO  Cake:23 - Add Mock for Cake, hashCode: 2034385122 with Decoration(ID=de6ca610-6d19-43de-a84d-f10620ab7f96, name=Test Decoration Name, price=36.6) in cakeDecorationList
+2021-10-12 16:00:09 INFO  Cake:23 - Add Mock for Cake, hashCode: 2034385122 with Decoration(ID=8cb62ea0-3106-45d3-ac67-6ac5290437a4, name=Test Decoration Name number 2, price=36.6) in cakeDecorationList
+2021-10-12 16:00:09 INFO  Base:22 - Create base with name: base
+2021-10-12 16:00:09 INFO  Base:28 - Create base with name: base
+2021-10-12 16:00:09 INFO  BaseRepositoryImpl:55 - Update base in baseList
+2021-10-12 16:00:09 INFO  Base:22 - Create base with name: base
+2021-10-12 16:00:09 INFO  Base:28 - Create base with name: base
+2021-10-12 16:00:09 INFO  Base:22 - Create base with name: base
+2021-10-12 16:00:09 INFO  Base:28 - Create base with name: base
+2021-10-12 16:00:09 INFO  BaseRepositoryImpl:42 - Delete Base(ID=53726b0f-1d97-4642-adc3-f23f1bf36bb9; name=base)
+2021-10-12 16:00:09 ERROR BaseRepositoryImpl:24 - This id: 53726b0f-1d97-4642-adc3-f23f1bf36bb9 not found
+2021-10-12 16:00:09 INFO  Base:22 - Create base with name: base name
+2021-10-12 16:00:09 INFO  Customer:24 - Create customer with lastname: name firstname: name
+2021-10-12 16:00:09 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Customer(lastName=name, firstName=name) base: Base(ID=9cea281e-8920-4906-a245-fe39071633fc; name=base name)
+2021-10-12 16:00:09 INFO  Base:28 - Create base with name: base name
+2021-10-12 16:00:09 INFO  Customer:32 - Create customer with lastname: name firstname: name
+2021-10-12 16:00:09 INFO  CakeRepositoryImpl:61 - Update Cake(name=new cake name, price=11.0, customer=Customer(lastName=name, firstName=name), base=Base(ID=9cea281e-8920-4906-a245-fe39071633fc; name=base name)) in cakeList
+2021-10-12 16:00:09 INFO  Base:22 - Create base with name: base name
+2021-10-12 16:00:09 INFO  Customer:24 - Create customer with lastname: name firstname: name
+2021-10-12 16:00:09 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Customer(lastName=name, firstName=name) base: Base(ID=0bda36e7-2834-4bfc-9f50-f507f1803a0f; name=base name)
+2021-10-12 16:00:09 INFO  Base:28 - Create base with name: base name
+2021-10-12 16:00:09 INFO  Customer:32 - Create customer with lastname: name firstname: name
+2021-10-12 16:00:09 INFO  CakeRepositoryImpl:49 - Delete Cake(name=cake name, price=11.0, customer=Customer(lastName=name, firstName=name), base=Base(ID=0bda36e7-2834-4bfc-9f50-f507f1803a0f; name=base name)) in cakeList
+2021-10-12 16:00:09 INFO  Base:22 - Create base with name: base name
+2021-10-12 16:00:09 INFO  Customer:24 - Create customer with lastname: name firstname: name
+2021-10-12 16:00:09 INFO  Cake:28 - Create cake with name: cake name price: 11.0 customer: Customer(lastName=name, firstName=name) base: Base(ID=eadc2cd0-1927-4213-8e5c-b9fbd2e3e702; name=base name)
+2021-10-12 16:00:09 INFO  Base:28 - Create base with name: base name
+2021-10-12 16:00:09 INFO  Customer:32 - Create customer with lastname: name firstname: name
+2021-10-12 16:00:09 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 16:00:09 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 16:00:09 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=1f7b7044-65d5-47ab-95b1-4d32fc1f11b5name=ch, subscription=ch) in characteristicList
+2021-10-12 16:00:09 INFO  CharacteristicRepositoryImpl:36 - Delete Characteristic(ID=1f7b7044-65d5-47ab-95b1-4d32fc1f11b5name=ch, subscription=ch) in characteristicList
+2021-10-12 16:00:09 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 16:00:09 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 16:00:09 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=1808134f-253d-465f-9ef7-ae366e66d6f7name=ch, subscription=ch) in characteristicList
+2021-10-12 16:00:09 INFO  CharacteristicRepositoryImpl:47 - Update Characteristic(ID=1808134f-253d-465f-9ef7-ae366e66d6f7name=new Name, subscription=ch) in characteristicList
+2021-10-12 16:00:09 INFO  Characteristic:26 - Create characteristic with name: ch subscriptionch
+2021-10-12 16:00:09 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 16:00:09 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=5be519d4-9723-4110-b78e-f8e95bf79560name=ch, subscription=ch) in characteristicList
+2021-10-12 16:00:09 INFO  Characteristic:35 - Create characteristic with name: ch subscriptionch
+2021-10-12 16:00:09 INFO  CharacteristicRepositoryImpl:26 - Add Characteristic(ID=5be519d4-9723-4110-b78e-f8e95bf79560name=ch, subscription=ch) in characteristicList
+2021-10-12 16:00:09 INFO  Customer:24 - Create customer with lastname: last name firstname: first name
+2021-10-12 16:00:09 INFO  Customer:32 - Create customer with lastname: last name firstname: first name
+2021-10-12 16:00:09 INFO  CustomerRepositoryImpl:29 - Add Customer(lastName=last name, firstName=first name) in customerList
+2021-10-12 16:00:09 INFO  Customer:24 - Create customer with lastname: last name firstname: first name
+2021-10-12 16:00:09 INFO  Customer:32 - Create customer with lastname: last name firstname: first name
+2021-10-12 16:00:09 INFO  CustomerRepositoryImpl:29 - Add Customer(lastName=last name, firstName=first name) in customerList
+2021-10-12 16:00:09 INFO  CustomerRepositoryImpl:42 - Update Customer(lastName=new last name, firstName=first name) in customerList
+2021-10-12 16:00:09 INFO  Customer:24 - Create customer with lastname: last name firstname: first name
+2021-10-12 16:00:09 INFO  Customer:32 - Create customer with lastname: last name firstname: first name
+2021-10-12 16:00:09 INFO  CustomerRepositoryImpl:29 - Add Customer(lastName=last name, firstName=first name) in customerList
+2021-10-12 16:00:09 INFO  CustomerRepositoryImpl:53 - Delete Customer(lastName=last name, firstName=first name) in customerList
+2021-10-12 16:00:09 INFO  Decoration:27 - Create decoration with name: name price: 12.0
+2021-10-12 16:00:09 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=ddefcea5-37cd-47f8-b611-2dd301f16599, name=name, price=12.0) in decorationList
+2021-10-12 16:00:09 INFO  Decoration:27 - Create decoration with name: name price: 12.0
+2021-10-12 16:00:09 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=273eb6f3-8658-4e0b-91cd-2392714d1fd0, name=name, price=12.0) in decorationList
+2021-10-12 16:00:09 INFO  DecorationRepositoryImpl:40 - Delete Decoration(ID=273eb6f3-8658-4e0b-91cd-2392714d1fd0, name=name, price=12.0) in decorationList
+2021-10-12 16:00:09 INFO  Decoration:27 - Create decoration with name: name price: 12.0
+2021-10-12 16:00:09 INFO  DecorationRepositoryImpl:29 - Add Decoration(ID=a1e3b851-49d3-4667-a37a-eb704488fd7e, name=name, price=12.0) in decorationList
+2021-10-12 16:00:09 INFO  DecorationRepositoryImpl:53 - Update Decoration(ID=a1e3b851-49d3-4667-a37a-eb704488fd7e, name=new decoration name, price=12.0) in decorationList

@@ -20,9 +20,11 @@ public class CharacteristicRepositoryImplTest extends TestCase {
     public void setUp() {
         characteristic = new Characteristic("ch", "ch");
         characteristicRepository = new CharacteristicRepositoryImpl();
+        characteristicRepository.addCharacteristic(characteristic);
     }
+
     @After
-    public void tearDown(){
+    public void tearDown() {
         characteristicList.clear();
     }
 
@@ -32,4 +34,21 @@ public class CharacteristicRepositoryImplTest extends TestCase {
         assertEquals(characteristic, characteristicRepository.getCharacteristicById(characteristic.getUuid()));
     }
 
+    @Rule
+    public ExpectedException thrown = ExpectedException.none();
+
+    @Test(expected = java.lang.IllegalArgumentException.class)
+    public void testRemoveCharacteristic() {
+        characteristicRepository.removeCharacteristic(characteristic);
+        thrown.expect(IllegalArgumentException.class);
+        thrown.expectMessage("This id: " + characteristic.getUuid() + " not found");
+        //characteristicRepository.getCharacteristicById(characteristic.getUuid());
+    }
+
+    @Test
+    public void testUpdateCharacteristic() {
+        characteristic.setName("new Name");
+        characteristicRepository.updateCharacteristic(characteristic);
+        assertEquals(characteristic, characteristicRepository.getCharacteristicById(characteristic.getUuid()));
+    }
 }
