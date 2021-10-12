@@ -3,17 +3,23 @@ package facade;
 import entities.Characteristic;
 import junit.framework.TestCase;
 import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 import repositoryimpl.CharacteristicRepositoryImpl;
 
-import static entities.Container.characteristicList;
-
 public class CharacteristicFacadeTest extends TestCase {
 
-    CharacteristicRepositoryImpl characteristicRepository = Mockito.mock(CharacteristicRepositoryImpl.class);
-    Characteristic characteristic = new Characteristic("characteristic name", "subscription");
-    CharacteristicFacade characteristicFacade = new CharacteristicFacade(characteristic, characteristicRepository);
+    CharacteristicRepositoryImpl characteristicRepository;
+    Characteristic characteristic;
+    CharacteristicFacade characteristicFacade;
+
+    @Before
+    public void setUp() {
+        characteristicRepository = Mockito.mock(CharacteristicRepositoryImpl.class);
+        characteristic = new Characteristic("characteristic name", "subscription");
+        characteristicFacade = new CharacteristicFacade(characteristic, characteristicRepository);
+    }
 
     @After
     public void tearDown() {
@@ -27,12 +33,11 @@ public class CharacteristicFacadeTest extends TestCase {
     }
 
     @Test
-    public void testUpdateCharacteristic()
-    {
+    public void testUpdateCharacteristic() {
         characteristicFacade.addCharacteristic();
         characteristicFacade.setCharacteristicName("new characteristic name");
         characteristicFacade.updateCharacteristic();
-        assertEquals("new characteristic name",characteristicFacade.getCharacteristicName());
+        assertEquals("new characteristic name", characteristicFacade.getCharacteristicName());
     }
 
 }

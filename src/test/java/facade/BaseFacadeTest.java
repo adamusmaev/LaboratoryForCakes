@@ -1,7 +1,6 @@
 package facade;
 
 import entities.Base;
-import entities.Decoration;
 import junit.framework.TestCase;
 import org.junit.After;
 import org.junit.Before;
@@ -9,16 +8,18 @@ import org.junit.Test;
 import org.mockito.Mockito;
 import repositoryimpl.BaseRepositoryImpl;
 
-import static entities.Container.baseList;
-
 public class BaseFacadeTest extends TestCase {
 
-    BaseRepositoryImpl baseRepository =  Mockito.mock(BaseRepositoryImpl.class);
-    Base base = new Base("base name");
-    BaseFacade baseFacade = new BaseFacade(base, baseRepository);
+    BaseRepositoryImpl baseRepository;
+    Base base;
+    BaseFacade baseFacade;
+
 
     @Before
     public void setUp() {
+        baseRepository = Mockito.mock(BaseRepositoryImpl.class);
+        base = new Base("base name");
+        baseFacade = new BaseFacade(base, baseRepository);
     }
 
     @After

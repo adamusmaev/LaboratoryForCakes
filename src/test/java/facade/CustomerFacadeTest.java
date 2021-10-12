@@ -8,15 +8,16 @@ import org.junit.Test;
 import org.mockito.Mockito;
 import repositoryimpl.CustomerRepositoryImpl;
 
-import static entities.Container.customerList;
-
 public class CustomerFacadeTest extends TestCase {
-    CustomerRepositoryImpl customerRepository = Mockito.mock(CustomerRepositoryImpl.class);
-    Customer customer = new Customer("Lastname", "Firstname");
-    CustomerFacade customerFacade = new CustomerFacade(customer, customerRepository);
+    CustomerRepositoryImpl customerRepository;
+    Customer customer;
+    CustomerFacade customerFacade;
 
     @Before
     public void setUp() {
+        customerRepository = Mockito.mock(CustomerRepositoryImpl.class);
+        customer = new Customer("Lastname", "Firstname");
+        customerFacade = new CustomerFacade(customer, customerRepository);
     }
 
     @After

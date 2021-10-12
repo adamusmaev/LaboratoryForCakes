@@ -15,17 +15,24 @@ import java.util.Set;
 
 public class FindingCakeByBaseTest extends TestCase {
 
-    CakeRepositoryImpl cakeRepository = Mockito.mock(CakeRepositoryImpl.class);
-    Base base = new Base("testBase");
-    Base base1 = new Base("testBase1");
-    Customer customer = Mockito.mock(Customer.class);
-    Cake cake = new Cake("Test Cake Name", 23.0F, customer, base);
-    Cake cake1 = new Cake("Test Cake Name1", 23.0F, customer, base);
-    Cake cake2 = new Cake("Test Cake Name3", 23.0F, customer, base1);
+    CakeRepositoryImpl cakeRepository;
+    Base base;
+    Base base1;
+    Customer customer;
+    Cake cake;
+    Cake cake1;
+    Cake cake2;
     Set<Cake> cakeSet = new HashSet<>();
     
     @Before
     public void setUp() {
+        cakeRepository = Mockito.mock(CakeRepositoryImpl.class);
+        base = new Base("testBase");
+        base1 = new Base("testBase1");
+        customer = Mockito.mock(Customer.class);
+        cake = new Cake("Test Cake Name", 23.0F, customer, base);
+        cake1 = new Cake("Test Cake Name1", 23.0F, customer, base);
+        cake2 = new Cake("Test Cake Name3", 23.0F, customer, base1);
         cakeSet.add(cake);
         cakeSet.add(cake1);
         cakeSet.add(cake2);

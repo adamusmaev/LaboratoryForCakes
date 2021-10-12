@@ -12,13 +12,14 @@ import static entities.Container.decorationList;
 
 public class DecorationFacadeTest extends TestCase {
 
-    DecorationRepositoryImpl decorationRepository = Mockito.mock(DecorationRepositoryImpl.class);
+    DecorationRepositoryImpl decorationRepository;
     DecorationFacade decorationFacade;
     Decoration decoration;
     Decoration decorationMockito;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
+        decorationRepository = Mockito.mock(DecorationRepositoryImpl.class);
         decoration = new Decoration("decoration name", 3F);
         decorationMockito = Mockito.spy(decoration);
         decorationFacade = new DecorationFacade(decorationMockito, decorationRepository);

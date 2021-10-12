@@ -2,9 +2,12 @@ package findbycondition;
 
 import comporators.SortCake;
 import decoratorclasses.CakeDecorator;
-import entities.*;
+import entities.Cake;
+import entities.CakeDecoration;
+import entities.Decoration;
 import interfaces.Order;
 import junit.framework.TestCase;
+import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 import repositoryimpl.CakeRepositoryImpl;
@@ -13,16 +16,16 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static entities.Container.cakeDecorationList;
-
 public class FindingCakeByDecorationTest extends TestCase {
 
-    CakeRepositoryImpl cakeRepository = Mockito.mock(CakeRepositoryImpl.class);
-    List<CakeDecoration> cakeDecorationList = new ArrayList<>();
+    CakeRepositoryImpl cakeRepository;
+    List<CakeDecoration> cakeDecorationList;
 
 
+    @Before
     public void setUp() throws Exception {
-        super.setUp();
+        cakeRepository = Mockito.mock(CakeRepositoryImpl.class);
+        cakeDecorationList = new ArrayList<>();
     }
 
     @Test

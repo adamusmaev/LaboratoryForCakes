@@ -3,10 +3,12 @@ package entities;
 import interfaces.Order;
 import lombok.EqualsAndHashCode;
 import lombok.ToString;
+import lombok.extern.log4j.Log4j;
 import org.apache.log4j.Logger;
 
 @EqualsAndHashCode
 @ToString
+@Log4j
 public class Cake extends Entity implements Order {
 
     private final static Logger logger = Logger.getLogger(Cake.class);
@@ -22,6 +24,7 @@ public class Cake extends Entity implements Order {
         this.price = price;
         this.customer = customer;
         this.base = base;
+        if (price <= 0) throw new IllegalArgumentException("The price cannot be less than zero");
         logger.info("Create cake with name: " + name +
                 " price: " + price +
                 " customer: " + customer.toString() +

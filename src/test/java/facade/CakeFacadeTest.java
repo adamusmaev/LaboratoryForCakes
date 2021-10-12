@@ -7,6 +7,8 @@ import entities.Decoration;
 import findbycondition.FindingCakeByDecoration;
 import interfaces.Order;
 import junit.framework.TestCase;
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
 import repositoryimpl.CakeRepositoryImpl;
@@ -17,16 +19,30 @@ import static entities.Container.cakeDecorationList;
 
 public class CakeFacadeTest extends TestCase {
 
-    CakeRepositoryImpl cakeRepository = Mockito.mock(CakeRepositoryImpl.class);
-    Base base = new Base("testBase");
-    Customer customer = new Customer("as", "as");
-    Decoration decoration = new Decoration("Test Decoration Name", 36.6F);
+    CakeRepositoryImpl cakeRepository;
+    Base base;
+    Customer customer;
+    Decoration decoration;
     CakeFacade cakeFacade;
+    Cake cake;
 
+
+    @Before
+    public void setUp() {
+        cakeRepository = Mockito.mock(CakeRepositoryImpl.class);
+        base = new Base("testBase");
+        customer = new Customer("as", "as");
+        decoration = new Decoration("Test Decoration Name", 36.6F);
+        cake = new Cake("Test Cake Name", 23.0F, customer, base);
+    }
+
+    @After
+    public void tearDown() {
+
+    }
 
     @Test
     public void testAddCake() {
-        Cake cake = new Cake("Test Cake Name", 23.0F, customer, base);
         cakeFacade = new CakeFacade(cake, cakeRepository);
         cakeFacade.addCake();
         assertEquals(cake, cakeFacade.getCake());
@@ -34,7 +50,7 @@ public class CakeFacadeTest extends TestCase {
 
     @Test
     public void testAddCakeMockito() {
-        Cake cake = Mockito.mock(Cake.class);
+        cake = Mockito.mock(Cake.class);
         CakeFacade cakeFacade = Mockito.mock(CakeFacade.class);
         Mockito.when(cakeFacade.getCake()).thenReturn(cake);
         assertEquals(cake, cakeFacade.getCake());
@@ -42,7 +58,6 @@ public class CakeFacadeTest extends TestCase {
 
     @Test
     public void testAddDecoration() {
-        Cake cake = new Cake("Test Cake Name", 23.0F, customer, base);
         cakeFacade = new CakeFacade(cake, cakeRepository);
         cakeFacade.addDecoration(decoration);
         cakeFacade.addCake();
@@ -52,9 +67,8 @@ public class CakeFacadeTest extends TestCase {
 
     @Test
     public void testMockitoCake() {
-        Cake cake = Mockito.mock(Cake.class);
+        cake = Mockito.mock(Cake.class);
         Mockito.when(cake.getBase()).thenReturn(new Base("nameqwqwq"));
-        System.out.println(cake.getBase());
     }
 
     @Test
